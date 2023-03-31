@@ -7,7 +7,7 @@ make an up to date mod for the NHL-07 PSP game easier for all the fans.
 Origins of this projects:
 https://forums.operationsports.com/forums/ea-sports-nhl/932763-ea-sports-nhl-07-psp-quest-update.html
 
-Discord link: https://discord.gg/gSEf4vKh
+Discord link: https://discord.gg/aUdr5qXzrH
 
 ## Iso Structure (needs update)
 ````
