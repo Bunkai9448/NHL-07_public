@@ -7,7 +7,7 @@ make an up to date mod for the NHL-07 PSP game easier for all the fans.
 Origins of this projects:
 https://forums.operationsports.com/forums/ea-sports-nhl/932763-ea-sports-nhl-07-psp-quest-update.html
 
-Discord link: (Should be this public?)
+Discord link: (Should this be public?)
 
 ## Iso Structure (needs update)
 ````
@@ -32,3 +32,11 @@ D:.
     \---USRDIR
             .
 ````
+
+## 
+
+## Data Location Summary
+
+| File (route) | Data in File | Comments
+|:---:|:---:|:---:|
+| Sample File  | Summary of file | Comments for this file
