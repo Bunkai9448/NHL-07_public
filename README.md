@@ -9,28 +9,72 @@ https://forums.operationsports.com/forums/ea-sports-nhl/932763-ea-sports-nhl-07-
 
 Discord link: https://discord.gg/aUdr5qXzrH
 
-## Iso Structure (needs update)
+## ROM (ISO) info & hashes
+````
+ISO: NHL 07 (USA) PSP ISO 
+CRC-32: 4884C8EC
+````
+## ROM (ISO) Structure & hashes (needs update)
 ````
 D:.
 |   UMD_DATA.BIN
 |
 \---PSP_GAME
-    |   .
+    |   PARAM.SFO
+    |   ICON1.PMF
+    |   ICON0.PNG
+    |   PIC1.PNG
     |   
-    |   
-    |
     +---SYSDIR
-    |   |   .
-    |   |   .
-    |   |   .
+    |   |   EBOOT.BIN
+    |   |   BOOT.BIN
     |   |
     |   \---UPDATE
-    |           .
-    |           .
-    |           .
+    |           PARAM.SFO
+    |           EBOOT.BIN
+    |           DATA.BIN
     |
-    \---USRDIR
-            .
+    +---USRDIR
+    |   |   pad0.pad
+    |   |   pad1.pad
+    |   |   disc.ini
+    |   |
+    |   +---PocketDJ
+    |   |   |	.
+    |   |	
+    |   +---audio	
+    |   |   |	.
+    |   |
+    |   +---data
+    |   |   |	.
+    |   |	
+    |   +---db
+    |   |   |	.
+    |   |
+    |   +---fe
+    |   |   |	.
+    |   |	
+    |   +---fonts
+    |   |   |	.
+    |   |
+    |   +---gamedata
+    |   |   |	.
+    |   |	
+    |   +---locale
+    |   |   |	.
+    |   |	
+    |   +---module
+    |   |   |	.
+    |   |	
+    |   +---movies
+    |   |   |	.
+    |   |
+    |   +---netcore
+    |   |   |	.
+    |   |	
+    |   +---preload
+    |   |   |	.
+	
 ````
 
 ## 
