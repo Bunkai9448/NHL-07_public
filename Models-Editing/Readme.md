@@ -1,4 +1,4 @@
-# Model and Image editing
+# Models editing
 
 ## Data to edit the game ISO (msh file)
 
