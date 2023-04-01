@@ -14,7 +14,7 @@ Discord link: https://discord.gg/aUdr5qXzrH
 ISO: NHL 07 (USA) PSP ISO 
 CRC-32: 4884C8EC
 ````
-## ROM (ISO) Structure & hashes (needs update)
+## ROM (ISO) Structure (needs update)
 ````
 D:.
 |   UMD_DATA.BIN
@@ -39,15 +39,17 @@ D:.
     |   |   pad1.pad
     |   |   disc.ini
     |   |
-    |   +---PocketDJ
+    |   \---PocketDJ
     |   |   |	.
     |   |	
     |   +---audio	
     |   |   |	.
     |   |
     |   +---data
-    |   |   |	.
-    |   |	
+    |   |   |
+    |   |   \---icon
+    |   |   |   \---savegame	
+    |   |   |   |   .    
     |   +---db
     |   |   |	.
     |   |
