@@ -11,7 +11,7 @@ and enter their names in the search bar.
 
 - NHLView http://www.artemkh.com/nhl/nhlview/
 
-## nhl-view-name-change-guide by Krossbar Kenny
+## NHL-view-name-change-guide by Krossbar Kenny
 
 First, if you don't have it, download NHL View
 http://www.artemkh.com/files/nhlview/nhlview.zip
