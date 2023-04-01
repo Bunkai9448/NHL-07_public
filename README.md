@@ -33,6 +33,8 @@ CRC-32: 4884C8EC
 
 - PSP SaveData Encrypter Decrypter GUI for PC ( 05-02-2014 ), https://wololo.net/talk/viewtopic.php?p=332315&sid=ee68f593ed4ccb6b7b6c96d4e7b80c5a#p332315
 
+- HxD editor, https://mh-nexus.de > HxD
+
 - xdelta UI: https://www.romhacking.net/utilities/598/
 
 ## Files in the iso
