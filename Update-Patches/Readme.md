@@ -19,4 +19,6 @@ CRC-32: 4884c8ec
 
 - NHL21 (FULL-UPD).xdelta : Russian iso with improved textures and new(ish) rosters ( NHL21 (FULL-UPD).iso )
 
+## Extras (related info)
+
 - An official Sony PSP DLC exist:  NHL 07 Roster updated as of 12/07/2012 
