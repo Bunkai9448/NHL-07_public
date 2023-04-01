@@ -1,5 +1,6 @@
 This folder is for the roaster editing:
 
+https://imgur.com/a/o814V1s
 ## A
 
 NHLView is the roster editor for EA Sports NHL Hockey series on PC. 
