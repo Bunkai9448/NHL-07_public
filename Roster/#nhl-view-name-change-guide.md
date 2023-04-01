@@ -31,13 +31,13 @@ Next, click on the Lines tab (in red)
 
 This glorious mess of a screen should appear:
 
-![image 05](https://i.imgur.com/xPRm04A.png) 
+![image 05](https://i.imgur.com/LQjvkQy.png) 
 
 Now, from here, your method may differ, but this is what I do:
 First, I click on each player in black and click Scratch to remove everyone from the lineup.
 Then, I click Overall to sort by overall rating
 
-![image 06](https://i.imgur.com/2LL4svt.png) 
+![image 06](https://i.imgur.com/xPRm04A.png) 
 
 Now, I want to know if any of these guys is still active in the league, so I head over to Elite Prospects and enter their names in the search bar.
 For example, Jarome Iginla
@@ -51,7 +51,7 @@ Now, he's on the LA Kings now, so I'm going to put him there.
 
 Click the Transactions tab (in red)
 
-![image 07](https://i.imgur.com/NprnvYs.png) 
+![image 07](https://i.imgur.com/2LL4svt.png) 
 
 1. Choose the two teams from the dropdown menus
 2. Choose the player to move
@@ -59,6 +59,7 @@ Click the Move button
 Click the Teams tab to return to the line-up screen
 Repeat the process to see if any of the other players are still active in the game
 
+![image 08](https://i.imgur.com/NprnvYs.png) 
 ![image 08](https://i.imgur.com/qMcvjFZ.png) 
 
 (time passes)
