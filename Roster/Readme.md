@@ -1,8 +1,15 @@
-# Readme
+# NameChange-Guide.md
 
-NHLView is the roster editor for EA Sports NHL Hockey series on PC. http://www.artemkh.com/nhl/nhlview/
+To know if any of these guys is still active in the league, head over to Elite Prospects https://www.eliteprospects.com/league/nhl 
+and enter their names in the search bar. 
 
-To know if any of these guys is still active in the league, so I head over to Elite Prospects and enter their names in the search bar. https://www.eliteprospects.com/league/nhl
+## Tools
+
+- UMDgen https://www.romhacking.net/utilities/1218/ 
+
+- BigGUI https://dl.fifa-infinity.com/fifa-09/biggui-tool/
+
+- NHLView http://www.artemkh.com/nhl/nhlview/
 
 ## nhl-view-name-change-guide by Krossbar Kenny
 
@@ -117,10 +124,12 @@ Do this for the rest of the players.
 
 Save your file, rename this file back to "nhl2007.tdb" using BigGUI https://dl.fifa-infinity.com/fifa-09/biggui-tool/
 
+then rebuild the into the iso with umdgen https://www.romhacking.net/utilities/1218/ 
+
+and rebuild the iso
+
 ## Additional info
 
 Images in batch https://imgur.com/a/o814V1s
 
 Use Madden Xtreme DB Editor to export and import tables across nhlbioatt.tdb, nhlplayers.tdb, and nhlrost.tdb
-
-Repackage into biggui and into iso then rebuild the iso
