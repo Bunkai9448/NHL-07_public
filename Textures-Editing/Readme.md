@@ -22,7 +22,7 @@ Now, you load the .tm2 file in Game Graphic Studio (GGS) and need to edit it the
 Editing the palette  and the transparency is really annoying in GGS.  
 As far as I know there is no other way.
 
-## How To
+## How To, by Lorak
 
 It is not difficult but time consuming. What I used to do to edit all these textures is the following:
 
