@@ -7,7 +7,7 @@ make up to date mods for the NHL-07 PSP game.
 Origins of this project:
 https://forums.operationsports.com/forums/ea-sports-nhl/932763-ea-sports-nhl-07-psp-quest-update.html
 
-Discord link: https://discord.gg/aUdr5qXzrH
+## Discord link: https://discord.gg/aUdr5qXzrH
 
 ## ROM (ISO) info & hashes
 ````
