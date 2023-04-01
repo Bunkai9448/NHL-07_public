@@ -6,6 +6,8 @@
 
 - BugGUI, https://dl.fifa-infinity.com/fifa-09/biggui-tool/
 
+- Game Graphic Studio, https://www.romhacking.net/utilities/660/
+
 ## nhl-psp_CTE_ini_files.zip, by Lorak
 
 Load .msh files, not .viv files, in Console Texture Explorer.  
