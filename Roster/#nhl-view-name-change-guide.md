@@ -119,6 +119,8 @@ Save your file, rename this file back to "nhl2007.tdb" using BigGUI https://dl.f
 
 ## Additional info
 
+Images in batch https://imgur.com/a/o814V1s
+
 Use Madden Xtreme DB Editor to export and import tables across nhlbioatt.tdb, nhlplayers.tdb, and nhlrost.tdb
 
 Repackage into biggui and into iso then rebuild the iso
