@@ -1,9 +1,19 @@
-#nhl-view-name-change-guide by Krossbar Kenny
+# Readme
+
+NHLView is the roster editor for EA Sports NHL Hockey series on PC. http://www.artemkh.com/nhl/nhlview/
+
+To know if any of these guys is still active in the league, so I head over to Elite Prospects and enter their names in the search bar. https://www.eliteprospects.com/league/nhl
+
+## nhl-view-name-change-guide by Krossbar Kenny
 
 First, if you don't have it, download NHL View
 http://www.artemkh.com/files/nhlview/nhlview.zip
-Then, get the latest version of the .tdb file from the files channel
-Next, post in the nhl-07-psp main channel that you're editing
+
+Then, get the latest version of the .tdb file 
+
+Rename "nhl2007.tdb" to "nhl2007PC.tdb" using BigGUI https://dl.fifa-infinity.com/fifa-09/biggui-tool/
+and edit db.viv in NHLView
+
 
 Next, click Open and this window comes up
 
@@ -105,4 +115,10 @@ Click on the Teams tab to go back to the line-up screen
 If you don't see the change, don't worry. Click on another team, then back to the team you're working on, and it will show up
 Do this for the rest of the players.
 
-Save your file
+Save your file, rename this file back to "nhl2007.tdb" using BigGUI https://dl.fifa-infinity.com/fifa-09/biggui-tool/
+
+## Additional info
+
+Use Madden Xtreme DB Editor to export and import tables across nhlbioatt.tdb, nhlplayers.tdb, and nhlrost.tdb
+
+Repackage into biggui and into iso then rebuild the iso
