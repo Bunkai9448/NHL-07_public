@@ -22,3 +22,8 @@ CRC-32: 4884c8ec
 ## Extras (related info)
 
 - An official Sony PSP DLC exist:  NHL 07 Roster updated as of 12/07/2012 
+
+## FAQs
+
+- Sometimes the patcher (xDeltaUI) takes a few seconds while saying "program not responding" give it an extra time
+and if it still doesn't finish, try again. it eventually works.
