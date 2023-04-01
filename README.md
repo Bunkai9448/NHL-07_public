@@ -14,70 +14,6 @@ Discord link: https://discord.gg/aUdr5qXzrH
 ISO: NHL 07 (USA) PSP ISO 
 CRC-32: 4884C8EC
 ````
-## ROM (ISO) Structure (needs update)
-````
-D:.
-|   UMD_DATA.BIN
-|
-\---PSP_GAME
-    |   PARAM.SFO
-    |   ICON1.PMF
-    |   ICON0.PNG
-    |   PIC1.PNG
-    |   
-    +---SYSDIR
-    |   |   EBOOT.BIN
-    |   |   BOOT.BIN
-    |   |
-    |   \---UPDATE
-    |           PARAM.SFO
-    |           EBOOT.BIN
-    |           DATA.BIN
-    |
-    +---USRDIR
-    |   |   pad0.pad
-    |   |   pad1.pad
-    |   |   disc.ini
-    |   |
-    |   \---PocketDJ
-    |   |   |	.
-    |   |	
-    |   +---audio	
-    |   |   |	.
-    |   |
-    |   +---data
-    |   |   |
-    |   |   \---icon
-    |   |   |   \---savegame	
-    |   |   |   |   .    
-    |   +---db
-    |   |   |	.
-    |   |
-    |   +---fe
-    |   |   |	.
-    |   |	
-    |   +---fonts
-    |   |   |	.
-    |   |
-    |   +---gamedata
-    |   |   |	.
-    |   |	
-    |   +---locale
-    |   |   |	.
-    |   |	
-    |   +---module
-    |   |   |	.
-    |   |	
-    |   +---movies
-    |   |   |	.
-    |   |
-    |   +---netcore
-    |   |   |	.
-    |   |	
-    |   +---preload
-    |   |   |	.
-	
-````
 
 ## Tools used for editing the files
 
@@ -99,8 +35,6 @@ D:.
 
 - xdelta UI: https://www.romhacking.net/utilities/598/
 
-## Data Location Summary
+## Files in the iso
 
-| File (route) | Data in File | Comments
-|:---:|:---:|:---:|
-| Sample File  | Summary of file | Comments for this file
+Map in a dedicated file due to size, go to [ISO-files.md](ISO-files.md) to see it.
