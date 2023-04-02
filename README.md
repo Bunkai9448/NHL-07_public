@@ -35,6 +35,8 @@ CRC-32: 4884C8EC
 
 - HxD editor, https://mh-nexus.de > HxD
 
+- deceboot, https://www.romhacking.net/utilities/1225/
+
 - xdelta UI: https://www.romhacking.net/utilities/598/
 
 ## Files in the iso
