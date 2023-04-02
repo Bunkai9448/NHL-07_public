@@ -26,7 +26,9 @@ D:.
     |   |   disc.ini
     |   |
     |   \---PocketDJ
-    |   |   |	.
+    |   |   |	trackinfo 
+    |   |   |	antiflag.aud
+    |   |   |	. . . up to 17 songs in .aud file  
     |   |	
     |   +---audio	
     |   |   |	.
@@ -68,4 +70,5 @@ D:.
 
 | File (route) | Data in File | Comments
 |:---:|:---:|:---:|
-| Sample File  | Summary of file | Comments for this file
+| Sample File/folder | Summary of file/folder | Comments for this file |
+| PocketDJ folder  | Sounds + trackinfo | song in .aud ; trackinfo plain in hex editor |
