@@ -15,7 +15,7 @@ D:.
     |   |   EBOOT.BIN
     |   |   BOOT.BIN
     |   |
-    |   \---UPDATE
+    |   +---UPDATE
     |           PARAM.SFO
     |           EBOOT.BIN
     |           DATA.BIN
@@ -25,7 +25,7 @@ D:.
     |   |   pad1.pad
     |   |   disc.ini
     |   |
-    |   \---PocketDJ
+    |   +---PocketDJ
     |   |   |	trackinfo 
     |   |   |	antiflag.aud
     |   |   |	. . . up to 17 songs in .aud file  
@@ -35,8 +35,8 @@ D:.
     |   |
     |   +---data
     |   |   |
-    |   |   \---icon
-    |   |   |   \---savegame	
+    |   |   +---icon
+    |   |   |   +---savegame	
     |   |   |   |   .    
     |   +---db
     |   |   |	.
@@ -45,16 +45,49 @@ D:.
     |   |   |	.
     |   |	
     |   +---fonts
-    |   |   |	.
+    |   |   |	FontTable.txt
+    |   |   |	NHL07_sxbMenu10.mfn
+    |   |   |	NHL07_sxbMenu12.mfn
+    |   |   |	NHL07_sxbMenu16.mfn
+    |   |   |	nhl07_ticker12.mfn
+    |   |   \	RealFonts.txt
     |   |
     |   +---gamedata
     |   |   |	.
     |   |	
     |   +---locale
-    |   |   |	.
+    |   |   |	chinese_traditional.loc
+    |   |   |	dutch.loc
+    |   |   |	english.loc
+    |   |   |	french.loc
+    |   |   |	german.loc
+    |   |   |	italian.loc
+    |   |   |	japanese.loc
+    |   |   |	korean.loc
+    |   |   |	spanish.loc
+    |   |   \	string.idx
     |   |	
     |   +---module
-    |   |   |	.
+    |   |   |	libadler.prx
+    |   |   |	libbase64.prx
+    |   |   |	libccc.prx
+    |   |   |	libdeflt.prx
+    |   |   |	libfont.prx
+    |   |   |	libfpu.prx
+    |   |   |	libheap.prx
+    |   |   |	libmd5.prx
+    |   |   |	libmt19937.prx
+    |   |   |	libpsmfplayer.prx
+    |   |   |	libqpcode.prx
+    |   |   |	libsha1.prx
+    |   |   |	libsha224.prx
+    |   |   |	libsha256.prx
+    |   |   |	libsha384.prx
+    |   |   |	libsha512.prx
+    |   |   |	psmf.prx
+    |   |   |	pspnet_ap_dialog_dummy.prx
+    |   |   |	scan.prx
+    |   |   \	show_macaddr.prx
     |   |	
     |   +---movies
     |   |   |	demo.pmf
@@ -62,19 +95,21 @@ D:.
     |   |   |	eafre.pmf  
     |   |   |	madden06.pmf
     |   |   |	nascar06.pmf  
-    |   |   |	nba06.pmf  
+    |   |   \	nba06.pmf  
     |   |
     |   +---netcore
+    |   |   |	netcore.viv
+    |   |   +---netcore
     |   |   |	globe.viv
     |   |   |	netcoreadhocboot.viv
     |   |   |	netcoreinetboot.viv
-    |   |   |   \---apt  
-    |   |   |   \---bootimages
-    |   |   |   \---fonts
-    |   |   |   \---globe
-    |   |   |   \---locale 
+    |   |   |   +---apt  
+    |   |   |   +---bootimages
+    |   |   |   +---fonts
+    |   |   |   +---globe
+    |   |   |   +---locale 
     |   |	
-    |   +---preload
+    |   \---preload
     |   |   |	czone.viv
     |   |   |	fapt.viv
     |   |   |	faudio.viv
@@ -84,7 +119,7 @@ D:.
     |   |   |	gaudiofa.viv
     |   |   |	gloadscr.viv
     |   |   |	gmisc.viv
-    |   |   |	gscene.viv
+    |       \	gscene.viv
     \
 	
 ````
