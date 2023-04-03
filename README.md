@@ -51,6 +51,8 @@ https://drive.google.com/file/d/1Rm_O4k81lplfeUFLLHMEnYTToRujk5QA/
 
 - HxD editor, https://mh-nexus.de > HxD
 
+- String Editor, https://www.artemkh.com/nhl/stredit/ (This program allows you to modify string messages displayed inside EA NHL games).
+
 - deceboot, https://www.romhacking.net/utilities/1225/
 
 
