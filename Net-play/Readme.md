@@ -2,7 +2,8 @@
 
 Net play (only works with PPSSPP currently)
 
-- Emulator: https://github.com/hrydgard/ppsspp/wiki/How-to-play-multiplayer-games-with-PPSSPP#multiplayer-with-a-public-server-on-the-internet
+- Emulator: https://www.ppsspp.org/download
+- Emulator config: https://github.com/hrydgard/ppsspp/wiki/How-to-play-multiplayer-games-with-PPSSPP#multiplayer-with-a-public-server-on-the-internet
 
 - Tool for online pvp: https://www.zerotier.com/download/
 
