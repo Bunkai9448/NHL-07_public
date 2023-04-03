@@ -57,7 +57,12 @@ D:.
     |   |   |	.
     |   |	
     |   +---movies
-    |   |   |	.
+    |   |   |	demo.pmf
+    |   |   |	eaeng.pmf   
+    |   |   |	eafre.pmf  
+    |   |   |	madden06.pmf
+    |   |   |	nascar06.pmf  
+    |   |   |	nba06.pmf  
     |   |
     |   +---netcore
     |   |   |	.
