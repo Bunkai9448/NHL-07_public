@@ -207,4 +207,4 @@ D:.
 | preload folder  | various files | check this for default language and loading until the main menu screen | 
 | fmisc.viv inside (preload folder) | various files packaged | use bigGui to open, local.bh seems to work with game langs |
 | gamedata folder | most models of the game | go here to edit the visual part of the main gameplay and the AI |
-| aidata.viv inside (gamedata folder) | use this to edit the AI of the game, currently there's one patch that swaps 07 with 09 AI |
+| aidata.viv inside (gamedata folder) | use this to edit the AI of the game | currently there's one working patch that swaps 07 with 09 AI |
