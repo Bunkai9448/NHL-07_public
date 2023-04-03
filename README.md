@@ -15,6 +15,11 @@ ISO: NHL 07 (USA) PSP ISO
 CRC-32: 4884C8EC
 ````
 
+## Files in the iso
+
+- Map in a dedicated file due to size, go to [ISO-files.md](ISO-files.md) to see it.
+
+
 ## Tools used for editing the files
 
 - UMDgen to open the ISO, https://www.romhacking.net/utilities/1218/
@@ -48,6 +53,4 @@ https://drive.google.com/file/d/1Rm_O4k81lplfeUFLLHMEnYTToRujk5QA/
 
 - xdelta UI: https://www.romhacking.net/utilities/598/
 
-## Files in the iso
 
-Map in a dedicated file due to size, go to [ISO-files.md](ISO-files.md) to see it.
