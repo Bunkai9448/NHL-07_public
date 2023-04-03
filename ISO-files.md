@@ -68,7 +68,17 @@ D:.
     |   |   |	.
     |   |	
     |   +---preload
-    |   |   |	.
+    |   |   |	czone.viv
+    |   |   |	fapt.viv
+    |   |   |	faudio.viv
+    |   |   |	fboot.viv
+    |   |   |	fmisc.viv
+    |   |   |	gaudio.viv
+    |   |   |	gaudiofa.viv
+    |   |   |	gloadscr.viv
+    |   |   |	gmisc.viv
+    |   |   |	gscene.viv
+    \
 	
 ````
 ## Data Location Summary
