@@ -25,5 +25,5 @@ CRC-32: 4884c8ec
 
 ## FAQs
 
-- Sometimes the patcher (xDeltaUI) takes a a while, even saying "program not responding". Give it an extra time
-and if it still doesn't finish, try again. it eventually works.
+- The patcher (xDeltaUI) takes a while, even says "program not responding". Give it an extra time
+and if it still doesn't finish, try again. it eventually works. (This is due to the patch sizes).
