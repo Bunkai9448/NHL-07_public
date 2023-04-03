@@ -38,6 +38,8 @@ https://drive.google.com/file/d/1Rm_O4k81lplfeUFLLHMEnYTToRujk5QA/
 
 - OTools, https://forum.xentax.com/viewtopic.php?t=21675
 
+- Otools wiki, https://bitbucket.org/fifam/otools/wiki/browse/
+
 - PSP SaveData Encrypter Decrypter GUI for PC ( 05-02-2014 ), https://wololo.net/talk/viewtopic.php?p=332315&sid=ee68f593ed4ccb6b7b6c96d4e7b80c5a#p332315
 
 - HxD editor, https://mh-nexus.de > HxD
