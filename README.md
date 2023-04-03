@@ -51,6 +51,4 @@ https://drive.google.com/file/d/1Rm_O4k81lplfeUFLLHMEnYTToRujk5QA/
 
 - deceboot, https://www.romhacking.net/utilities/1225/
 
-- xdelta UI: https://www.romhacking.net/utilities/598/
-
 
