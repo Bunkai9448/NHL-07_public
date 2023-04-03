@@ -65,7 +65,14 @@ D:.
     |   |   |	nba06.pmf  
     |   |
     |   +---netcore
-    |   |   |	.
+    |   |   |	globe.viv
+    |   |   |	netcoreadhocboot.viv
+    |   |   |	netcoreinetboot.viv
+    |   |   |   \---apt  
+    |   |   |   \---bootimages
+    |   |   |   \---fonts
+    |   |   |   \---globe
+    |   |   |   \---locale 
     |   |	
     |   +---preload
     |   |   |	czone.viv
