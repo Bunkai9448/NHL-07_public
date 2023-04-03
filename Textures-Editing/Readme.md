@@ -41,3 +41,11 @@ It is not difficult but time consuming. What I used to do to edit all these text
 4) Fix the transparency in the color palette. Some times you even need to edit the palette.
 5) The file saves automatically, Now load the updated .tm2 file in CTE. Check in particular the transparency.
 6) If all is ok, you are done, otherwise need to start from step 1 above.
+
+## Rebuilding
+
+You can redo the steps backwards for the textures, but when you have the msh modified, you will have to use 
+IMPbig to reimport the msh to the viv/big file. Use the command line, or a bat file with a command like this:
+````
+ImpBIG /i fmisc.viv local.bh local.bh /c
+````
