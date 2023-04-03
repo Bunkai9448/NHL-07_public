@@ -31,18 +31,35 @@ D:.
     |   |   |	. . . up to 17 songs in .aud file  
     |   |	
     |   +---audio	
-    |   |   |	.
+    |   |   |	+---speech
+    |   |   |	+---streams
     |   |
     |   +---data
-    |   |   |
+    |   |   |	fusion.bts
+    |   |   |	
     |   |   +---icon
     |   |   |   +---savegame	
-    |   |   |   |   .    
+    |   |   |   |   iconempty.png
+        |   |   \   iconsave.png
     |   +---db
-    |   |   |	.
+    |   |   |	db.viv
+    |   |   |	tuning.viv
     |   |
     |   +---fe
-    |   |   |	.
+    |   |   |	bgapt.viv
+    |   |   |	cafeapt.viv
+    |   |   |	comapt.viv
+    |   |   |	credits.viv
+    |   |   |	cz.viv
+    |   |   |	gameapt.viv
+    |   |   |	imageapt.viv
+    |   |   |	jerapt.viv
+    |   |   |	loadscr.viv
+    |   |   |	local.viv
+    |   |   |	pnapt.viv
+    |   |   |	portapt.viv
+    |   |   |	seasapt.viv
+    |   |   |	tlogoapt.viv
     |   |	
     |   +---fonts
     |   |   |	FontTable.txt
@@ -53,7 +70,65 @@ D:.
     |   |   \	RealFonts.txt
     |   |
     |   +---gamedata
-    |   |   |	.
+    |   |   |	actors.viv
+    |   |   |	aidata.viv
+    |   |   |	arenaANA.big
+    |   |   |	arenaATL.big
+    |   |   |	arenaBOS.big
+    |   |   |	arenaBUF.big
+    |   |   |	arenaCAR.big
+    |   |   |	arenaCBJ.big
+    |   |   |	arenaCGY.big
+    |   |   |	arenaCHI.big
+    |   |   |	arenaCOL.big
+    |   |   |	arenaCZE.big
+    |   |   |	arenaDAL.big
+    |   |   |	arenaDEL.big
+    |   |   |	arenaDET.big
+    |   |   |	arenaEDM.big
+    |   |   |	arenaELI.big
+    |   |   |	arenaFIN.big
+    |   |   |	arenaFLA.big
+    |   |   |	arenaGER.big
+    |   |   |	arenaINT.big
+    |   |   |	arenaLA.big
+    |   |   |	arenaLIG.big
+    |   |   |	arenaMIN.big
+    |   |   |	arenaMTL.big
+    |   |   |	arenaNJD.big
+    |   |   |	arenaNSH.big
+    |   |   |	arenaNYI.big
+    |   |   |	arenaNYR.big
+    |   |   |	arenaOTT.big
+    |   |   |	arenaPHI.big
+    |   |   |	arenaPHX.big
+    |   |   |	arenaPIT.big
+    |   |   |	arenaPON.big
+    |   |   |	arenaSJ.big
+    |   |   |	arenaSTL.big
+    |   |   |	arenaSWE.big
+    |   |   |	arenaTB.big
+    |   |   |	arenaTOR.big
+    |   |   |	arenaVAN.big
+    |   |   |	arenaWSH.big
+    |   |   |	czanim.viv
+    |   |   |	defaultscene.prp
+    |   |   |	faces.viv
+    |   |   |	geomlib.viv
+    |   |   |	goalies.viv
+    |   |   |	IceTxtrs.big
+    |   |   |	inter.big
+    |   |   |	jerseys.viv
+    |   |   |	minigame.prp
+    |   |   |	minigame.viv
+    |   |   |	misc.viv
+    |   |   |	Nhl.big
+    |   |   |	nis.viv
+    |   |   |	players.viv
+    |   |   |	pond.big
+    |   |   |	rendanim.viv
+    |   |   |	scenecz.prp
+    |   |   |	sceneczj.prp
     |   |	
     |   +---locale
     |   |   |	chinese_traditional.loc
