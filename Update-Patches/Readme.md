@@ -9,7 +9,7 @@
 NHL 07 (USA) PSP ISO 
 CRC-32: 4884c8ec
 ````
-## Current created patches (in this folder):
+## Current created patches (eventually in this folder):
 
 - funzone.xdelta : nhl 07 with nhl 09 ai data ( funzone.iso )
 
@@ -21,7 +21,7 @@ CRC-32: 4884c8ec
 
 ## Extras (related info)
 
-- An official Sony PSP DLC exist:  NHL 07 Roster updated as of 12/07/2012 
+- An official Sony PSP DLC exist:  NHL 07 Roster updated
 
 ## FAQs
 
