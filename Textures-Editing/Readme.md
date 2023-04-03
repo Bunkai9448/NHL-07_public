@@ -14,17 +14,17 @@
 
 Load .msh files, not .viv files, in Console Texture Explorer.  
 First, you need to extract the files from jerseys.viv through bigGUI.
-[CCE](https://imgur.com/tRkN9It.png)
+![CCE](https://imgur.com/tRkN9It.png)
  
 Then, load as ini file, either "fe-JERS_XXX_0X.ini" or "gamedata-uniXXX_X.ini".  
-[Load ini](https://imgur.com/KKsPsFA.png)
+![Load ini](https://imgur.com/KKsPsFA.png)
 
 The first one is for the torfs and the second one for the in-game jerseys.  
 There are two jerseys.viv files, one in the fe folder (torfs) and the second 
 one in the gamedata folder (in-game jerseys). 
 
 Now open and export your .msh (actual texture file)
-[Export texture](https://imgur.com/QWYTOBe.png)
+![Export texture](https://imgur.com/QWYTOBe.png)
 
 Yes, to edit .tm2 files is the annoying part.  
 Now, you load the .tm2 file in Game Graphic Studio (GGS) and need to edit it there.  
