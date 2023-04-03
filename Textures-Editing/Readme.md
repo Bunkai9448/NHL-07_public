@@ -4,25 +4,32 @@
 
 - UMDgen to open the ISO, https://www.romhacking.net/utilities/1218/
 
-- Console texture Explorer, https://forum.xentax.com/viewtopic.php?p=131457&sid=ee0d41dbcfa766b583d1192fb65c1b52#p131457
-
 - BigGUI, https://dl.fifa-infinity.com/fifa-09/biggui-tool/
+
+- Console texture Explorer, https://forum.xentax.com/viewtopic.php?p=131457&sid=ee0d41dbcfa766b583d1192fb65c1b52#p131457
 
 - Game Graphic Studio, https://www.romhacking.net/utilities/660/
 
 ## nhl-psp_CTE_ini_files.zip, by Lorak
 
 Load .msh files, not .viv files, in Console Texture Explorer.  
-First, you need to extract the files from jerseys.viv through bigGUI.  
+First, you need to extract the files from jerseys.viv through bigGUI.
+[CCE](https://imgur.com/tRkN9It.png)
+ 
 Then, load as ini file, either "fe-JERS_XXX_0X.ini" or "gamedata-uniXXX_X.ini".  
+[Load ini](https://imgur.com/KKsPsFA.png)
+
 The first one is for the torfs and the second one for the in-game jerseys.  
 There are two jerseys.viv files, one in the fe folder (torfs) and the second 
-one in the gamedata folder (in-game jerseys).  
+one in the gamedata folder (in-game jerseys). 
+
+Now open and export your .msh (actual texture file)
+[Export texture](https://imgur.com/QWYTOBe.png)
 
 Yes, to edit .tm2 files is the annoying part.  
 Now, you load the .tm2 file in Game Graphic Studio (GGS) and need to edit it there.  
 Editing the palette  and the transparency is really annoying in GGS.  
-As far as I know there is no other way.
+As far as I know there is no other way. 
 
 ## How To, by Lorak
 
