@@ -10,6 +10,8 @@
 
 - Game Graphic Studio, https://www.romhacking.net/utilities/660/
 
+- ImpBIG, tool is inside nhl-psp_CTE_ini_files.zip
+
 ## nhl-psp_CTE_ini_files.zip, by Lorak
 
 Load .msh files, not .viv files, in Console Texture Explorer.  
@@ -49,3 +51,4 @@ IMPbig to reimport the msh to the viv/big file. Use the command line, or a bat f
 ````
 ImpBIG /i fmisc.viv local.bh local.bh /c
 ````
+If you want to see your results ingame, use UMDgen again to reinsert the file into the iso. And save the results.
