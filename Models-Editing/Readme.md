@@ -20,8 +20,11 @@ https://forum.xentax.com/viewtopic.php?t=13031
 
 ## Tool for editing models.
 
- - Game Graphic Studio, https://www.romhacking.net/utilities/660/
+- Game Graphic Studio, https://www.romhacking.net/utilities/660/
 
+## Tool for editing cyberfaces (ebo/fsh files)
+
+- Neboviewer, https://splinterice.com/topic/1417-neboviewer/
 
 ## Tool for opening  EA .o files
 
