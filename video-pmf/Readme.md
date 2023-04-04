@@ -13,11 +13,11 @@ ffmpeg -i nhl.mp4 -ar 44100 nhl.wav
 
 4th) UMD and use files from 1&2 Stream composer. It will result in an mps file.
 
-5th) open pmfcreator and use the mps file.
+5th) open pmfcreater and use the mps file.
 
 6th) With UMDgen, go to the movies/ folder in the iso and swap demo.pmf to see it.
 
 
-## Or you can use
+## Or you can use the tools from
 
 https://github.com/TeamPBCN/pmftools
