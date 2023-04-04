@@ -1,4 +1,4 @@
-# For PMF videos line the game intro
+# For PMF videos like the game intro
 
 ## Tested Method to create a pmf file 
 https://projectdiva.net/community/threads/2020-create-pmf-videos-for-psp-games.2348/
