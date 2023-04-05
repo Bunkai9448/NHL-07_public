@@ -24,4 +24,6 @@ pause
 
 :: Files in tools.required/
 :: at3tool.exe, converter.bms, ffmpeg.exe, msvcr71.dll, quickbms.exe, reimport.bat
+:: * converter is the "at3 to aa3 converter for PSP and PS3" bms script from 
+:: https://forum.xentax.com/viewtopic.php?f=13&p=42443#p42443
 
