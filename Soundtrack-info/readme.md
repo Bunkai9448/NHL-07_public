@@ -8,7 +8,7 @@ Later this readme & folder might be updated to add or change the game songs
 
 ## To convert the aud songs into mp3
 
-See the bat file of this folder as a Proof of Concept
+See the bat file of this folder for a Proof of Concept
 
 ## To convert back the mp3 into aud
 
