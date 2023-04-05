@@ -20,3 +20,8 @@ echo "Returns source and converted file to main directory:"
 MOVE antiflag.aud ../
 MOVE antiflag.mp3 ../
 pause
+
+
+:: Files in tools.required/
+:: at3tool.exe, converter.bms, ffmpeg.exe, msvcr71.dll, quickbms.exe, reimport.bat
+
