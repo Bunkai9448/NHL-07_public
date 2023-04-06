@@ -207,13 +207,19 @@ D:.
 | sysdir/update folder | psp firmware update | for mods you can delete this to save space |
 | boot.bin (sysdir folder) | is zeroed and unused | can be deleted |
 | eboot.bin (sysdir folder) | boot elf | is encrypted, use deceboot to work with it, can be reinserted without reencrypt |
-| pad0.pad & pad1.pad (usrdirfolder)| zeroed files | only take space, can be deleted |
+| = | = | = |
+| pad0.pad & pad1.pad (usrdir folder)| zeroed files | only take space, can be deleted |
+| = | = | = |
 | preload folder  | various files | check this for default language and loading until the main menu screen | 
 | fmisc.viv inside (preload folder) | various files packaged | use bigGui to open, local.bh seems to work with game langs |
+| = | = | = |
 | gamedata folder | most models of the game | go here to edit the visual part of the main gameplay and the AI |
 | aidata.viv inside (gamedata folder) | use this to edit the AI of the game | currently there's one working patch that swaps 07 with 09 AI |
+| = | = | = |
 | PocketDJ folder  | full soundtrack + trackinfo | songs in .aud ; trackinfo plain in hex editor |
+| = | = | = |
 | movies folder | videos for the load screen | some are from other ea games (madden06, nba06, and nascar06. Those are unused) can be deleted if you don't care about that |
+| = | = | = |
 | fe folder | various files | more loading stuff (this one for the whole game, not only in boot) |
 | bgapt.viv (in fe folder) | background
 | cafeapt.viv (in fe folder) | ? | - |
@@ -231,5 +237,6 @@ D:.
 | seasapt.viv (in fe folder) | season info stuff | - |
 | tlogoapt.viv (in fe folder) | 
  t(eam) logo(s) | - |
+| = | = | = |
 | # more # | # to be # | # added # |
 
