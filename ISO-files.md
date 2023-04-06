@@ -232,11 +232,9 @@ D:.
 | loadscr.viv (in fe folder) | (general) load screen | - |
 | local.viv (in fe folder) | (general) local (language) 	| - |
 | pnapt.viv (in fe folder) | play network | - |
-| portapt.viv (in fe folder) | 
- portraits | - |
+| portapt.viv (in fe folder) | portraits | - |
 | seasapt.viv (in fe folder) | season info stuff | - |
-| tlogoapt.viv (in fe folder) | 
- t(eam) logo(s) | - |
+| tlogoapt.viv (in fe folder) | t(eam) logo(s) | - |
 | # | # | # |
 | # more # | # to be # | # added # |
 
