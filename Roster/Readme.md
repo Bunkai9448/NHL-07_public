@@ -3,7 +3,7 @@
 This is for the names in the game
 
 You may need to update the actual roster into your savedata,
-see [SaveData](SaveData) for more info about that.
+see [SaveData](https://github.com/Bunkai9448/NHL-07_public/tree/main/SaveData) for more info about that.
 
 To know if any of these guys is still active in the league, head over to Elite Prospects https://www.eliteprospects.com/league/nhl 
 and enter their names in the search bar. 
