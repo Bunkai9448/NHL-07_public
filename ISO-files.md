@@ -207,7 +207,7 @@ D:.
 | sysdir/update folder | psp firmware update | for mods you can delete this to save space |
 | boot.bin (sysdir folder) | is zeroed and unused | can be deleted |
 | eboot.bin (sysdir folder) | boot elf | is encrypted, use deceboot to work with it, can be reinserted without reencrypt |
-| pad0.pad & pad1.pas (usrdirfolder)| zeroed files | only take space, can be deleted |
+| pad0.pad & pad1.pad (usrdirfolder)| zeroed files | only take space, can be deleted |
 | preload folder  | various files | check this for default language and loading until the main menu screen | 
 | fmisc.viv inside (preload folder) | various files packaged | use bigGui to open, local.bh seems to work with game langs |
 | gamedata folder | most models of the game | go here to edit the visual part of the main gameplay and the AI |
