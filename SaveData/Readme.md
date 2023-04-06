@@ -1,4 +1,6 @@
-# Save Data from this game are encrypted.
+# Working with the SaveData
+
+## Save Data from this game are encrypted.
 
 You will use the tool from:
 https://wololo.net/talk/viewtopic.php?p=332315&sid=ee68f593ed4ccb6b7b6c96d4e7b80c5a#p332315
