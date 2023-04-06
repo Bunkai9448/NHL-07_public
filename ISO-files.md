@@ -213,4 +213,4 @@ D:.
 | gamedata folder | most models of the game | go here to edit the visual part of the main gameplay and the AI |
 | aidata.viv inside (gamedata folder) | use this to edit the AI of the game | currently there's one working patch that swaps 07 with 09 AI |
 | PocketDJ folder  | full soundtrack + trackinfo | songs in .aud ; trackinfo plain in hex editor |
-| movies folder | videos from the load screen | some are from other ea games and unused |
+| movies folder | videos for the load screen | some are from other ea games (madden06, nba06, and nascar06) those are unused |
