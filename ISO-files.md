@@ -204,8 +204,13 @@ D:.
 |:---:|:---:|:---:|
 | Sample File/folder | Summary of file/folder | Comments for this file |
 |  ##### | ##### | ##### |
-| PocketDJ folder  | full soundtrack + trackinfo | songs in .aud ; trackinfo plain in hex editor |
+| sysdir/update folder | psp firmware update | for mods you can delete this to save space |
+| boot.bin (sysdir folder) | is zeroed and unused | can be deleted |
+| eboot.bin (sysdir folder) | boot elf | is encrypted, use deceboot to work with it, can be reinserted without reencrypt |
+| pad0.pad & pad1.pas (usrdirfolder)| zeroed files | only take space, can be deleted |
 | preload folder  | various files | check this for default language and loading until the main menu screen | 
 | fmisc.viv inside (preload folder) | various files packaged | use bigGui to open, local.bh seems to work with game langs |
 | gamedata folder | most models of the game | go here to edit the visual part of the main gameplay and the AI |
 | aidata.viv inside (gamedata folder) | use this to edit the AI of the game | currently there's one working patch that swaps 07 with 09 AI |
+| PocketDJ folder  | full soundtrack + trackinfo | songs in .aud ; trackinfo plain in hex editor |
+| movies folder | videos from the load screen | some are from other ea games and unused |
