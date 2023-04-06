@@ -1,8 +1,8 @@
 # NameChange-Guide
 
-This is for the names in the game
+This is for the names in the game's general roster database
 
-You may need to update the actual roster into your savedata,
+To update the actual rosters for players in the playing games go edit that into your savedata,
 see [SaveData](https://github.com/Bunkai9448/NHL-07_public/tree/main/SaveData) for more info about that.
 
 To know if any of these guys is still active in the league, head over to Elite Prospects https://www.eliteprospects.com/league/nhl 
