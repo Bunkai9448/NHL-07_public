@@ -19,5 +19,6 @@ hgoel0974, libkirk team, ppsspp team, xian nox, codestation.
 
 Don't forget to use the proper game id: ULUS10131.bin
 
-You can edit your rosters using the tutorial at
+You can edit your savedata rosters using the same method from
 [Roster](https://github.com/Bunkai9448/NHL-07_public/tree/main/Roster).
+
