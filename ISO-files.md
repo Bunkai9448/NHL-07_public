@@ -214,3 +214,22 @@ D:.
 | aidata.viv inside (gamedata folder) | use this to edit the AI of the game | currently there's one working patch that swaps 07 with 09 AI |
 | PocketDJ folder  | full soundtrack + trackinfo | songs in .aud ; trackinfo plain in hex editor |
 | movies folder | videos for the load screen | some are from other ea games (madden06, nba06, and nascar06. Those are unused) can be deleted if you don't care about that |
+| fe folder | various files | more loading stuff (this one for the whole game, not only in boot) |
+| bgapt.viv (in fe folder) | background
+| cafeapt.viv (in fe folder) | ? | - |
+| comapt.viv (in fe folder) | com(puter) | - |
+| credits.viv (in fe folder) | isn't it obvious? | - |
+| cz.viv (in fe folder) | Creation Zone stuff | - |
+| gameapt.viv (in fe folder) | some game stuff | - |
+| imageapt.viv (in fe folder) | some image stuff	| - |
+| jerapt.viv (in fe folder) | more jerseys stuff | - |
+| loadscr.viv (in fe folder) | (general) load screen | - |
+| local.viv (in fe folder) | (general) local (language) 	| - |
+| pnapt.viv (in fe folder) | play network | - |
+| portapt.viv (in fe folder) | 
+ portraits | - |
+| seasapt.viv (in fe folder) | season info stuff | - |
+| tlogoapt.viv (in fe folder) | 
+ t(eam) logo(s) | - |
+| # more # | # to be # | # added # |
+
