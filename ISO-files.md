@@ -208,7 +208,7 @@ D:.
 | boot.bin (sysdir folder) | is zeroed and unused | can be deleted |
 | eboot.bin (sysdir folder) | boot elf | is encrypted, use deceboot to work with it, can be reinserted without reencrypt |
 | # | # | # |
-| pad0.pad & pad1.pad (usrdir folder)| zeroed files | only take space, can be deleted |
+| pad0.pad & pad1.pad (usrdir folder)| zeroed files (padding?) | only take space, can be deleted |
 | # | # | # |
 | preload folder  | various files | check this for default language and loading until the main menu screen | 
 | fmisc.viv inside (preload folder) | various files packaged | use bigGui to open, local.bh seems to work with game langs |
