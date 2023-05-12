@@ -24,10 +24,12 @@ You can edit your savedata rosters using the same method from
 
 ## Fixing loading error 80110306 for Roster use in PS Vita (and some PSPs by extension) 
 
+- You need the PPSSPP emulator for this.
+
 PPSSPP system version is 6.60 and adrenaline is 6.61, you need to change PPSSPP version to be the same of your console. 
 To do that, go to:
 `\ppsspp_win\memstick\PSP\SYSTEM\ppsspp.ini`
-The like you want to edit should be this:
+The file you want to edit should be this:
 `PSPFirmwareVersion = 661`
 
-Once you have done the change, reload the game and savedata, do the save again and transfer the new savedata to your console.
+Once you have done the change, reload the game and savedata, do the save again and transfer the new savedata to your console. Your save should work in the console now.
