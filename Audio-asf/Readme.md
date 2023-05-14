@@ -10,6 +10,9 @@ https://katiefrogs.github.io/vgmstream-web/
 
 https://www.mvpmods.com/files/file/10065-asf-importer-exporter/
 
-## Scripts on this folder are a WiP yet
+## You can use audios from other nhl games with this tool
 
+https://wiki.multimedia.cx/index.php/Electronic_Arts_Sound_eXchange
+
+## Scripts on this folder are a WiP yet
 
