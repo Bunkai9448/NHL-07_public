@@ -1,8 +1,11 @@
-# Commentary & arena commentator
+# Commentary & arena commentator + SFX
 
-## Files in .big, Offsets in .idx
+## .asf files in .big, Offsets in .idx
+
 - audpbpe.big, audpbpe.idx
 - audrinke.big, audrinke.idx
+- usrdir\preload\gaudio.viv for abk files with sfx
+
 
 ## Use this to convert from asf to wav
 
