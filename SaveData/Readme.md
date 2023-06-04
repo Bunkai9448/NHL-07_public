@@ -1,5 +1,9 @@
 # Working with the SaveData
 
+## Our current theory
+
+DATA.bin is an encrypted. exh file, which is created in game by saving (akin to the PC version)
+
 ## The bin files are encrypted but,
 
 You will use the tool from:
