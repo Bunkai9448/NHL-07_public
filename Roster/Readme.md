@@ -1,9 +1,7 @@
 # NameChange-Guide
 
-This is for the names in the game's general roster database
+This is for the names in the game's general roster database, for more info about this, read below in [To share your Roster](#To-share your-Roster).
 
-To update the actual rosters for players in the playing games go edit that into your savedata,
-see [SaveData](https://github.com/Bunkai9448/NHL-07_public/tree/main/SaveData) for more info about that.
 
 To know if any of these guys is still active in the league, head over to Elite Prospects https://www.eliteprospects.com/league/nhl 
 and enter their names in the search bar. 
@@ -132,6 +130,18 @@ Save your file, rename this file back to "nhl2007.tdb" using BigGUI https://dl.f
 then rebuild the into the iso with umdgen https://www.romhacking.net/utilities/1218/ 
 
 and rebuild the iso
+
+## To share your Roster
+
+- The previous edit is for the full roster used in the iso.
+
+However the roster update it's easier to share in the form of a savedata, keep reading for that.
+
+- Once you've rebuilt the iso, go save in-game and your roster update will be now in the newly created savedata file.
+
+For more info about the savedata,
+see [SaveData](https://github.com/Bunkai9448/NHL-07_public/tree/main/SaveData) for more info about that.
+
 
 ## Additional info
 
