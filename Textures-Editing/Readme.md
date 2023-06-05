@@ -12,43 +12,34 @@
 
 - ImpBIG, tool is inside nhl-psp_CTE_ini_files.zip
 
-## nhl-psp_CTE_ini_files.zip, by Lorak
+## General steps to edit game textures and logos (Textures)
 
-Load .msh files, not .viv files, in Console Texture Explorer.  
-First, you need to extract the files from jerseys.viv through bigGUI.
-![CCE](https://imgur.com/tRkN9It.png)
- 
-Then, load as ini file, either "fe-JERS_XXX_0X.ini" or "gamedata-uniXXX_X.ini".  
-![Load ini](https://imgur.com/KKsPsFA.png)
+* By Lorak *
 
-The first one is for the torfs and the second one for the in-game jerseys.  
-There are two jerseys.viv files, one in the fe folder (torfs) and the second 
-one in the gamedata folder (in-game jerseys). 
+There are two places to look at, PSP_GAME-USDIR-fe and PSP_GAME-USDIR-gamedata. From now on, we call it fe and gamedata respectively. Get the tools from github or the links below.
 
-Now open and export your .msh (actual texture file)
-![Export texture](https://imgur.com/QWYTOBe.png)
+1) Select the assets -mainly .viv and .big files- to edit from fe and gamedata. An advice is to work on the files from one location to then go on to the next one. For example, work on the files from fe and then gamedata. 
 
-Yes, to edit .tm2 files is the annoying part.  
-Now, you load the .tm2 file in Game Graphic Studio (GGS) and need to edit it there.  
-Editing the palette  and the transparency is really annoying in GGS.  
-As far as I know there is no other way. 
+Typically, you get jerapt.viv, tlogoap.viv from fe and arenaXXX.big -here, XXX is a placeholder for a team-, IceTxtrs.big and jerseys.viv from gamedata. Of course, there are more files to work on.
 
-## How To, by Lorak
+2) Extract the contents of the files chosen in 1 via big gui. Almost all textures in this game are in .msh files.
 
-It is not difficult but time consuming. What I used to do to edit all these textures is the following:
+3) Get the .ini files from github and open your .msh file in Console Texture Explorer, export it as .tm2 files. 
 
-1) Load the exported .tm2 file in GGS.
-2)  Right click on the top middle section (above the Drag & drop with right mouse button) and open the replacement or new texture. Could be a png or bmp file.
-3)  Now untick RGB and Alpha and tick Data in the options for the "Drag & drop with right mouse button". Drag the image from the top to the bottom while pressing the right mouse button.
-4) Fix the transparency in the color palette. Some times you even need to edit the palette.
-5) The file saves automatically, Now load the updated .tm2 file in CTE. Check in particular the transparency.
-6) If all is ok, you are done, otherwise need to start from step 1 above.
+4) Open those. tm2 files in Game Graphic Studio (GGS). Edit it there. This could be very annoying -a pain in the ass, I would say laughing -. Save the file. Not recommended.
 
-## Rebuilding
+As an alternative, edit the .tm2 files in Rainbow https://github.com/marco-calautti/Rainbow. First, open a .tm2 file and export it. You get a .png and a .xml file. Just edit the .png in your favorite software. GIMP, Photoshop or any other. Save your changes without changing the file name. Go back to Rainbow and import the .xml file. It will load the edited .png too.  Rainbow seems to be really user friendly.
 
-You can redo the steps backwards for the textures, but when you have the msh modified, you will have to use 
-IMPbig to reimport the msh to the viv/big file. Use the command line, or a bat file with a command like this:
-````
-ImpBIG /i fmisc.viv local.bh local.bh /c
-````
-If you want to see your results ingame, use UMDgen again to reinsert the file into the iso. And save the results.
+5) Import the updated .tm2 file from 4 to Console Texture Explorer to actually edit the .msh file. Save the updated .msh file.
+
+6) Import the .msh file in big gui and rebuild - to save it- your .viv or .big file. Run BHImport from USRDIR to fix the headers of the edited files. Finally, rebuild your iso in UMDGen.
+
+ Always have a backup of the stock files.
+
+If you have problems, ask for help in the discord server.
+Start editing and have fun!
+
+
+
+
+
