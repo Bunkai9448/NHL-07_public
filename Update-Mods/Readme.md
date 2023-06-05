@@ -1,29 +1,64 @@
-# List of ready to use patches (provided "as is")
+# List of current created mods and rosters
 
-## Tool to crate & apply patches
-
-- xdelta UI: https://www.romhacking.net/utilities/598/
 
 ## APPLY TO:
 ````
 NHL 07 (USA) PSP ISO 
 CRC-32: 4884c8ec
 ````
-## Current created patches (eventually in this folder):
 
-- funzone.xdelta : nhl 07 with nhl 09 ai data ( funzone.iso )
+## Full mods
 
-- propre.xdelta : nhl 07 with improved ai from 07 ps2 ai ( propre.iso )
+- NHL 07 with improved ai from NHL 09
+(funzone.iso)
 
-- 2020-21_roster.zip : 2020-21 roster updates, improved textures and AI ( output.iso + textures ) 
+- NHL 07 with improved ai from PS2 AI
+(propre.iso)
 
-- NHL21 (FULL-UPD).xdelta : Russian iso with improved textures and new(ish) rosters ( NHL21 (FULL-UPD).iso )
+- 2020-21 roster updates, improved textures and  NHL 09 AI
+(output.iso)
 
-## Extras (related info)
+ - NHL07 with improved from NHL 09 AI,  along with improved jerseys and other textures (a combination of funzone and parts of output)
+(funput.iso)
 
-- An official Sony PSP DLC exist:  NHL 07 Roster updated
+- NHL07 with  improved NHL 06 GameCube AI and NHL09 AI, along with improved jerseys, arena textures, and ice, as well as other textures (a combination of funput,NHL21wit06ai, and NHL MOD 22.iso)
+(gamefun.iso)
 
-## FAQs
+- NHL 21 iso with improved NHL 06 GameCube AI and NHL09 AI
+(NHL21wit06ai.iso) 
 
-- The patcher (xDeltaUI) takes a while, even says "program not responding". Give it an extra time
-and if it still doesn't finish, try again. it eventually works. (This is due to the patch sizes).
+ - Russian iso with improved textures and new(ish) rosters
+*by @RetroIGRUN *
+(NHL21 (FULL-UPD).iso) It also has English Versions With and without commentary.
+
+ -  Russian NHL22 iso with improved textures and 2022 rosters
+(NHL MOD 22.iso)
+
+ -  Modified  NHL22 iso from above with improved ai
+(NHL22withcutomAI.iso) 
+
+ - KHL Version
+*found  by @octobump *
+
+
+## Various Roster files
+
+To apply a roster, copy the ulus folder inside your PSP's savedata folder. If you have a previous save, rename it, so you don't lose it. Check [SaveData](https://github.com/Bunkai9448/NHL-07_public/tree/main/SaveData) if you need more info on those.
+
+
+ - July 2012 
+ 
+ - February 2013 Quarter Season
+ 
+ - May 2013 Playoffs
+ 
+ - May 2015 Post Trade Deadline
+ 
+ - Rosters for 2019 Season
+ 
+ - June 2019 Playoffs
+ 
+ - February 2020
+ 
+ - 2022 Trade Deadline
+
