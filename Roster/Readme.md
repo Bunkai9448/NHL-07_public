@@ -6,6 +6,10 @@ This is for the names in the game's general roster database, for more info about
 To know if any of these guys is still active in the league, head over to Elite Prospects https://www.eliteprospects.com/league/nhl 
 and enter their names in the search bar. 
 
+## Video guide
+
+https://youtu.be/ZgubcqfkTLM
+
 ## Tools
 
 - UMDgen https://www.romhacking.net/utilities/1218/ 
