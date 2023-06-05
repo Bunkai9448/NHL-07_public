@@ -125,11 +125,11 @@ Click on the Teams tab to go back to the line-up screen
 If you don't see the change, don't worry. Click on another team, then back to the team you're working on, and it will show up
 Do this for the rest of the players.
 
-Save your file, rename this file back to "nhl2007.tdb" using BigGUI https://dl.fifa-infinity.com/fifa-09/biggui-tool/
 
-then rebuild the into the iso with umdgen https://www.romhacking.net/utilities/1218/ 
+## To rebuild the iso with your new table
 
-and rebuild the iso
+Follow 01_NHL_07_PSP_Roster_Editing_and_Importation_Guide_v1.pdf
+
 
 ## To share your Roster
 
