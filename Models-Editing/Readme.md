@@ -8,6 +8,7 @@ https://docs.google.com/spreadsheets/d/1ivCnty0gj2pFk_Q3oo7PB54EfGpR8YQKMQ4-bVsz
 - Based on Madden 12 PSP .msh file format from:
 https://forum.xentax.com/viewtopic.php?t=13031
 
+- For graphics in msh and similar formats, https://github.com/bartlomiejduda/EA-Graphics-Manager
 
 ## How to Rip models from a PSP game
 
