@@ -24,3 +24,10 @@ For now we know you can edit these addresses
 
 (In windows) You can see if you have made your changes comparing the original and the edited file with:
 fc /b "aidata viv"\Difficlt.ubc "aidata_Edited viv"\Difficlt.ubc
+
+## Using Total Control Editor NHL08
+
+Thanks to Lorak, we know that, 
+Total Control Editor NHL08
+from https://wasserlasser.com/filebase/index.php?file/2354-total-control-editor/
+also works for NHL 07 but you need to adjust the offsetsin the xml file. Of course, some fields do not appear in NHL 07
