@@ -51,6 +51,9 @@ https://drive.google.com/file/d/1Rm_O4k81lplfeUFLLHMEnYTToRujk5QA/
 
 - PSP SaveData Encrypter Decrypter GUI for PC ( 05-02-2014 ), https://wololo.net/talk/viewtopic.php?p=332315&sid=ee68f593ed4ccb6b7b6c96d4e7b80c5a#p332315
 
+- Total Control Editor NHL08,
+https://wasserlasser.com/filebase/index.php?file/2354-total-control-editor/
+
 - HxD editor, https://mh-nexus.de > HxD
 
 - String Editor, https://www.artemkh.com/nhl/stredit/ (This program allows you to modify string messages displayed inside EA NHL games).
