@@ -4,7 +4,7 @@ Use UMDGen.exe to extract the files of your ISO
 
 open gamedata/aidata.viv with bigGUI and extract the files: Beginner.ubc Easy.ubc Medium.ubc Difficlt.ubc
 
-Those are the files that control AI behaviour.
+Those are the files that control AI behaviour. You can edit them with your editor of choice.
 
 For now we know you can edit these addresses
 ```
