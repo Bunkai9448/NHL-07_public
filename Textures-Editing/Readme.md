@@ -44,7 +44,7 @@ Start editing and have fun!
 
 Download and install Game Graphic studio, https://www.romhacking.net/utilities/660/ 
 
-Download the [TEXTURES_EDIT.zip](https://github.com/Bunkai9448/NHL-07_public/blob/main/Textures-Editing/TEXTURES_EDIT.zip).  file and unzip it.
+Download the [TEXTURES_EDIT.zip](TEXTURES_EDIT.zip).  file and unzip it.
 
 Open umdgen to extract your gamedata/actors.viv and put it into your TEXTURES_EDIT folder
 
