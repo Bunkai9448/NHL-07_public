@@ -4,13 +4,13 @@
 
 - UMDgen to open the ISO, https://www.romhacking.net/utilities/1218/
 
-- BigGUI, https://dl.fifa-infinity.com/fifa-09/biggui-tool/
+- BigGUI (and ImpBIG), https://dl.fifa-infinity.com/fifa-09/biggui-tool/
 
 - Console texture Explorer, https://forum.xentax.com/viewtopic.php?p=131457&sid=ee0d41dbcfa766b583d1192fb65c1b52#p131457
 
 - Game Graphic Studio, https://www.romhacking.net/utilities/660/
 
-- ImpBIG, tool is inside nhl-psp_CTE_ini_files.zip
+- nhl-psp_CTE_ini_files.zip
 
 ## General steps to edit game textures and logos (Textures)
 
@@ -39,6 +39,16 @@ As an alternative, edit the .tm2 files in Rainbow https://github.com/marco-calau
 If you have problems, ask for help in the discord server.
 Start editing and have fun!
 
+
+## A zipped example to drill (almost everything in one zip)
+
+Download and install Game Graphic studio, https://www.romhacking.net/utilities/660/ 
+
+Download the "TEXTURES_EDIT.zip" file and unzip it.
+
+Open umdgen to extract your gamedata/actors.viv and put it into your TEXTURES_EDIT folder
+
+run the TEXTURES_SCRIPT.bat file and follow the instructions 
 
 
 
