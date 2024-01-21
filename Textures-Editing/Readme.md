@@ -50,6 +50,6 @@ Open umdgen to extract your gamedata/actors.viv and put it into your TEXTURES_ED
 
 run the TEXTURES_SCRIPT.bat file and follow the instructions 
 
-
-
+## torf jersey template tutorial
+https://www.tapatalk.com/groups/nhl04rebuilt/realistic-torf-template-t4353.html
 
