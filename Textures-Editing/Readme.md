@@ -53,3 +53,43 @@ run the TEXTURES_SCRIPT.bat file and follow the instructions
 ## torf jersey template tutorial
 https://www.tapatalk.com/groups/nhl04rebuilt/realistic-torf-template-t4353.html
 
+Okay then, I edited your explanation into one message so I can upload it to github and for anyone who asks, so we can lead them here in one post:
+
+## Dumping textures and editing your config.ini
+Guide by Tricolore
+
+
+To work with the textures for the mod, first you need to extract them:
+
+PSP settings > tools> developer tools > save new textures
+It will make a new folder with the dumped textures
+
+
+Once the textures dump, you will see files of numbers. 
+
+Let's say you want to replace a Jersey file , but you need to use ini so that the jerseys works each time.
+
+
+So what you do is take the jerseys file name. Let's say it's 099336b0617a524bff70fd4f
+
+
+And let's say that file is a Philadelphia Flyers jersey from 2007, but we want to update it to 2024
+
+
+You keep the last 8 digits ( can be numbers or letters) of the file name, and replace the first 16 with zeros. 
+
+
+
+Inside the ini you would write 0000000000000000ff70fd4f
+
+Because the first 16 are zeros and the last 8 you keep
+
+
+After doing that, you will write "=insertname.png" (an equal sign and whatever the name of the new file is that is replacing the old one)
+
+
+So let's say the new file is called "2024flyers.png"
+So you would write in the ini, 0000000000000000ff70fd4f=2024flyers.png
+
+
+And that's it
