@@ -56,6 +56,8 @@ https://www.tapatalk.com/groups/nhl04rebuilt/realistic-torf-template-t4353.html
 ## Dumping textures and editing your config.ini
 Guide by Tricolore
 
+(You must allow the creation of textures/ini folder for the game.  You can then save the textures for modification)
+
 To work with the textures for the mod, first you need to extract them:
 `PSP settings > tools> developer tools > save new textures`
 It will make a new folder with the dumped textures
@@ -78,5 +80,7 @@ After doing that, you will write "=insertname.png" (an equal sign and whatever t
 
 So let's say the new file is called "2024flyers.png"
 So you would write in the ini, 0000000000000000ff70fd4f=2024flyers.png
+
+If you want to add more entries after that, (0000000000000000ff70fd4f=2024flyers.png) , you should double enter, to add a new line entry
 
 And that's it
