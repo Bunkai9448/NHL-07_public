@@ -60,8 +60,7 @@ Guide by Tricolore
 
 
 To work with the textures for the mod, first you need to extract them:
-
-PSP settings > tools> developer tools > save new textures
+`PSP settings > tools> developer tools > save new textures`
 It will make a new folder with the dumped textures
 
 
