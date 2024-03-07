@@ -6,7 +6,7 @@ There are currently 2 ways to work with the textures.
 
 ## Video guide
 
-https:
+[(https://youtu.be/l1-nQgmIKks)](https://youtu.be/l1-nQgmIKks)
 
 ## Tools 
 
