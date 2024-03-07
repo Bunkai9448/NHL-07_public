@@ -28,7 +28,9 @@ Typically, you get jerapt.viv, tlogoap.viv from fe and arenaXXX.big -here, XXX i
 
 4) Open those. tm2 files in Game Graphic Studio (GGS). Edit it there. This could be very annoying -a pain in the ass, I would say laughing -. Save the file. Not recommended.
 
-As an alternative, edit the .tm2 files in Rainbow https://github.com/marco-calautti/Rainbow. First, open a .tm2 file and export it. You get a .png and a .xml file. Just edit the .png in your favorite software. GIMP, Photoshop or any other. Save your changes without changing the file name. Go back to Rainbow and import the .xml file. It will load the edited .png too.  Rainbow seems to be really user friendly.
+As an alternative, edit the .tm2 files in Rainbow https://github.com/marco-calautti/Rainbow. First, open a .tm2 file and export it. You get a .png and a .xml file. Just edit the .png in your favorite software. GIMP, Photoshop or any other ( 
+Preserve the size and format. The png is in RGB mode and for textures with transparency, the alpha channel (transparency) is enabled. Save in RGB mode, your edited png with the same name you got from Rainbow. Save the same file with another name as indexed png. We are going to use the latter in Game Graphic Studio.
+Save your changes without changing the file name. Go back to Rainbow and import the .xml file. It will load the edited .png too.  Rainbow seems to be really user friendly.)
 
 5) Import the updated .tm2 file from 4 to Console Texture Explorer to actually edit the .msh file. Save the updated .msh file.
 
