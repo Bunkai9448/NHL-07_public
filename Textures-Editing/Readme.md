@@ -1,5 +1,13 @@
 # Texture Editing
 
+There are currently 2 ways to work with the textures. \
+- Through PPSSPP's texture swap (editing your config.ini, explanations at the end of this readme)
+- ISO files' replacement (the video and most tools are for this one)
+
+## Video guide
+
+https:
+
 ## Tools 
 
 - UMDgen to open the ISO, https://www.romhacking.net/utilities/1218/
