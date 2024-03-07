@@ -32,7 +32,7 @@ As an alternative, edit the .tm2 files in Rainbow https://github.com/marco-calau
 
 5) Import the updated .tm2 file from 4 to Console Texture Explorer to actually edit the .msh file. Save the updated .msh file.
 
-6) Import the .msh file in big gui and rebuild - to save it- your .viv or .big file. **Run BHImport from USRDIR to fix the headers of the edited files. (must follow the vanilla game's folder structure `NHL07_PSP\PSP_GAME\USRDIR\`).
+6) Import the .msh file in big gui and rebuild - to save it- your .viv or .big file. **Run BHImport from USRDIR to fix the headers of the edited files** (must follow the vanilla game's folder structure `NHL07_PSP\PSP_GAME\USRDIR\`).
 
 7) Finally, rebuild your iso in UMDGen.
 
