@@ -29,9 +29,7 @@ https://forum.xentax.com/viewtopic.php?t=13031
 
 ## Tool for opening  EA .o files
 
-OTools for EA Sports 3D Graphics format (.o, .fsh), https://forum.xentax.com/viewtopic.php?t=21675
-
-OTools source code, https://bitbucket.org/fifam/otools/src/master/
+OTools for EA Sports 3D Graphics format (.o, .fsh), https://bitbucket.org/fifam/otools/src/master/
 
 ---
 
