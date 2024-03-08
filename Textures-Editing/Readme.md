@@ -18,6 +18,10 @@ There are currently 2 ways to work with the textures.
 
 - Game Graphic Studio, https://www.romhacking.net/utilities/660/
 
+- Rainbow, https://github.com/marco-calautti/Rainbow
+
+- BHimport, https://forums.operationsports.com/forums/ea-sports-nhl/932763-ea-sports-nhl-07-psp-quest-update-8.html
+
 - nhl-psp_CTE_ini_files.zip
 
 ## General steps to edit game textures and logos (Textures)
