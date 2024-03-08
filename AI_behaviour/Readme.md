@@ -32,4 +32,5 @@ Total Control Editor NHL08
 from https://wasserlasser.com/filebase/index.php?file/2354-total-control-editor/
 also works for NHL 07 but you need to adjust the offsets in the xml file. Of course, some fields do not appear in NHL 07
 
-[https://github.com/Bunkai9448/NHL-07_public/blob/main/AI_behaviour/TCE08.png]
+
+![TCE08.png](https://github.com/Bunkai9448/NHL-07_public/blob/main/AI_behaviour/TCE08.png)
