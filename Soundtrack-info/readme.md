@@ -1,6 +1,6 @@
 # Soundtrack info
 
-You can listen a playlist of the soundtrack:
+You can listen the playlist:
 
 - in Spotify
 https://open.spotify.com/playlist/5nR8cvUicjrPjjWkr4CJ9N?si=qRT_RpqERDyzuPtdAY5z3A&utm_source=copy-link&dd=1
