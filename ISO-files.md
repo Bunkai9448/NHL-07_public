@@ -228,7 +228,7 @@ D:.
 | cz.viv (in fe folder) | Creation Zone stuff | - |
 | gameapt.viv (in fe folder) | some game stuff | - |
 | imageapt.viv (in fe folder) | some image stuff	| - |
-| jerapt.viv (in fe folder) | more jerseys stuff | - |
+| jerapt.viv (in fe folder) | jerseys stuff (includes jerseysLogos) | - |
 | loadscr.viv (in fe folder) | (general) load screen | - |
 | local.viv (in fe folder) | (general) local (language) 	| - |
 | pnapt.viv (in fe folder) | play network | - |
