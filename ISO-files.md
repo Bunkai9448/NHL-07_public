@@ -228,13 +228,18 @@ D:.
 | cz.viv (in fe folder) | Creation Zone stuff | - |
 | gameapt.viv (in fe folder) | some game stuff | - |
 | imageapt.viv (in fe folder) | some image stuff	| - |
-| jerapt.viv (in fe folder) | jerseys stuff (includes jerseysLogos) | - |
+| jerapt.viv (in fe folder) | jerseys stuff | - |
 | loadscr.viv (in fe folder) | (general) load screen | - |
 | local.viv (in fe folder) | (general) local (language) 	| - |
 | pnapt.viv (in fe folder) | play network | - |
 | portapt.viv (in fe folder) | portraits | - |
 | seasapt.viv (in fe folder) | season info stuff | - |
 | tlogoapt.viv (in fe folder) | t(eam) logo(s) | - |
+| # | # | # |
+| gamedata folder | various files | (stuff for game matches) |
+| aidata.viv (in gamedata folder) | AI config | - |
+| arenaXXX.big (in gamedata folder) | Team's arena textures | - |
+| jerseys.viv (in gamedata folder) | Team's jersey textures (includes logos) | - |
 | # | # | # |
 | # more # | # to be # | # added # |
 
