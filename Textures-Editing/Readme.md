@@ -55,22 +55,11 @@ Save your changes without changing the file name. Go back to Rainbow and import 
 If you have problems, ask for help in the discord server.
 Start editing and have fun!
 
-
-## A zipped example to drill (almost everything in one zip)
-
-Download and install Game Graphic studio, https://www.romhacking.net/utilities/660/ 
-
-Download the [TEXTURES_EDIT.zip](TEXTURES_EDIT.zip).  file and unzip it.
-
-Open umdgen to extract your gamedata/actors.viv and put it into your TEXTURES_EDIT folder
-
-run the TEXTURES_SCRIPT.bat file and follow the instructions 
-
 ## torf jersey template tutorial
 https://www.tapatalk.com/groups/nhl04rebuilt/realistic-torf-template-t4353.html
 
 ## Dumping textures and editing your config.ini
-(Path for the config file: `PSP\TEXTURES\ULUS10131\config.ini`)
+(Path for the config file: `PSP\TEXTURES\ULUS10131\config.ini`)\
 (Path for the new textures `PSP\TEXTURES\ULUS10131\` + the one in the ini file)
 
 Guide by Tricolore
