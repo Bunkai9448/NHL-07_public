@@ -70,6 +70,9 @@ run the TEXTURES_SCRIPT.bat file and follow the instructions
 https://www.tapatalk.com/groups/nhl04rebuilt/realistic-torf-template-t4353.html
 
 ## Dumping textures and editing your config.ini
+(Path for the config file: `PSP\TEXTURES\ULUS10131\config.ini`)
+(Path for the new textures `PSP\TEXTURES\ULUS10131\` + the one in the ini file)
+
 Guide by Tricolore
 
 (You must allow the creation of textures/ini folder for the game.  You can then save the textures for modification)
