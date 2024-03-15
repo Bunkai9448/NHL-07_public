@@ -242,9 +242,10 @@ D:.
 | arenaXXX.big (in gamedata folder) | Team's arena textures | - |
 | jerseys.viv (in gamedata folder) | Team's jersey textures (includes logos) | - |
 | # | # | # |
-| preload folder  | various files | check this for default language and loading until the main menu screen | 
-| fmisc.viv inside (preload folder) | various files packaged | use bigGui to open, local.bh seems to work with game langs |
-| czone.viv inside (preload folder) | cz.bh, faces.bh, goalies.bh, jerseys.bh, players.bh, sceneczX.prp | bh are big files, prp are property files (normal text files) |
+| preload folder  | various files | check this for default language and loading until the main menu screen |
+| czone.viv inside (preload folder) | cz.bh, faces.bh, goalies.bh, jerseys.bh, players.bh, sceneczX.prp | bh are big files, prp are property files (normal text files) | 
 | fapt.viv inside (preload folder) |  cafeapt.bh, comapt.bh, db.bh, imageapt.bh, jerapt.bh, pnapt.bh, portapt.bh, seasapt.bh, tlogoapt.bh | - |
+| faudio.viv inside (preload folder) | fe.abk, nhl07_psp.csi | the csi file is a package of various files |
+| fmisc.viv inside (preload folder) | various miscelanea files packaged | use bigGui to open, local.bh seems to work with game langs |
 | # more # | # to be # | # added # |
 
