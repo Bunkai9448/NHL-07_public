@@ -1,6 +1,8 @@
 # How-Where are the files in the iso
 
-## ROM (ISO) Structure (needs update)
+(Check the table for the info about the files)
+
+## ROM (ISO) Structure Tree
 ````
 D:.
 |   UMD_DATA.BIN
