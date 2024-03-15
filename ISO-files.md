@@ -230,7 +230,7 @@ D:.
 | gameapt.viv (in fe folder) | some game stuff | - |
 | imageapt.viv (in fe folder) | some image stuff	| - |
 | jerapt.viv (in fe folder) | jerseys stuff | - |
-| loadscr.viv (in fe folder) | (general) load screen | - |
+| loadscr.viv inside (fe folder) | xxx_controller.bin, xxx_controller.msh, loadingbar0-3.msh, loadingbarblack0-3.msh, loadscreen0-7.bin,loadscreen0-7.msh | use bigGui to open |
 | local.viv (in fe folder) | (general) local (language) 	| - |
 | pnapt.viv (in fe folder) | play network | - |
 | portapt.viv (in fe folder) | portraits | - |
