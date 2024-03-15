@@ -209,6 +209,7 @@ D:.
 | eboot.bin (sysdir folder) | boot elf | is encrypted, use deceboot to work with it, can be reinserted without reencrypt |
 | # | # | # |
 | pad0.pad & pad1.pad (usrdir folder)| zeroed files (padding?) | only take space, can be deleted |
+| disc.ini (usrdir folder)| region=na productcode=ULUS10131 parentallock=4 adhocid=ULUS10131 | similar to PARAM.SFO |
 | # | # | # |
 | preload folder  | various files | check this for default language and loading until the main menu screen | 
 | fmisc.viv inside (preload folder) | various files packaged | use bigGui to open, local.bh seems to work with game langs |
