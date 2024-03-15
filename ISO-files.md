@@ -213,22 +213,22 @@ D:.
 | pad0.pad & pad1.pad (usrdir folder)| zeroed files (padding?) | only take space, can be deleted |
 | disc.ini (usrdir folder)| region=na productcode=ULUS10131 parentallock=4 adhocid=ULUS10131 | similar to PARAM.SFO |
 | # | # | # |
-| gamedata folder | most models of the game | go here to edit the visual part of the main gameplay and the AI |
-| aidata.viv inside (gamedata folder) | use this to edit the AI of the game | currently there's two working patch that swaps 07 with 09 AI, and with 07 PC AI |
-| # | # | # |
 | PocketDJ folder  | full soundtrack + trackinfo | songs in .aud ; trackinfo plain in hex editor |
 | # | # | # |
-| movies folder | videos for the load screen | some are from other ea games (madden06, nba06, and nascar06. Those are unused) can be deleted if you don't care about that |
+| audio folder  | speech + streams | - |
+| # | # | # |
+| data folder  | fusion.bts + icons stuff | savegame image files |
+| # | # | # |
+| db folder  | db.viv + tuning.viv | - |
 | # | # | # |
 | fe folder | various files | more loading stuff (this one for the whole game, not only in boot) |
 | bgapt.viv (in fe folder) | background
 | cafeapt.viv (in fe folder) | ? | - |
 | comapt.viv (in fe folder) | com(puter) | - |
 | credits.viv (in fe folder) | isn't it obvious? | - |
-| cz.viv (in fe folder) | createface1-3.msh, createfacehair1-3.msh, czface.msh, CZInGameHead.o, FACE9999.msh, jersey_renamed.o
- | Creation Zone stuff |
+| cz.viv (in fe folder) | createface1-3.msh, createfacehair1-3.msh, czface.msh, CZInGameHead.o, FACE9999.msh, jersey_renamed.o | Creation Zone stuff |
 | gameapt.viv (in fe folder) | some game stuff | - |
-| imageapt.viv (in fe folder) | some image stuff	| - |
+| imageapt.viv (in fe folder) | some image stuff | - |
 | jerapt.viv (in fe folder) | jerseys stuff | - |
 | loadscr.viv inside (fe folder) | xxx_controller.bin, xxx_controller.msh, loadingbar0-3.msh, loadingbarblack0-3.msh, loadscreen0-7.bin,loadscreen0-7.msh | use bigGui to open |
 | local.viv (in fe folder) | (general) local (language) 	| - |
@@ -237,10 +237,20 @@ D:.
 | seasapt.viv (in fe folder) | season info stuff | - |
 | tlogoapt.viv (in fe folder) | t(eam) logo(s) | - |
 | # | # | # |
+| fonts folder  | mfn (font) files | check FontTable.txt and RealFonts.txt for specs |
+| # | # | # |
+| gamedata folder | most models of the game | go here to edit the visual part of the main gameplay and the AI |
+| aidata.viv inside (gamedata folder) | use this to edit the AI of the game | currently there's two working patch that swaps 07 with 09 AI, and with 07 PC AI |
 | gamedata folder | various files | (stuff for game matches) |
 | aidata.viv (in gamedata folder) | AI config | - |
 | arenaXXX.big (in gamedata folder) | Team's arena textures | - |
 | jerseys.viv (in gamedata folder) | Team's jersey textures (includes logos) | - |
+| # | # | # |
+| locale folder  | loc(ale) files + string.idx | language localization stuff |
+| # | # | # |
+| module folder  | prx files | libraries and Op.System modules |
+| # | # | # |
+| movies folder | videos for the load screen | some are from other ea games (madden06, nba06, and nascar06. Those are unused) can be deleted if you don't care about that |
 | # | # | # |
 | preload folder  | various files | check this for default language and loading until the main menu screen |
 | czone.viv inside (preload folder) | cz.bh, faces.bh, goalies.bh, jerseys.bh, players.bh, sceneczX.prp | bh are big files, prp are property files (normal text files) | 
@@ -248,4 +258,3 @@ D:.
 | faudio.viv inside (preload folder) | fe.abk, nhl07_psp.csi | the csi file is a package of various files |
 | fmisc.viv inside (preload folder) | various miscelanea files packaged | use bigGui to open, local.bh seems to work with game langs |
 | # more # | # to be # | # added # |
-
