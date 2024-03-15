@@ -226,7 +226,8 @@ D:.
 | cafeapt.viv (in fe folder) | ? | - |
 | comapt.viv (in fe folder) | com(puter) | - |
 | credits.viv (in fe folder) | isn't it obvious? | - |
-| cz.viv (in fe folder) | Creation Zone stuff | - |
+| cz.viv (in fe folder) | createface1-3.msh, createfacehair1-3.msh, czface.msh, CZInGameHead.o, FACE9999.msh, jersey_renamed.o
+ | Creation Zone stuff |
 | gameapt.viv (in fe folder) | some game stuff | - |
 | imageapt.viv (in fe folder) | some image stuff	| - |
 | jerapt.viv (in fe folder) | jerseys stuff | - |
