@@ -63,3 +63,5 @@ aud.to.mp3/
     |   quickbms.exe
     \
 ```
+
+** Keep in mind that, your resulted aud file MUST be of size under or equal than the original aud you want to swap.
