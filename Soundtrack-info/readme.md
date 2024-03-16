@@ -39,4 +39,27 @@ aud.to.mp3/
 
 ## To convert back the mp3 into aud
 
-(not tested) Theoretically doing backwards and using the bms in repack mode.
+See the [mp3.to.aud.bat](https://github.com/Bunkai9448/NHL-07_public/blob/main/Soundtrack-info/mp3.to.aud.bat) file of this folder for a Proof of Concept. \
+\
+In addition to the bat file, you'll need the following:
+
+- https://www.ffmpeg.org/download.html
+- https://www.pspunk.com/psp-atrac3/
+- https://aluigi.altervista.org/quickbms.htm
+- [converter.bms](https://github.com/Bunkai9448/NHL-07_public/blob/main/Soundtrack-info/converter.bms) (this file was taken from the now closed forum Xentax)
+- [msvcr71.dll](https://es.dll-files.com/msvcr71.dll.html) 
+
+And your folder tree should look like this:
+```
+aud.to.mp3/
+|   mp3.to.aud.bat
+|   yourFile.mp3
+|
+\---tools.required/
+    |   at3tool.exe
+    |   converter.bms
+    |   ffmpeg.exe
+    |   msvcr71.dll
+    |   quickbms.exe
+    \
+```
