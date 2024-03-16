@@ -8,8 +8,6 @@ https://open.spotify.com/playlist/5nR8cvUicjrPjjWkr4CJ9N?si=qRT_RpqERDyzuPtdAY5z
 - in Youtube https://youtube.com/playlist?list=PLlx6KpLdGdPkyE-zHqZg4-GSR1rNxRVQZ&si=U7iLlliA-qhLCE8V
 
 
-Later this readme & folder might be updated to add or change the game songs
-
 ## To convert the aud songs into mp3
 
 See the [aud.to.mp3.bat](https://github.com/Bunkai9448/NHL-07_public/blob/main/Soundtrack-info/aud.to.mp3.bat) file of this folder for a Proof of Concept. \
