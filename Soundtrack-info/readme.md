@@ -64,4 +64,4 @@ aud.to.mp3/
     \
 ```
 
-** Keep in mind that, your resulted aud file MUST be of size under or equal than the original aud you want to swap.
+**Keep in mind that, your resulted aud file MUST be of size under or equal than the original aud you want to swap.**
