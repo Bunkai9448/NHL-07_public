@@ -12,7 +12,31 @@ Later this readme & folder might be updated to add or change the game songs
 
 ## To convert the aud songs into mp3
 
-See the bat file of this folder for a Proof of Concept
+See the [aud.to.mp3.bat](https://github.com/Bunkai9448/NHL-07_public/blob/main/Soundtrack-info/aud.to.mp3.bat) file of this folder for a Proof of Concept. \
+\
+In addition to the bat file, you'll need the following:
+
+- https://www.ffmpeg.org/download.html
+- https://www.pspunk.com/psp-atrac3/
+- https://aluigi.altervista.org/quickbms.htm
+- [converter.bms](https://github.com/Bunkai9448/NHL-07_public/blob/main/Soundtrack-info/converter.bms) (this file was taken from the now closed forum Xentax)
+- [msvcr71.dll](https://es.dll-files.com/msvcr71.dll.html) 
+
+And your folder tree should look like this:
+```
+aud.to.mp3/
+|   aud.to.mp3.bat
+|   yourFile.aud
+|
+\---tools.required/
+    |   at3tool.exe
+    |   converter.bms
+    |   ffmpeg.exe
+    |   msvcr71.dll
+    |   quickbms.exe
+    |   reimport.bat with the command: `quickbms.exe -G -w -r`
+    \
+```
 
 ## To convert back the mp3 into aud
 
