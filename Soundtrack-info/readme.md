@@ -34,7 +34,6 @@ aud.to.mp3/
     |   ffmpeg.exe
     |   msvcr71.dll
     |   quickbms.exe
-    |   reimport.bat with the command: `quickbms.exe -G -w -r`
     \
 ```
 
