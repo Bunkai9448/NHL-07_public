@@ -36,7 +36,7 @@ Typically, you get jerapt.viv, tlogoap.viv from fe and arenaXXX.big -here, XXX i
 
 2) Extract the contents of the files chosen in 1 via big gui. Almost all textures in this game are in .msh files.
 
-3) Get the .ini files from github and open your .msh file in Console Texture Explorer, export it as .tm2 files. (If your file doesn't have one ini for it, basic guide on how to create those ini files is in ![CTE_iniCreation.md](https://github.com/Bunkai9448/NHL-07_public/blob/main/Textures-Editing/CTE_iniCreation.pdf))
+3) Get the .ini files from github and open your .msh file in Console Texture Explorer, export it as .tm2 files. (If your file doesn't have one ini for it, basic guide on how to create those ini files is in ![CTE_iniCreation.pdf](https://github.com/Bunkai9448/NHL-07_public/blob/main/Textures-Editing/CTE_iniCreation.pdf))
 
 4) Open those. tm2 files in Game Graphic Studio (GGS). Edit it there. This could be very annoying -a pain in the ass, I would say laughing -. Save the file. Not recommended.
 
