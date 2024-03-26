@@ -22,7 +22,7 @@ There are currently 2 ways to work with the textures.
 
 - BHimport, https://forums.operationsports.com/forums/ea-sports-nhl/932763-ea-sports-nhl-07-psp-quest-update-8.html
 
-- nhl-psp_CTE_ini_files.zip
+- [nhl-psp_CTE_ini_files.zip](https://github.com/Bunkai9448/NHL-07_public/blob/main/Textures-Editing/nhl-psp_CTE_ini_files.zip)
 
 ## General steps to edit game textures and logos (Textures)
 
