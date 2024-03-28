@@ -11,4 +11,4 @@ By Lorak
 4) Now go to offset 00000500 in streams.viv (green rectangle) in the hex editor and paste (ctrl+B) the data from step 3). Save the file streams.viv.
 You are done!!
 
-![Hex Editor Image 2]()
+![Hex Editor Image 2](https://github.com/Bunkai9448/NHL-07_public/blob/main/Audio-asf/hex2_streams.viv.png)
