@@ -11,7 +11,7 @@ ffmpeg -i nhl.mp4 -map 0:0 -vf scale=480:272:flags=lanczos -vb 4M nhl.avi
 3rd) Audio encoding is:
 ffmpeg -i nhl.mp4 -ar 44100 nhl.wav
 
-4th) Go to UMD Stream Composer and use files from 1&2. It will result in an mps file.
+4th) Go to UMD Stream Composer and use files from 1&2 (START > Encode + Multiplex). It will result in an mps file.
 
 5th) Open pmfcreater and use the mps file.
 
