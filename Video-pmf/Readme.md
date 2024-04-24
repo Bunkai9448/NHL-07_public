@@ -1,7 +1,7 @@
 # For PMF videos like the game intro
 
 ## Tested Method to create a pmf file 
-https://projectdiva.net/community/threads/2020-create-pmf-videos-for-psp-games.2348/
+https://projectdiva.net/community/threads/2020-create-pmf-videos-for-psp-games.2348/ and https://ffmpeg.org/
 
 1st) Get the video. (nhl.mp4 in the example)
 
