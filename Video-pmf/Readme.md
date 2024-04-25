@@ -6,6 +6,7 @@ https://projectdiva.net/community/threads/2020-create-pmf-videos-for-psp-games.2
 1st) Get the video. (nhl.mp4 in the example)
 
 2nd) Video encoding is:
+[ffmpeg -i nhl.mp4 -filter:v "setsar=1","fps=30" -qscale:v 1 -c:v libxvid nhl2.mp4]
 ffmpeg -i nhl.mp4 -map 0:0 -vf scale=480:272:flags=lanczos -vb 4M nhl.avi
 
 3rd) Audio encoding is:
