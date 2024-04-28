@@ -31,7 +31,7 @@ CRC-32: 4884c8ec
 
 - KHL Version *found by @octobump *
 
-- 
+- NHL 24 Playoff Edition Mod https://drive.google.com/file/d/1gF5eSpFB7bBwMQbZ4IYd50JzAzM3nxIr/
 
 ## Various Roster files
 
