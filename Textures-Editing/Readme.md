@@ -14,7 +14,7 @@ There are currently 2 ways to work with the textures.
 
 - BigGUI (and ImpBIG), https://dl.fifa-infinity.com/fifa-09/biggui-tool/
 
-- Console texture Explorer, https://forum.xentax.com/viewtopic.php?p=131457&sid=ee0d41dbcfa766b583d1192fb65c1b52#p131457
+- Console texture Explorer, https://reshax.com/topic/170-graphicstexture-finders-and-viewers/
 
 - Game Graphic Studio, https://www.romhacking.net/utilities/660/
 
