@@ -58,6 +58,21 @@ Start editing and have fun!
 ## torf jersey template tutorial
 https://www.tapatalk.com/groups/nhl04rebuilt/realistic-torf-template-t4353.html
 
+## Notes to edit uniform numbers and letters:
+[CTE - change color depth](https://github.com/Bunkai9448/NHL-07_public/blob/main/Textures-Editing/CTE-Change_color_depth.png)
+* Uniform number textures are indexed images with a 16 color palette.
+
+* When you are happy with your new number texture, convert it to indexed with a 16 color palette.
+Copy your texture and paste it on the png image from step 4 and go on with the guide. 
+For uniform numbers, there is no need to save the indexed image in step 5).
+
+* 7a) Open the png texture from step 5) **not indexed**, click on "Texture-Change Color Depth-Decrease to X colors". Enable "Keep current bitmap palette" to then move the slider until "Reduce to (max)" equals 16 and click "Ok". See the image below. Proceed to step 7). If the texture looks distorted, select "PSP" on the "Interlace" option.`
+
+* For each number set we need to edit three textures per number plus two more textures for Capn and Assn each, totaling 34 textures per set of uniform numbers. In addidion, you need to edit the arm numbers (two textures per number). The good news is that we can reuse the 16 and 32 sizes textures from the jersey numbers.
+
+* In general, first replace the smaller size textures in CTE, moving to the bigger sizes one by one.
+
+
 ## PPSSPP Dumping textures and editing your config.ini
 (Path for the config file: `PSP\TEXTURES\ULUS10131\config.ini`)\
 (Path for the new textures `PSP\TEXTURES\ULUS10131\` + the one in the ini file)
