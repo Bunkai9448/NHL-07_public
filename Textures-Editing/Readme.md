@@ -59,7 +59,7 @@ Start editing and have fun!
 https://www.tapatalk.com/groups/nhl04rebuilt/realistic-torf-template-t4353.html
 
 ## Notes to edit uniform numbers and letters:
-[CTE - change color depth](https://github.com/Bunkai9448/NHL-07_public/blob/main/Textures-Editing/CTE-Change_color_depth.png)
+![CTE - change color depth](https://github.com/Bunkai9448/NHL-07_public/blob/main/Textures-Editing/CTE-Change_color_depth.png)
 * Uniform number textures are indexed images with a 16 color palette.
 
 * When you are happy with your new number texture, convert it to indexed with a 16 color palette.
