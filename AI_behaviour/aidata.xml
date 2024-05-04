@@ -1,0 +1,471 @@
+<?xml version="1.0"?>
+<aidata>
+ <AI>
+   <attribute>
+    <key>manual_deke</key>
+    <name>Manual Deke</name>
+    <description>Modifier used to determine the chances a CPU controlled player has of successfully completing a 'Manual Deke'.</description>
+    <offset>212</offset>
+    <min_range>0</min_range>
+    <max_range>1</max_range>
+    <range_mult>1000</range_mult>
+    <default_value>
+     <easy>0.03</easy>
+     <medium>0.2</medium>
+     <difficlt>0.255</difficlt>
+    </default_value>
+   </attribute>
+   <attribute>
+    <key>tap_deke</key>
+    <name>Tap Deke</name>
+    <description>Modifier used to determine the chances a CPU controlled player has of successfully completing a 'Tap Deke'.</description>
+    <offset>256</offset>
+    <min_range>0</min_range>
+    <max_range>1</max_range>
+    <range_mult>1000</range_mult>
+    <default_value>
+     <easy>0.3</easy>
+     <medium>0.21</medium>
+     <difficlt>0.28</difficlt>
+    </default_value>
+   </attribute>
+   <attribute>
+    <key>spin_deke</key>
+    <name>Spin Deke</name>
+    <description>Modifier used to determine the chances a CPU controlled player has of successfully completing a 'Spin Deke'.</description>
+    <offset>300</offset>
+    <min_range>0</min_range>
+    <max_range>1</max_range>
+    <range_mult>1000</range_mult>
+    <default_value>
+     <easy>0.25831</easy>
+     <medium>0.48</medium>
+     <difficlt>0.65</difficlt>
+    </default_value>
+   </attribute>  
+   <attribute>
+    <key>level_mod</key>   
+    <name>Level Mod</name>
+    <description>Modifier used to determine the effect of Momentum against CPU controlled players.</description>
+    <offset>424</offset>
+    <min_range>0</min_range>
+    <max_range>10</max_range>
+    <range_mult>1</range_mult>
+    <default_value>
+     <easy>10</easy>
+     <medium>5</medium>
+     <difficlt>0</difficlt>
+    </default_value>
+   </attribute>   
+   <attribute>
+   <key>faceoffs_cpu_chances</key>   
+    <name>CPU Chances</name>
+    <description>Modifier used to determine the chances a CPU controlled player has of winning faceoffs.</description>
+    <offset>508</offset>
+    <min_range>0</min_range>
+    <max_range>1.5</max_range>
+    <range_mult>1000</range_mult>
+    <default_value>
+     <easy>0.38571</easy>
+     <medium>0.55</medium>
+     <difficlt>0.75</difficlt>
+    </default_value>
+   </attribute>
+   <attribute>
+   <key>pass_intercept_cpu</key>   
+    <name>CPU</name>
+    <description>Modifier used to determine the chances CPU controlled players have of intercepting passes.</description>
+    <offset>592</offset>
+    <min_range>0</min_range>
+    <max_range>5</max_range>
+    <range_mult>100</range_mult>
+    <default_value>
+     <easy>0.02</easy>
+     <medium>0.5</medium>
+     <difficlt>1.8</difficlt>
+    </default_value>
+   </attribute>
+   <attribute>
+   <key>pass_intercept_user</key>   
+    <name>User</name>
+    <description>Modifier used to determine the chances human controlled players have of intercepting passes.</description>
+    <offset>636</offset>
+    <min_range>0</min_range>
+    <max_range>5</max_range>
+    <range_mult>100</range_mult>
+    <default_value>
+     <easy>1.7</easy>
+     <medium>1</medium>
+     <difficlt>0.8</difficlt>
+    </default_value>
+   </attribute>
+   <attribute>
+   <key>burst_percent_cpu</key>   
+    <name>CPU</name>
+    <description>Modifier used to determine the effect of speed burst on CPU controlled players.</description>
+    <offset>760</offset>
+    <min_range>0</min_range>
+    <max_range>5</max_range>
+    <range_mult>100</range_mult>
+    <default_value>
+     <easy>0.96</easy>
+     <medium>1</medium>
+     <difficlt>1.05</difficlt>
+    </default_value>
+   </attribute>
+   <attribute>
+   <key>burst_percent_user</key>   
+    <name>User</name>
+    <description>Modifier used to determine the effect of speed burst on human controlled players.</description>
+    <offset>804</offset>
+    <min_range>0</min_range>
+    <max_range>5</max_range>
+    <range_mult>100</range_mult>
+    <default_value>
+     <easy>1.05</easy>
+     <medium>1</medium>
+     <difficlt>1</difficlt>
+    </default_value>
+   </attribute>
+   <attribute>
+   <key>getcarrierdist_cpu</key>   
+    <name>CPU</name>
+    <description>Description TBD...</description>
+    <offset>968</offset>
+    <min_range>0</min_range>
+    <max_range>40</max_range>
+    <range_mult>1</range_mult>
+    <default_value>
+     <easy>7</easy>
+     <medium>9</medium>
+     <difficlt>14</difficlt>
+    </default_value>
+   </attribute>
+   <attribute>
+   <key>getcarrierdist_user</key>   
+    <name>User</name>
+    <description>Description TBD...</description>
+    <offset>1012</offset>
+    <min_range>0</min_range>
+    <max_range>40</max_range>
+    <range_mult>1</range_mult>
+    <default_value>
+     <easy>10</easy>
+     <medium>10</medium>
+     <difficlt>10</difficlt>
+    </default_value>
+   </attribute>
+   <attribute>
+   <key>max_gap_dist_cpu</key>   
+    <name>CPU</name>
+    <description>Modifier used to determine the distance at which opposing CPU controlled players initiates a checking action against the puck carrier.</description>
+    <offset>1096</offset>
+    <min_range>0</min_range>
+    <max_range>40</max_range>
+    <range_mult>1</range_mult>
+    <default_value>
+     <easy>20</easy>
+     <medium>18</medium>
+     <difficlt>15</difficlt>
+    </default_value>
+   </attribute>
+   <attribute>
+   <key>max_gap_dist_user</key>   
+    <name>User</name>
+    <description>Modifier used to determine the distance at which CPU controlled players of the human controlled team initiates a checking action against the puck carrier.</description>
+    <offset>1140</offset>
+    <min_range>0</min_range>
+    <max_range>40</max_range>
+    <range_mult>1</range_mult>
+    <default_value>
+     <easy>20</easy>
+     <medium>20</medium>
+     <difficlt>20</difficlt>
+    </default_value>
+   </attribute>
+   <attribute>
+   <key>base_gap_mult_cpu</key>   
+    <name>CPU</name>
+    <description>Description TBD...</description>
+    <offset>1224</offset>
+    <min_range>0</min_range>
+    <max_range>1</max_range>
+    <range_mult>100</range_mult>
+    <default_value>
+     <easy>0.4</easy>
+     <medium>0.38</medium>
+     <difficlt>0.3</difficlt>
+    </default_value>
+   </attribute>
+   <attribute>
+   <key>base_gap_mult_user</key>   
+    <name>User</name>
+    <description>Description TBD...</description>
+    <offset>1268</offset>
+    <min_range>0</min_range>
+    <max_range>1</max_range>
+    <range_mult>100</range_mult>
+    <default_value>
+     <easy>0.33</easy>
+     <medium>0.33</medium>
+     <difficlt>0.33</difficlt>
+    </default_value>
+   </attribute>
+   <attribute>
+   <key>zero_gap_dist_cpu</key>   
+    <name>CPU</name>
+    <description>Modifier used to determine the distance at which a CPU controlled player is adjacent to the puck carrier when performing a checkin action.</description>
+    <offset>1352</offset>
+    <min_range>0</min_range>
+    <max_range>40</max_range>
+    <range_mult>1</range_mult>
+    <default_value>
+     <easy>15</easy>
+     <medium>16</medium>
+     <difficlt>25</difficlt>
+    </default_value>
+   </attribute>
+   <attribute>
+   <key>zero_gap_dist_user</key>   
+    <name>User</name>
+    <description>Modifier used to determine the distance at which a CPU controlled player of the human controlled team is adjacent to the puck carrier when performing a checkin action.</description>
+    <offset>1396</offset>
+    <min_range>0</min_range>
+    <max_range>40</max_range>
+    <range_mult>1</range_mult>
+    <default_value>
+     <easy>20</easy>
+     <medium>20</medium>
+     <difficlt>20</difficlt>
+    </default_value>
+   </attribute>
+   <attribute>
+   <key>tie_up_radius</key>   
+    <name>Tie-Up Radius</name>
+    <description>Modifier used to determine the radius in which a CPU controlled player will initiate a Tie-up action against the puck carrier.</description>
+    <offset>1520</offset>
+    <min_range>0</min_range>
+    <max_range>15</max_range>
+    <range_mult>100</range_mult>
+    <default_value>
+     <easy>3</easy>
+     <medium>6</medium>
+     <difficlt>9.5</difficlt>
+    </default_value>
+   </attribute>
+   <attribute>
+   <key>stepup_time_limit</key>   
+    <name>Player</name>
+    <description>Modifier used to determine the time it takes to a CPU controlled player before it initiate an action against the puck carrier.</description>
+    <offset>1644</offset>
+    <min_range>0</min_range>
+    <max_range>600</max_range>
+    <range_mult>1</range_mult>
+    <default_value>
+     <easy>600</easy>
+     <medium>180</medium>
+     <difficlt>105</difficlt>
+    </default_value>
+   </attribute>
+   <attribute>
+   <key>stepup_dist</key>   
+    <name>Step-Up Dist</name>
+    <description>Modifier used to determine the distance from where a CPU controlled player will initiate an action against the puck carrier.</description>
+    <offset>1688</offset>
+    <min_range>0</min_range>
+    <max_range>15</max_range>
+    <range_mult>100</range_mult>
+    <default_value>
+     <easy>4.5</easy>
+     <medium>6</medium>
+     <difficlt>7</difficlt>
+    </default_value>
+   </attribute>
+   <attribute>
+   <key>stepup_closeToNet_dist</key>   
+    <name>Close-to-Net Distance</name>
+    <description>Modifier used to determine the frequency of goalie keeping the puck. It also seems to increase a bit the goalie saving skills and agressivenes of CPU controlled teams.</description>
+    <offset>1732</offset>
+    <min_range>0</min_range>
+    <max_range>35</max_range>
+    <range_mult>1</range_mult>
+    <default_value>
+     <easy>10</easy>
+     <medium>20</medium>
+     <difficlt>25</difficlt>
+    </default_value>
+   </attribute>
+   <attribute>
+   <key>hit_post</key>   
+    <name>Hit Post</name>
+    <description>Modifier used to determine the frequency of shots hitting a goal post.</description>
+    <offset>1856</offset>
+    <min_range>0</min_range>
+    <max_range>1</max_range>
+    <range_mult>100</range_mult>
+    <default_value>
+     <easy>0.1</easy>
+     <medium>0.1</medium>
+     <difficlt>0.1</difficlt>
+    </default_value>
+   </attribute>
+   <attribute>
+   <key>on_goal</key>   
+    <name>On Goal</name>
+    <description>Modifier used to determine the frequency of CPU controled players shots hitting the goal.</description>
+    <offset>1900</offset>
+    <min_range>0</min_range>
+    <max_range>1</max_range>
+    <range_mult>100</range_mult>
+    <default_value>
+     <easy>0.05</easy>
+     <medium>0.05</medium>
+     <difficlt>0.05</difficlt>
+    </default_value>
+   </attribute>
+   <attribute>
+   <key>checking_win_lose_user_adjust</key>   
+    <name>User Adjust</name>
+    <description>Description TBD...</description>
+    <offset>2064</offset>
+    <min_range>0</min_range>
+    <max_range>5</max_range>
+    <range_mult>100</range_mult>
+    <default_value>
+     <easy>1.2</easy>
+     <medium>1.1</medium>
+     <difficlt>1.1</difficlt>
+    </default_value>
+   </attribute>
+   <attribute>
+   <key>checking_win_lose_cpu_adjust</key>   
+    <name>CPU Adjust</name>
+    <description>Description TBD...</description>
+    <offset>2108</offset>
+    <min_range>0</min_range>
+    <max_range>5</max_range>
+    <range_mult>100</range_mult>
+    <default_value>
+     <easy>0.8</easy>
+     <medium>0.9</medium>
+     <difficlt>0.9</difficlt>
+    </default_value>
+   </attribute>
+   <attribute>
+   <key>baseSpeedMod</key>   
+    <name>Base Speed Mod</name>
+    <description>Modifier used to determine the base speed multiplier of the game.</description>
+    <offset>2232</offset>
+    <min_range>0</min_range>
+    <max_range>5</max_range>
+    <range_mult>100</range_mult>
+    <default_value>
+     <easy>0.92</easy>
+     <medium>1</medium>
+     <difficlt>1.05</difficlt>
+    </default_value>
+   </attribute>
+   <attribute>
+   <key>checking_humanity_weight</key>   
+    <name>Humanity Weight</name>
+    <description>Description TBD...</description>
+    <offset>2436</offset>
+    <min_range>0</min_range>
+    <max_range>5</max_range>
+    <range_mult>100</range_mult>
+    <default_value>
+     <easy>0.4</easy>
+     <medium>0.4</medium>
+     <difficlt>0.4</difficlt>
+    </default_value>
+   </attribute>
+  </AI>
+  <PCAI> 
+   <attribute>
+   <key>pcai_shot_delay</key>   
+    <name>Delay</name>
+    <description>Description TBD...</description>
+    <offset>2560</offset>
+    <min_range>0</min_range>
+    <max_range>10</max_range>
+    <range_mult>1</range_mult>
+    <default_value>
+     <easy>1</easy>
+     <medium>4</medium>
+     <difficlt>1</difficlt>
+    </default_value>
+   </attribute>
+   <attribute>
+   <key>pcai_pass_delay</key>   
+    <name>Delay</name>
+    <description>Description TBD...</description>
+    <offset>2644</offset>
+    <min_range>0</min_range>
+    <max_range>10</max_range>
+    <range_mult>1</range_mult>
+    <default_value>
+     <easy>9</easy>
+     <medium>5</medium>
+     <difficlt>0</difficlt>
+    </default_value>
+   </attribute>
+   <attribute>
+   <key>one_timer_frequency_pct</key>   
+    <name>Frequency PCT</name>
+    <description>Description TBD...</description>
+    <offset>2728</offset>
+    <min_range>0</min_range>
+    <max_range>100</max_range>
+    <range_mult>1</range_mult>
+    <default_value>
+     <easy>10</easy>
+     <medium>55</medium>
+     <difficlt>100</difficlt>
+    </default_value>
+   </attribute>
+   <attribute>
+   <key>pcai_deke_chance</key>   
+    <name>Deke Chance</name>
+    <description>Description TBD...</description>
+    <offset>2812</offset>
+    <min_range>0</min_range>
+    <max_range>100</max_range>
+    <range_mult>1</range_mult>
+    <default_value>
+     <easy>5</easy>
+     <medium>18</medium>
+     <difficlt>20</difficlt>
+    </default_value>
+   </attribute>
+  </PCAI>
+  <PENALTY> 
+   <attribute>
+   <key>penalty_global_frequency_CPU</key>   
+    <name>CPU</name>
+    <description>Modifier used to determine the chances of a CPU controlled player getting a penalty.</description>
+    <offset>2936</offset>
+    <min_range>0</min_range>
+    <max_range>1</max_range>
+    <range_mult>100</range_mult>
+    <default_value>
+     <easy>0.9</easy>
+     <medium>0.9</medium>
+     <difficlt>0.8</difficlt>
+    </default_value>
+   </attribute>
+   <attribute>
+   <key>penalty_global_frequency_User</key>   
+    <name>User</name>
+    <description>Modifier used to determine the chances of a human controlled player getting a penalty.</description>
+    <offset>2980</offset>
+    <min_range>0</min_range>
+    <max_range>1</max_range>
+    <range_mult>100</range_mult>
+    <default_value>
+     <easy>0.71429</easy>
+     <medium>0.8</medium>
+     <difficlt>0.9</difficlt>
+    </default_value>
+   </attribute>               
+ </PENALTY>
+</aidata>
