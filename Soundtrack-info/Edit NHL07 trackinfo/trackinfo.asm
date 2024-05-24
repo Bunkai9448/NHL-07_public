@@ -48,6 +48,17 @@
     .string "My.Republic"	; album's name 
 	.byte 0
 
+	.halfword 0
+	
+    song_004:
+    .string "Priestess"	; audio's file name for the track
+	.byte 0
+	.string "Priestess" 	; artist name
+	.byte 0
+    .string "Talk.to.Her"	; song name	
+	.byte 0
+    .string "Hello.Master"	; album's name 
+	.byte 0
 
 ; test to add more songs Currently not working
 ;.org 0x092D
