@@ -1,4 +1,4 @@
-# Use 
+# README
 
 ## Tools required
 This uses [https://github.com/Kingcom/armips](https://github.com/Kingcom/armips) to rewrite the original `trackinfo` file,
@@ -18,7 +18,12 @@ This follows the trackinfo file structure, if you add the other songs in the sam
 ```
 .org 0x0133
 
-    .string "Bloodpit"	; track file name
-    .string "Bloodpit"	; artist name
-    .string "Platitude"	; song name
+    .string "BloodPit"	; audio's file name for the track
+	.byte 0
+    .string "Bloodpit" 	; artist name
+	.byte 0
+    .string "Platitude"	; song name	
+	.byte 0
+    .string "Mental.Circus"	; album's name 
+	.byte 0
 ```
