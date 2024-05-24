@@ -15,7 +15,33 @@
 
 
     song_001:
-    .string "antiflag" ; track file name
-    .string "see" ; artist name
-    .string "changes" ; song name	
+    .string "BloodPit"	; audio's file name for the track
+	.byte 0
+    .string "Bloodpit" 	; artist name
+	.byte 0
+    .string "Platitude"	; song name	
+	.byte 0
+    .string "Mental.Circus"	; album's name 
+	.byte 0
+	
+	.halfword 0
+	
+    song_002:
+    .string "GoodNightNurse"	; artist name
+	.byte 0
+
+
+; test to add more songs Currently not working
+.org 0x092D
+    song_00X:
+    .string "BloodPit"	; audio's file name for the track
+	.byte 0
+    .string "Bloodpit" 	; artist name
+	.byte 0
+    .string "Platitude"	; song name	
+	.byte 0
+    .string "Mental.Circus"	; 
+	.byte 0
+	.halfword 0
+	
 .close
