@@ -4,10 +4,10 @@
 .open "trackinfo" , 0x0
 
 ; header
-
-    ; String blocks offsets
-    ; .word 0x0084, 
-    
+	
+.org 0x05D ; number of tracks in the list (currently not shows the extra songs ingame, but reproduces them)
+	.byte 0x14 ; originally 0x13
+	
 ; string data
 .org 0x0133
 
@@ -71,18 +71,30 @@
 	.byte 0
     .string "Tomorrow.Starts.Today"	; album's name 
 	.byte 0
+	
+	.halfword 0
+	
+    song_006:
+    .string "Hellacopters"	; audio's file name for the track
+	.byte 0
+	.string "The.Hellacopters" 	; artist name
+	.byte 0
+    .string "Bring.it.on.Home"	; song name	
+	.byte 0
+    .string "Rock.n.Roll.Is.Dead"	; album's name 
+	.byte 0
 
-; test to add more songs Currently not working
-;.org 0x092D
-;    song_00X:
-;    .string "BloodPia"	; audio's file name for the track
-;	.byte 0
-;    .string "Bloodpit" 	; artist name
-;	.byte 0
-;    .string "Platitude"	; song name	
-;	.byte 0
-;    .string "Mental.Circus"	; 
-;	.byte 0
-;	.halfword 0
+; To add more songs, needs improvements
+.org 0x092D
+    song_00X:
+    .string "BloodPia"	; audio's file name for the track
+	.byte 0
+    .string "Bloodpit" 	; artist name
+	.byte 0
+    .string "Platitude"	; song name	
+	.byte 0
+    .string "Mental.Circus"	; 
+	.byte 0
+	.halfword 0
 	
 .close
