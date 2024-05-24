@@ -14,7 +14,7 @@
     .loadtable "Font_NHL.tbl"
 
 
-    block001_str1:
+    song_001:
     .string "antiflag" ; track file name
     .string "see" ; artist name
     .string "changes" ; song name	
