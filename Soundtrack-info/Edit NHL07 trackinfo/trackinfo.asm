@@ -27,7 +27,7 @@
 	.halfword 0
 	
     song_002:
-    .string "GoodNightNurse"	; artist name
+    .string "GoodNightNurse"	; audio's file name for the track
 	.byte 0
 	.string "Goodnight.Nurse" 	; artist name
 	.byte 0
@@ -38,7 +38,15 @@
 
 	.halfword 0
 	
-
+    song_003:
+    .string "GoodRiddance"	; audio's file name for the track
+	.byte 0
+	.string "Good.Riddance" 	; artist name
+	.byte 0
+    .string "Darkest.Days"	; song name	
+	.byte 0
+    .string "My.Republic"	; album's name 
+	.byte 0
 
 
 ; test to add more songs Currently not working
