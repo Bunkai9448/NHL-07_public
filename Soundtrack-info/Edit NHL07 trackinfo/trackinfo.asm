@@ -5,8 +5,7 @@
 
 ; header
 	
-.org 0x05D ; number of tracks in the list (currently not shows the extra songs ingame, but reproduces them)
-	.byte 0x14 ; originally 0x13
+	.byte 0x12 ; number of tracks displayed in the list 
 	
 ; string data
 .org 0x0133
