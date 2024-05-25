@@ -7,8 +7,8 @@ echo "File.aud to file.aa3"
 
 
 ffmpeg -y -i antiflag.mp3 -ac 1 -ab 64k antiflag2.mp3
-ffmpeg -i antiflag2.mp3 -c:a pcm_s16le antiflag.wav
-at3tool -e antiflag.wav -br 64kbps antiflag.at3 1> error.log
+ffmpeg -i antiflag2.mp3 -c:a pcm_s16le -ar 44100 antiflag.wav
+at3tool -e antiflag.wav -br 52kbps antiflag.at3 1> at3tool.Error.log
 Ren antiflag.at3 antiflag.aud
 
 echo "Conversion completed!"
