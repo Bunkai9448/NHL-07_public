@@ -216,7 +216,9 @@
     .string "When All That's Left Is You"	; album's name 
 	.byte 0
 	
-; To add more songs, needs improvements
+	.halfword 0
+	
+; From here on, this is to add more songs, needs improvements
 
     song_00X:
     .string "BloodPit"	; audio's file name for the track
