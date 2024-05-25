@@ -144,6 +144,21 @@
     .string "Vol.1"	; album's name 
 	.byte 0
 
+	.halfword 0
+	
+    song_012:
+    .string "InkWell"	; audio's file name for the track
+	.byte 0
+	.string "Inkwell" 	; artist name
+	.byte 0
+    .string "Equador_is_Lovely_This_Time_of_Year"	; song name	
+	.byte 0
+    .string "These_Stars_Are_Monsters"	; album's name 
+	.byte 0
+
+	.halfword 0
+	
+	
 ; To add more songs, needs improvements
 .org 0x092D
     song_00X:
