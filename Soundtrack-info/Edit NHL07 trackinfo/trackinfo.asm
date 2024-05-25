@@ -182,8 +182,42 @@
 
 	.halfword 0
 	
+    song_015:
+    .string "Pistolita"	; audio's file name for the track
+	.byte 0
+	.string "Pistolita" 	; artist name
+	.byte 0
+    .string "Beni Accident"	; song name	
+	.byte 0
+    .string "Oliver Under The Moon"	; album's name 
+	.byte 0
+
+	.halfword 0
+	
+    song_016:
+    .string "ProtestTheHero"	; audio's file name for the track
+	.byte 0
+	.string "Protest the Hero" 	; artist name
+	.byte 0
+    .string "Divinity Within"	; song name	
+	.byte 0
+    .string "Kezia"	; album's name 
+	.byte 0
+
+	.halfword 0
+	
+    song_017:
+    .string "QuietDrive"	; audio's file name for the track
+	.byte 0
+	.string "Quiet Drive" 	; artist name
+	.byte 0
+    .string "Rise From the Ashes"	; song name	
+	.byte 0
+    .string "When All That's Left Is You"	; album's name 
+	.byte 0
+	
 ; To add more songs, needs improvements
-.org 0x092D
+
     song_00X:
     .string "BloodPit"	; audio's file name for the track
 	.byte 0
@@ -193,6 +227,7 @@
 	.byte 0
     .string "Mental Circus"	; 
 	.byte 0
+	
 	.halfword 0
 	
 .close
