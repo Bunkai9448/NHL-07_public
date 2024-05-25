@@ -84,10 +84,34 @@
     .string "Rock.n.Roll.Is.Dead"	; album's name 
 	.byte 0
 
+	.halfword 0
+	
+    song_007:
+    .string "Mashlin"	; audio's file name for the track
+	.byte 0
+	.string "Mashlin" 	; artist name
+	.byte 0
+    .string "The.Shore"	; song name	
+	.byte 0
+    .string "Pushing.Through.The.Seasons"	; album's name 
+	.byte 0
+
+	.halfword 0
+	
+    song_008:
+    .string "Antiflag"	; audio's file name for the track
+	.byte 0
+	.string "Anti-Flag" 	; artist name
+	.byte 0
+    .string "This.is.the.end.(For.You.My.Friend)"	; song name	
+	.byte 0
+    .string "For.Blood.And.Empire"	; album's name 
+	.byte 0
+
 ; To add more songs, needs improvements
 .org 0x092D
     song_00X:
-    .string "BloodPia"	; audio's file name for the track
+    .string "BloodPit"	; audio's file name for the track
 	.byte 0
     .string "Bloodpit" 	; artist name
 	.byte 0
