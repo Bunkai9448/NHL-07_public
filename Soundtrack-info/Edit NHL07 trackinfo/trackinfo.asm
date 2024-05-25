@@ -12,6 +12,8 @@
 	.halfword 0x0100
 	.halfword 0x3201 ; (probably) address with the first track's info string, it was originally 0x0132
 
+	;.longword 0x ; (probably)related to aud files pointing and/or info. there are 16 of these
+	;.halfword 0 ; separator [same format for all the trackinfo file]
 	
 ; string data
 .org 0x0133
