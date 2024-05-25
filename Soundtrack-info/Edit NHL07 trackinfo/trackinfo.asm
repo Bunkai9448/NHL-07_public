@@ -21,7 +21,7 @@
 	.byte 0
     .string "Platitude"	; song name	
 	.byte 0
-    .string "Mental.Circus"	; album's name 
+    .string "Mental_Circus"	; album's name 
 	.byte 0
 	
 	.halfword 0
@@ -29,11 +29,11 @@
     song_002:
     .string "GoodNightNurse"	; audio's file name for the track
 	.byte 0
-	.string "Goodnight.Nurse" 	; artist name
+	.string "Goodnight_Nurse" 	; artist name
 	.byte 0
-    .string "My.Only"	; song name	
+    .string "My_Only"	; song name	
 	.byte 0
-    .string "Always.And.Never"	; album's name 
+    .string "Always_And_Never"	; album's name 
 	.byte 0
 
 	.halfword 0
@@ -41,11 +41,11 @@
     song_003:
     .string "GoodRiddance"	; audio's file name for the track
 	.byte 0
-	.string "Good.Riddance" 	; artist name
+	.string "Good_Riddance" 	; artist name
 	.byte 0
-    .string "Darkest.Days"	; song name	
+    .string "Darkest_Days"	; song name	
 	.byte 0
-    .string "My.Republic"	; album's name 
+    .string "My_Republic"	; album's name 
 	.byte 0
 
 	.halfword 0
@@ -55,9 +55,9 @@
 	.byte 0
 	.string "Priestess" 	; artist name
 	.byte 0
-    .string "Talk.to.Her"	; song name	
+    .string "Talk_to_Her"	; song name	
 	.byte 0
-    .string "Hello.Master"	; album's name 
+    .string "Hello_Master"	; album's name 
 	.byte 0
 
 	.halfword 0
@@ -67,9 +67,9 @@
 	.byte 0
 	.string "Mobile" 	; artist name
 	.byte 0
-    .string "Montreal.Calling"	; song name	
+    .string "Montreal_Calling"	; song name	
 	.byte 0
-    .string "Tomorrow.Starts.Today"	; album's name 
+    .string "Tomorrow_Starts_Today"	; album's name 
 	.byte 0
 	
 	.halfword 0
@@ -77,11 +77,11 @@
     song_006:
     .string "Hellacopters"	; audio's file name for the track
 	.byte 0
-	.string "The.Hellacopters" 	; artist name
+	.string "The_Hellacopters" 	; artist name
 	.byte 0
-    .string "Bring.it.on.Home"	; song name	
+    .string "Bring_it_on_Home"	; song name	
 	.byte 0
-    .string "Rock.n.Roll.Is.Dead"	; album's name 
+    .string "Rock_n_Roll_Is_Dead"	; album's name 
 	.byte 0
 
 	.halfword 0
@@ -91,21 +91,57 @@
 	.byte 0
 	.string "Mashlin" 	; artist name
 	.byte 0
-    .string "The.Shore"	; song name	
+    .string "The_Shore"	; song name	
 	.byte 0
-    .string "Pushing.Through.The.Seasons"	; album's name 
+    .string "Pushing_Through_The_Seasons"	; album's name 
 	.byte 0
 
 	.halfword 0
 	
     song_008:
-    .string "Antiflag"	; audio's file name for the track
+    .string "AntiFlag"	; audio's file name for the track
 	.byte 0
 	.string "Anti-Flag" 	; artist name
 	.byte 0
-    .string "This.is.the.end.(For.You.My.Friend)"	; song name	
+    .string "This_is_the_End_(For_You_My_Friend)"	; song name	
 	.byte 0
-    .string "For.Blood.And.Empire"	; album's name 
+    .string "For_Blood_And_Empire"	; album's name 
+	.byte 0
+
+	.halfword 0
+	
+    song_009:
+    .string "CuteIWWAF"	; audio's file name for the track
+	.byte 0
+	.string "Cute_Is_What_We_Aim_For" 	; artist name
+	.byte 0
+    .string "There's_a_Class_for_this"	; song name	
+	.byte 0
+    .string "The_Same_Old_Blood_Rush_With_A_New_Touch"	; album's name 
+	.byte 0
+
+	.halfword 0
+	
+    song_010:
+    .string "Gatsby"	; audio's file name for the track
+	.byte 0
+	.string "Gatsbys_American_Dream" 	; artist name
+	.byte 0
+    .string "Theatre"	; song name	
+	.byte 0
+    .string "Volcano"	; album's name 
+	.byte 0
+
+	.halfword 0
+	
+    song_011:
+    .string "Hurt"	; audio's file name for the track
+	.byte 0
+	.string "Hurt" 	; artist name
+	.byte 0
+    .string "Unkind"	; song name	
+	.byte 0
+    .string "Vol.1"	; album's name 
 	.byte 0
 
 ; To add more songs, needs improvements
@@ -117,7 +153,7 @@
 	.byte 0
     .string "Platitude"	; song name	
 	.byte 0
-    .string "Mental.Circus"	; 
+    .string "Mental_Circus"	; 
 	.byte 0
 	.halfword 0
 	
