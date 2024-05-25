@@ -14,11 +14,11 @@ See the [aud.to.mp3.bat](https://github.com/Bunkai9448/NHL-07_public/blob/main/S
 \
 In addition to the bat file, you'll need the following:
 
-- https://www.ffmpeg.org/download.html
-- https://www.pspunk.com/psp-atrac3/
-- https://aluigi.altervista.org/quickbms.htm
+- at3tool.exe from https://www.pspunk.com/psp-atrac3/
 - [converter.bms](https://github.com/Bunkai9448/NHL-07_public/blob/main/Soundtrack-info/converter.bms) (this file was taken from the now closed forum Xentax)
-- [msvcr71.dll](https://es.dll-files.com/msvcr71.dll.html) 
+- ffmpeg.exe from https://www.ffmpeg.org/download.html
+- [msvcr71.dll](https://es.dll-files.com/msvcr71.dll.html)
+- quickbms.exe from https://aluigi.altervista.org/quickbms.htm
 
 And your folder tree should look like this:
 ```
@@ -41,11 +41,11 @@ See the [mp3.to.aud.bat](https://github.com/Bunkai9448/NHL-07_public/blob/main/S
 \
 In addition to the bat file, you'll need the following:
 
-- https://www.ffmpeg.org/download.html
-- https://www.pspunk.com/psp-atrac3/
-- https://aluigi.altervista.org/quickbms.htm
+- at3tool.exe from https://www.pspunk.com/psp-atrac3/
 - [converter.bms](https://github.com/Bunkai9448/NHL-07_public/blob/main/Soundtrack-info/converter.bms) (this file was taken from the now closed forum Xentax)
-- [msvcr71.dll](https://es.dll-files.com/msvcr71.dll.html) 
+- ffmpeg.exe from https://www.ffmpeg.org/download.html
+- [msvcr71.dll](https://es.dll-files.com/msvcr71.dll.html)
+- quickbms.exe from https://aluigi.altervista.org/quickbms.htm
 
 And your folder tree should look like this:
 ```
