@@ -8,8 +8,9 @@
 	.byte 0x12 ; number of tracks displayed in the list, it was originally 0x11
 	.halfword 0x0808
 	.halfword 0x095D ; (probably) trackinfo's file size, it was originally 0x090D
-.org 0x08
-	.halfword 0x0132 ; (probably) address with the first track's info string, it was originally 0x0132
+	.byte 0x00
+	.halfword 0x0100
+	.halfword 0x3201 ; (probably) address with the first track's info string, it was originally 0x0132
 
 	
 ; string data
