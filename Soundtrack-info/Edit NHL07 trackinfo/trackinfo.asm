@@ -5,7 +5,7 @@
 
 ; header
 	
-	.byte 0x12 ; number of tracks displayed in the list 
+	.byte 0x12 ; number of tracks displayed in the list, it was originally 0x11
 	
 ; string data
 .org 0x0133
