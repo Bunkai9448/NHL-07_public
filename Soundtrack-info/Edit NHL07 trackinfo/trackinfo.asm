@@ -6,6 +6,11 @@
 ; header
 	
 	.byte 0x12 ; number of tracks displayed in the list, it was originally 0x11
+	.halfword 0x0808
+	.halfword 0x095D ; (probably) trackinfo's file size, it was originally 0x090D
+.org 0x08
+	.halfword 0x0132 ; (probably) address with the first track's info string, it was originally 0x0132
+
 	
 ; string data
 .org 0x0133
@@ -220,13 +225,13 @@
 ; From here on, this is to add more songs, needs improvements
 
     song_00X:
-    .string "BloodPit"	; audio's file name for the track
+    .string "Test"	; audio's file name for the track
 	.byte 0
-    .string "Bloodpit" 	; artist name
+    .string "Artist" 	; artist name
 	.byte 0
-    .string "Platitude"	; song name	
+    .string "Song"	; song name	
 	.byte 0
-    .string "Mental Circus"	; 
+    .string "Album"	; album's name 
 	.byte 0
 	
 	.halfword 0
