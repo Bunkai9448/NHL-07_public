@@ -6,7 +6,7 @@ cd tools.required/
 echo "File.aud to file.aa3"
 
 ffmpeg -i antiflag.mp3 -c:a pcm_s16le antiflag.wav
-at3tool -e antiflag.wav antiflag.at3
+at3tool -e -br 64 antiflag.wav antiflag.at3
 Ren antiflag.at3 antiflag.aud
 
 echo "Conversion completed!"
