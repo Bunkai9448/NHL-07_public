@@ -8,7 +8,10 @@
 
 ## Main guide and current working method
 
-Follow the guide at [StreamAudioEdit.md](https://github.com/Bunkai9448/NHL-07_public/blob/main/Audio-asf/StreamAudioEdit.md)
+- Use the files from [StreamsFileEdit](https://github.com/Bunkai9448/NHL-07_public/tree/main/Audio-asf/StreamsFileEdit)
+
+- Deprecated, archived because it's a good file explanation [StreamAudioEdit.md](https://github.com/Bunkai9448/NHL-07_public/blob/main/Audio-asf/StreamAudioEdit.md)
+
 
 ## Use this to convert from asf to wav
 
