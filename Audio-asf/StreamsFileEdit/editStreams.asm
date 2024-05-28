@@ -69,6 +69,57 @@ fileOffset equ 0x09910EC0	; in little endian is (0xC00E9109)
 ;.word 0x	; asf audio file size, in little endian, (0x )
 ;.ASCIIZ "G_CuteIsWhatWeAimFor.asf" ; asf file name + delimiter (0x0)
 
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "G_GoodnightNurse.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "G_GoodRiddance.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "G_Hellacopters.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "G_Mobile.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "G_Priestess.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "G_ProtestTheHero.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "IntroSetup_NHL_07_PSP.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "loseGame_NHL_07.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "Photo_NHL_07.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "RoundLose_NHL_07_PSP.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "RoundWin_NHL_07_PSP.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "StanleyLose_NHL_07_PSP.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "StanleyWin_NHL_07_PSP.asf" ; asf file name + delimiter (0x0)
 
 
 ; same format for all the remaining files
