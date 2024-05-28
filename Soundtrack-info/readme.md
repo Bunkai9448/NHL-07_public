@@ -62,4 +62,8 @@ aud.to.mp3/
     \
 ```
 
-**Keep in mind that, your resulted aud file MUST be of size under or equal than the original aud you want to swap.**
+**Keep in mind that, is better if your resulted aud file is of size under or equal than the original aud you want to swap.**
+
+## How to Edit Song Info prompts
+
+Check the [Edit NHL07 trackinfo](https://github.com/Bunkai9448/NHL-07_public/tree/main/Soundtrack-info/Edit%20NHL07%20trackinfo) subfolder here.
