@@ -1,4 +1,4 @@
-# Commentary & arena commentator + SFX
+# Commentary & arena commentator + SFX and arena's music tracklist
 
 ## .asf files in .big, Offsets in .idx
 
