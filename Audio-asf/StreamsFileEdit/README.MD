@@ -9,6 +9,9 @@ write the info on files you want to change there, follow the comments to see whe
 
 ## Files for this process
 
+Folder Screenshot: \
+[Folder Screenshot](https://github.com/Bunkai9448/NHL-07_public/blob/main/Audio-asf/StreamsFileEdit/StreamsFileEdit_folder.png)
+
 - [armips](https://github.com/Kingcom/armips/releases)
 - [editStreams.asm](https://github.com/Bunkai9448/NHL-07_public/blob/main/Audio-asf/StreamsFileEdit/editStreams.asm)
 - [makeEdits.bat](https://github.com/Bunkai9448/NHL-07_public/blob/main/Audio-asf/StreamsFileEdit/makeEdits.bat)
