@@ -10,7 +10,7 @@ fileOffset equ 0x09910EC0	; in little endian is (0xC00E9109)
 .psp
 .open "streams.viv" , 0x0
 .org fileOffset
-.import "AllStarIntroNHL07_1.asf"
+.import "AllStarIntroNHL07_1.asf" ; write here your 'output.asf' from the 'EA_sx2' command in your makeEdits.bat
 .close
 
 ; After inserting the audio file, it's turn to edit the offsets if they have changed
