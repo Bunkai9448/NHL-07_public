@@ -4,6 +4,8 @@ There are currently 2 ways to work with the textures.
 - Through PPSSPP's texture swap (editing your config.ini, explanations at the end of this readme)
 - ISO files' replacement (the video and most tools are for this one)
 
+- A nice tool to rule them all (WIP): [EA-Graphics-Manager](https://github.com/bartlomiejduda/EA-Graphics-Manager/releases/)
+
 ## Video guide
 
 [https://youtu.be/l1-nQgmIKks](https://youtu.be/l1-nQgmIKks)
