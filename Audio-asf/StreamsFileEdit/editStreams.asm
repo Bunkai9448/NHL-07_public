@@ -39,4 +39,10 @@ fileOffset equ 0x09910EC0	; in little endian is (0xC00E9109)
 
 ; same format for all the remaining files
 
+; if you want to update a file long below without adding all the in-between, you can just 
+.org 0x02E7			; go to the address where it is used, like in this example:
+.word 0x20C0EA03	; asf audio file offset, in little endian, (0x 03 EA C0 20)
+.word 0x8CA18700 		; asf audio file size, in little endian, (0x 00 87 A1 8C)
+.ASCIIZ "WinGame_NHL_07.asf" ; asf file name + delimiter (0x0)
+
 .close
