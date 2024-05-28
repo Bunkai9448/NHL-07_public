@@ -12,7 +12,7 @@ write the info on files you want to change there, follow the comments to see whe
 - [armips](https://github.com/Kingcom/armips/releases)
 - [editStreams.asm](https://github.com/Bunkai9448/NHL-07_public/blob/main/Audio-asf/StreamsFileEdit/editStreams.asm)
 - [makeEdits.bat](https://github.com/Bunkai9448/NHL-07_public/blob/main/Audio-asf/StreamsFileEdit/makeEdits.bat)
-- [Electronic Arts Sound eXchange 2 (EA_sx2)](https://wiki.multimedia.cx/index.php/Electronic_Arts_Sound_eXchange)
+- [Electronic Arts Sound eXchange 2 (EA_sx2.EXE)](https://wiki.multimedia.cx/index.php/Electronic_Arts_Sound_eXchange), 
 - Your `.asf` file or `source.wav` for the new audio, in the code sample we use the original `AllStarIntroNHL07_1.asf`
 - Your `streams.viv`, you can find it in `PSP_GAME\USRDIR\audio\streams`
 
