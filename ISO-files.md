@@ -215,7 +215,7 @@ D:.
 | # | # | # |
 | PocketDJ folder  | full soundtrack + trackinfo | songs in .aud ; trackinfo plain in hex editor |
 | # | # | # |
-| audio folder  | speech + streams | - |
+| audio folder  | speech + streams | [Commentary & arena commentator + SFX and arena's music tracklist](https://github.com/Bunkai9448/NHL-07_public/tree/main/Audio-asf) |
 | # | # | # |
 | data folder  | fusion.bts + icons stuff | savegame image files |
 | # | # | # |
