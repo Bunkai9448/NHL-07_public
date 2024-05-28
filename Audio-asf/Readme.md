@@ -8,9 +8,9 @@
 
 ## Main guide and current working method
 
-- Use the files from [StreamsFileEdit](https://github.com/Bunkai9448/NHL-07_public/tree/main/Audio-asf/StreamsFileEdit) and follow the readme there.
+- For stream.viv use the files from [StreamsFileEdit](https://github.com/Bunkai9448/NHL-07_public/tree/main/Audio-asf/StreamsFileEdit) and follow the readme there.
 
-- Deprecated, archived because it's a good file explanation [StreamAudioEdit.md](https://github.com/Bunkai9448/NHL-07_public/blob/main/Audio-asf/StreamAudioEdit.md)
+- Else use [StreamAudioEdit.md](https://github.com/Bunkai9448/NHL-07_public/blob/main/Audio-asf/StreamAudioEdit.md)
 
 
 ## Use this to convert from asf to wav
