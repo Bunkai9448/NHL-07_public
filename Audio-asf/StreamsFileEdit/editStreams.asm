@@ -37,6 +37,40 @@ fileOffset equ 0x09910EC0	; in little endian is (0xC00E9109)
 .word 0x142C1900	; asf audio file size, in little endian, (0x 00 19 2C 14)
 .ASCIIZ "AllStarIntroNHL07_2.asf" ; asf file name + delimiter (0x0)
 
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "AllStarIntroNHL07_3.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "ConferenceLose_NHL_07_PSP.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "ConferenceWin_NHL_07_PSP.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "EOP_NHL_07.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "FFA_SO_Intro_NHL07.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "Gatsby_Final.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "G_AntiFlag.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "G_CuteIsWhatWeAimFor.asf" ; asf file name + delimiter (0x0)
+
+
+
 ; same format for all the remaining files
 
 ; if you want to update a file long below without adding all the in-between, you can just 
@@ -44,5 +78,13 @@ fileOffset equ 0x09910EC0	; in little endian is (0xC00E9109)
 .word 0x20C0EA03	; asf audio file offset, in little endian, (0x 03 EA C0 20)
 .word 0x8CA18700 		; asf audio file size, in little endian, (0x 00 87 A1 8C)
 .ASCIIZ "WinGame_NHL_07.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x 		; asf audio file size, in little endian, (0x )
+;.ASCIIZ "worldCupLose_NHL_07_PSP.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x 		; asf audio file size, in little endian, (0x )
+;.ASCIIZ "worldCupWin_NHL_07_PSP.asf" ; asf file name + delimiter (0x0)
 
 .close
