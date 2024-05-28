@@ -24,8 +24,7 @@
 ; same format for all the remaining files
 
 ; if you want to reinsert an asf file in a section:
-
-; remember to change the offsets for the files that come after this one,
+; remember to change the offsets for the files that come after that one,
 ; or make sure your inserted file is shorter or equal size than the original
 
 .close
