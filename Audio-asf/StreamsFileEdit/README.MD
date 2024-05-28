@@ -3,7 +3,7 @@
 - Download this folder and add the files from the [Files for this process](#Files-for-this-process) section
 
 - Go to your [editStreams.asm](https://github.com/Bunkai9448/NHL-07_public/blob/main/Audio-asf/StreamsFileEdit/editStreams.asm) and 
-write the files you want to change there, follow the comments to see where/how. 
+write the info on files you want to change there, follow the comments to see where/how. 
 
 - After that, just run the [makeEdits.bat](https://github.com/Bunkai9448/NHL-07_public/blob/main/Audio-asf/StreamsFileEdit/makeEdits.bat) file.
 
