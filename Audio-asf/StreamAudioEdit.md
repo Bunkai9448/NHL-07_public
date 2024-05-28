@@ -14,3 +14,9 @@ You are done!!
 ![Hex Editor Image 2](https://github.com/Bunkai9448/NHL-07_public/blob/main/Audio-asf/hex2_streams.viv.png)
 
 Footnote: The pedestrian way, expalined above, does not changes the offsets, just the audio data. This is why it works.
+
+
+## Alternative
+
+You can use our [StreamsFileEdit](https://github.com/Bunkai9448/NHL-07_public/tree/main/Audio-asf/StreamsFileEdit) folder to have a template and make things easier. 
+* You still need to use the same method to convert the audio files to asf.
