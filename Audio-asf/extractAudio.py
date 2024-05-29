@@ -20,12 +20,14 @@ magicNumberEND = bytes.fromhex('5343456C') # SCEI
 with open("audpbpe.big", mode="rb") as aud_file:		# Open the source rom
 	aud_file.seek(ptr)
 
-	printedFiles = 0;
+	printedFiles = 0
+	offset = 0
 	
 	read_elem = aud_file.read(4)
 
 	while read_elem is not None:
-		name = 'audio' + str(printedFiles) + '.asf'
+		offset = ptr
+		name = 'audio' + str(printedFiles) + 'offs0x' + str(bytes.fromhex(offset)) + '.asf'
 		
 		while read_elem != magicNumberINI:
 			read_elem=aud_file.read(4)
