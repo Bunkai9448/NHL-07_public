@@ -34,6 +34,15 @@
 .org 0xA8
 .word 0x00030000		;
 .word 0x2C		;
-.ascii "Events Deke"	; Parameter
+.ascii "Manual Deke"	; Parameter
+
+.org 0xD0
+.word 0x04F4B17B		;
+.word 0x3DCCCCCD		;
+.word 0x2C		;
+.ascii "Tap Deke"	; Parameter
+
+.org 0xFC
+.word 0x04F4B17B	;
 
 .close
