@@ -1,10 +1,6 @@
 # Working with the SaveData
 
-## Our current theory
-
-DATA.bin is an encrypted. exh file, which is created in game by saving (akin to the PC version)
-
-## The bin files are encrypted but,
+## The bin files are encrypted,
 
 You will use the tool from:
 https://wololo.net/talk/viewtopic.php?p=332315&sid=ee68f593ed4ccb6b7b6c96d4e7b80c5a#p332315
@@ -23,7 +19,12 @@ hgoel0974, libkirk team, ppsspp team, xian nox, codestation.
 
 Don't forget to use the proper game key: (an alfanumeric string inside the file:) ULUS10131.bin
 
-You can edit your savedata rosters using the same method from
+## Our current theory
+
+DATA.bin is an encrypted. exh file, which is created in game by saving (akin to the PC version)
+![Image Proof](https://github.com/Bunkai9448/NHL-07_public/blob/main/SaveData/Info_Display.png)
+
+## You can edit your savedata rosters using the same method from
 [Roster](https://github.com/Bunkai9448/NHL-07_public/tree/main/Roster).
 
 ## Fixing loading error 80110306 for Roster use in PS Vita (and some PSPs by extension) 
