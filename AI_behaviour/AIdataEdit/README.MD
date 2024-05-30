@@ -20,4 +20,5 @@ write the info on files you want to change there, follow the comments to see whe
 
 ## FAQ
 
-The asm is just a draft, should be updated with the remaining data and offsets.
+- The asm is just a draft, should be updated with the remaining data and offsets.
+- For more info about how the files from the iso work, check the parent folder, [AI_behaviour](https://github.com/Bunkai9448/NHL-07_public/tree/main/AI_behaviour) 
