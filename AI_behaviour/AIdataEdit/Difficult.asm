@@ -9,3 +9,5 @@
 ; header
 
 .ascii "UBIREG"		; Format
+
+.close

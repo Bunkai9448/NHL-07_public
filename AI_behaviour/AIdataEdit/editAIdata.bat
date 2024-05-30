@@ -3,7 +3,7 @@ IF NOT EXIST "Difficlt.ubc_BackUp" (
 	copy Difficlt.ubc Difficlt.ubc_BackUp
 )
 
-:: Insert the new audio and fix the offsets if needed
+:: Insert the new AI values
 armips Difficult.asm
 
 PAUSE
