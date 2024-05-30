@@ -19,12 +19,16 @@
 .word 0x0B74
 .ascii "AI"
 
+; Actual Data ?
+
 .org 0x58
 .word 0x0C		;
 .word 0x0D4		;
-
-; Actual Data ?
-
 .ascii "Puck Control"		; Parameter
+
+.org 0x80
+.word 0x01		;
+.word 0xAC		;
+.ascii "Events"		; Parameter
 
 .close
