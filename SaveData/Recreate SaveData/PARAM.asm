@@ -21,6 +21,10 @@
 .word 0x04
 
 ; ...
+.org 0x60	; offset for the roster in Data_decrypted.bin
+.word 0x0448
+
+; ...
 .org 0x94
 .asciiz "CATEGORY"
 .asciiz "PARENTAL_LEVEL"
