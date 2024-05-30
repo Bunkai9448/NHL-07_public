@@ -17,9 +17,9 @@
 ; Following word changes for each difficulty,
 ; Beginner = 0x0C74, Easy = 0x0B74, Medium = 0x0B74, Diffclt = 0x0B74
 .word 0x0B74
-.word 0x4941
+.ascii "AI"
 
-
+.org 0x58
 
 
 .close
