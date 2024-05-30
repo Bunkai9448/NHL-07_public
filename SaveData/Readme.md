@@ -24,8 +24,9 @@ Don't forget to use the proper game key: (an alfanumeric string inside the file:
 DATA.bin is an encrypted. exh file, which is created in game by saving (akin to the PC version)
 ![Image Proof](https://github.com/Bunkai9448/NHL-07_public/blob/main/SaveData/Info_Display.png)
 
-## You can edit your savedata rosters using the same method from
-[Roster](https://github.com/Bunkai9448/NHL-07_public/tree/main/Roster).
+## (eventually, but not yet) You can edit your savedata rosters
+
+To do that, use the method explained in [Roster](https://github.com/Bunkai9448/NHL-07_public/tree/main/Roster).
 
 ## Fixing loading error 80110306 for Roster use in PS Vita (and some PSPs by extension) 
 
