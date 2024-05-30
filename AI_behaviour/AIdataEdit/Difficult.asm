@@ -20,6 +20,11 @@
 .ascii "AI"
 
 .org 0x58
+.word 0x0C		;
+.word 0x0D4		;
 
+; Actual Data ?
+
+.ascii "Puck Control"		; Parameter
 
 .close
