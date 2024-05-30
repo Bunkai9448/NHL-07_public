@@ -4,7 +4,7 @@
 ; (Beginner.ubc, Easy.ubc, Medium.ubc, Difficult.ubc)
 
 .psp
-.open "Difficult.ubc" , 0x0
+.open "Difficlt.ubc" , 0x0
 
 ; header
 
