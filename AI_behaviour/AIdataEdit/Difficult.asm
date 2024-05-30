@@ -8,7 +8,7 @@
 
 ; header
 
-.ascii "UBIREG"		; Format
+.ascii "UBIREG"			; Format
 .word 0x00C90000	;
 .word 0x0B9C0000	;
 
@@ -24,11 +24,16 @@
 .org 0x58
 .word 0x0C		;
 .word 0x0D4		;
-.ascii "Puck Control"		; Parameter
+.ascii "Puck Control"	; Parameter
 
 .org 0x80
 .word 0x01		;
 .word 0xAC		;
-.ascii "Events"		; Parameter
+.ascii "Events"			; Parameter
+
+.org 0xA8
+.word 0x00030000		;
+.word 0x2C		;
+.ascii "Events Deke"	; Parameter
 
 .close
