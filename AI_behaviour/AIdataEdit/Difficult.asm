@@ -9,5 +9,17 @@
 ; header
 
 .ascii "UBIREG"		; Format
+.word 0x00C90000	;
+.word 0x0B9C0000	;
+
+.org 0x30
+.word 0x01
+; Following word changes for each difficulty,
+; Beginner = 0x0C74, Easy = 0x0B74, Medium = 0x0B74, Diffclt = 0x0B74
+.word 0x0B74
+.word 0x4941
+
+
+
 
 .close
