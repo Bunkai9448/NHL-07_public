@@ -29,6 +29,19 @@ fileOffset equ 0x04D93E80	; in little endian is (0x803ED904)
 .halfword 0xD304	;
 
 ; audio files, with 0x0000 (.halfword 0) as delimiter after each section
+
+.word 0x050000 	; asf audio file offset, in little endian, (0x )
+.word 0x10DF6B00	; asf audio file size, in little endian, (0x )
+.ASCIIZ "EOP_NHL_07.asf" ; asf file name + delimiter (0x0)
+
+.word 0x40E46B00 	; asf audio file offset, in little endian, (0x 03 EA C0 20)
+.word 0x8CA18700 		; asf audio file size, in little endian, (0x 00 87 A1 8C)
+.ASCIIZ "WinGame_NHL_07.asf" ; asf file name + delimiter (0x0)
+
+.word 0x0086F300	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "loseGame_NHL_07.asf" ; asf file name + delimiter (0x0)
+
 .org 0X2BE
 .word 0x803ED904	; asf audio file offset, in little endian, (0x80 3E D9 04)
 .word 0x142C1900	; asf audio file size, in little endian, (0x 00 19 2C 14)
@@ -49,10 +62,6 @@ fileOffset equ 0x04D93E80	; in little endian is (0x803ED904)
 ;.word 0x	; asf audio file offset, in little endian, (0x )
 ;.word 0x	; asf audio file size, in little endian, (0x )
 ;.ASCIIZ "ConferenceWin_NHL_07_PSP.asf" ; asf file name + delimiter (0x0)
-
-;.word 0x	; asf audio file offset, in little endian, (0x )
-;.word 0x	; asf audio file size, in little endian, (0x )
-;.ASCIIZ "EOP_NHL_07.asf" ; asf file name + delimiter (0x0)
 
 ;.word 0x	; asf audio file offset, in little endian, (0x )
 ;.word 0x	; asf audio file size, in little endian, (0x )
@@ -100,10 +109,6 @@ fileOffset equ 0x04D93E80	; in little endian is (0x803ED904)
 
 ;.word 0x	; asf audio file offset, in little endian, (0x )
 ;.word 0x	; asf audio file size, in little endian, (0x )
-;.ASCIIZ "loseGame_NHL_07.asf" ; asf file name + delimiter (0x0)
-
-;.word 0x	; asf audio file offset, in little endian, (0x )
-;.word 0x	; asf audio file size, in little endian, (0x )
 ;.ASCIIZ "Photo_NHL_07.asf" ; asf file name + delimiter (0x0)
 
 ;.word 0x	; asf audio file offset, in little endian, (0x )
@@ -127,9 +132,6 @@ fileOffset equ 0x04D93E80	; in little endian is (0x803ED904)
 
 ; if you want to update a file long below without adding all the in-between, you can just 
 ;.org 0x02E7			; go to the address where it is used, like in this example:
-;.word 0x20C0EA03	; asf audio file offset, in little endian, (0x 03 EA C0 20)
-;.word 0x8CA18700 		; asf audio file size, in little endian, (0x 00 87 A1 8C)
-;.ASCIIZ "WinGame_NHL_07.asf" ; asf file name + delimiter (0x0)
 
 ;.word 0x	; asf audio file offset, in little endian, (0x )
 ;.word 0x 		; asf audio file size, in little endian, (0x )
