@@ -127,12 +127,6 @@ fileOffset equ 0x04D93E80	; in little endian is (0x803ED904)
 ;.word 0x	; asf audio file size, in little endian, (0x )
 ;.ASCIIZ "StanleyWin_NHL_07_PSP.asf" ; asf file name + delimiter (0x0)
 
-
-; same format for all the remaining files
-
-; if you want to update a file long below without adding all the in-between, you can just 
-;.org 0x02E7			; go to the address where it is used, like in this example:
-
 ;.word 0x	; asf audio file offset, in little endian, (0x )
 ;.word 0x 		; asf audio file size, in little endian, (0x )
 ;.ASCIIZ "worldCupLose_NHL_07_PSP.asf" ; asf file name + delimiter (0x0)
@@ -140,5 +134,19 @@ fileOffset equ 0x04D93E80	; in little endian is (0x803ED904)
 ;.word 0x	; asf audio file offset, in little endian, (0x )
 ;.word 0x 		; asf audio file size, in little endian, (0x )
 ;.ASCIIZ "worldCupWin_NHL_07_PSP.asf" ; asf file name + delimiter (0x0)
+
+
+; same format for all the remaining files
+
+; if you want to update a file long below without adding all the in-between, you can just 
+.org 0x04AB			; go to the address where it is used, like in this example:
+
+.word 0xC0097A09	; asf audio file offset, in little endian, (0x )
+.word 0x50A23800		; asf audio file size, in little endian, (0x )
+.ASCIIZ "VJapan.asf" ; asf file name + delimiter (0x0)
+
+.word 0X40ACB209	; asf audio file offset, in little endian, (0x )
+.word 0x08163A00 		; asf audio file size, in little endian, (0x )
+.ASCIIZ "VBelgium.asf" ; asf file name + delimiter (0x0)
 
 .close
