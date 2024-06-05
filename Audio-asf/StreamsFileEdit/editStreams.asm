@@ -23,6 +23,7 @@ fileOffset equ 0x09910EC0	; in little endian is (0xC00E9109)
 
 .ascii "BIGF"		; Format
 .word 0x9AA3AD4		; file size (Lacks method to automate yet), in little endian hex 
+;filesize(file) ;
 .word 0x30000000	; number of asf files, in little endian hex (48 in dec)
 .halfword 0			; delimiter
 .halfword 0xD604	;
