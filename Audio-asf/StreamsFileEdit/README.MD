@@ -2,7 +2,8 @@
 
 - Download this folder and add the files from the [Files for this process](#Files-for-this-process) section
 
-- Go to your [editStreams.asm](https://github.com/Bunkai9448/NHL-07_public/blob/main/Audio-asf/StreamsFileEdit/editStreams.asm) and write the info on files you want to change there, follow the comments to see where/how. This is how the ASM and hex are relationed.
+- Go to your [editStreams.asm](https://github.com/Bunkai9448/NHL-07_public/blob/main/Audio-asf/StreamsFileEdit/editStreams.asm) and write the info on files you want to change there, follow the comments to see where/how. \
+This is how the ASM and hex are relationed.
 ![How to read your viv](https://github.com/Bunkai9448/NHL-07_public/blob/main/Audio-asf/StreamsFileEdit/UnderstandingYourVIV.png)
 
 - After that, just run the [makeEdits.bat](https://github.com/Bunkai9448/NHL-07_public/blob/main/Audio-asf/StreamsFileEdit/makeEdits.bat) file.
