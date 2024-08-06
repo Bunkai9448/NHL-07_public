@@ -77,7 +77,7 @@ Proceed to step 7). If the texture looks distorted, select "PSP" on the "Interla
 ## Notes on Player headshots
 (by kinglalu)
 
-For anyone else, what i did was cross reference and see what photo id is for each player in nhlview. For example, Patrick Kane here has a photo id of 8610. Going into the viv file in fe/portapt.viv, each player has their own big file, and in it, contains the msh image of that player. 
+For anyone else, what i did was cross reference and see what photo id is for each player in nhlview. For example, Patrick Kane in our mod here has a photo id of 8610. Going into the viv file in fe/portapt.viv, each player has their own big file, and in it, contains the msh image of that player. 
 
 
 Patrick Kane has a photo id that doesn't exist in the game, so all I simply did was export a existing big file, rename all its components inside it (they also have a .o file, a .apt file, etc), as well as the big file itself to the photo id of that player, (in this case 8610).
