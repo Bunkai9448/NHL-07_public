@@ -82,7 +82,7 @@ For anyone else, what i did was cross reference and see what photo id is for eac
 
 Patrick Kane has a photo id that doesn't exist in the game, so all I simply did was export a existing big file, rename all its components inside it (they also have a .o file, a .apt file, etc), as well as the big file itself to the photo id of that player, (in this case 8610).
 
- I then went in and imported the image in CTE for that msh file (had to use Rainbow for handling the tm2 files since it has transparency in the image) and simply just added in that new big file, then did the usual rebuild for the rom and it worked, image below of it in action ![Patrick Kane player image headshot replacement](https://github.com/Bunkai9448/NHL-07_public/blob/main/Textures-Editing/player_headshot_image.png)
+ I then went in and imported the image in CTE for that msh file (had to use Rainbow for handling the tm2 files since it has transparency in the image) and simply just added in that new big file, then did the usual rebuild for the rom and it worked, image below of it in action: ![Patrick Kane player image headshot replacement](https://github.com/Bunkai9448/NHL-07_public/blob/main/Textures-Editing/player_headshot_image.png)
 
 
 ## PPSSPP Dumping textures and editing your config.ini
