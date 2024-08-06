@@ -74,6 +74,16 @@ Proceed to step 7). If the texture looks distorted, select "PSP" on the "Interla
 
 * In general, first replace the smaller size textures in CTE, moving to the bigger sizes one by one.
 
+## Notes on Player headshots
+(by kinglalu)
+
+For anyone else, what i did was cross reference and see what photo id is for each player in nhlview. For example, Patrick Kane here has a photo id of 8610. Going into the viv file in fe/portapt.viv, each player has their own big file, and in it, contains the msh image of that player. 
+
+
+Patrick Kane has a photo id that doesn't exist in the game, so all I simply did was export a existing big file, rename all its components inside it (they also have a .o file, a .apt file, etc), as well as the big file itself to the photo id of that player, (in this case 8610).
+
+ I then went in and imported the image in CTE for that msh file (had to use Rainbow for handling the tm2 files since it has transparency in the image) and simply just added in that new big file, then did the usual rebuild for the rom and it worked
+
 
 ## PPSSPP Dumping textures and editing your config.ini
 (Path for the config file: `PSP\TEXTURES\ULUS10131\config.ini`)\
