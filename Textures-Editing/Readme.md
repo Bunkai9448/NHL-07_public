@@ -81,7 +81,7 @@ My advice is to first work on the  jersey numbers from zero to nine (NMA0 to NMA
 
 Still, this is a time consuming task but at least you will get good and reliable results.
 
-![jersey numbers editing]((https://github.com/Bunkai9448/NHL-07_public/blob/main/Textures-Editing/guide_images/Jersey_numbers_editing.png)
+![jersey numbers editing](https://github.com/Bunkai9448/NHL-07_public/blob/main/Textures-Editing/guide_images/Jersey_numbers_editing.png)
 
 ## Notes on Player headshots
 (by kinglalu)
