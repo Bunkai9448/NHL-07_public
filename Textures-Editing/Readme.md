@@ -66,7 +66,7 @@ I just deleted the old notes to edit jersey numbers as it was not really useful.
 
 I will take the numbers for the Anaheim home jersey, (inside USRDIR/gamedata/jerseys.viv) `num000_1.msh` as example.
 
-`First Part`  
+> First Part
 1) Make a copy of  `num000_1.msh`, I like to call it `num000_1-Aux.msh`, any name is good. Now you have `num000_1.msh` and `num000_1-Aux.msh`.
 2) Open `num000_1-Aux.msh` in CTE. `Load the first .ini file.` Export all textures as tm2 files. `We are going to edit each number and its two mipmaps in one file. This avoids bad edits that frequently happened following the old notes.`
 3) Open Rainbow to load each of the the tm2 files from step 3 and export each texture.
@@ -75,7 +75,7 @@ My advice is to first work on the  jersey numbers from zero to nine (NMA0 to NMA
 5) Import the edited textures in Rainbow and save it. I prefer to save it with a new name.
 6) Go back to CTE an import the all the updated tm2 textures. We are still working with the first .ini file. Save the msh file, in this case `num000_1-Aux.msh`. Close the file.
 
-`Second Part`  
+> Second Part  
 7) Open `num000_1-Aux.msh` (already updated) in CTE. `Load the second .ini file.` Export all the textures as tm2. Close the file.
 8) Open `num000_1.msh` in CTE. Note that this file has not been touched just yet. `Load the second .ini file.` Import all tm2 textures you got from step 6) above and save.
 
