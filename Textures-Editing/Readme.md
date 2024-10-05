@@ -60,19 +60,28 @@ Start editing and have fun!
 ## torf jersey template tutorial
 https://www.tapatalk.com/groups/nhl04rebuilt/realistic-torf-template-t4353.html
 
-## Notes to edit uniform numbers and letters:
-* Uniform number textures are indexed images with a 16 color palette.
+## Notes to reliable edit uniform/jersey numbers and letters, updated in Oct 2024 by lorak :
 
-* When you are happy with your new number texture, convert it to indexed with a 16 color palette.
-Copy your texture and paste it on the png image from step 4 and go on with the guide. 
-For uniform numbers, there is no need to save the indexed image in step 5).
+I just deleted the old notes to edit jersey numbers as it was not really useful. In this guide we are going to work in two parts with two .ini files for Console Texture Explorer (CTE) and Rainbow.
 
-* 7a) Open the png texture from step 5) **not indexed**, click on "Texture-Change Color Depth-Decrease to X colors". Enable "Keep current bitmap palette" to then move the slider until "Reduce to (max)" equals 16 and click "Ok". See the image below.![CTE - change color depth](https://github.com/Bunkai9448/NHL-07_public/blob/main/Textures-Editing/guide_images/CTE-Change_color_depth.png)
-Proceed to step 7). If the texture looks distorted, select "PSP" on the "Interlace" option.`
+I will take the numbers for the Anaheim home jersey, (inside USRDIR/gamedata/jerseys.viv) `num000_1.msh` as example.
 
-* For each number set we need to edit three textures per number plus two more textures for Capn and Assn each, totaling 34 textures per set of uniform numbers. In addidion, you need to edit the arm numbers (two textures per number). The good news is that we can reuse the 16 and 32 sizes textures from the jersey numbers.
+`First Part`
+1) Make a copy of  `num000_1.msh`, I like to call it `num000_1-Aux.msh`, any name is good. Now you have `num000_1.msh` and `num000_1-Aux.msh`.
+2) Open `num000_1-Aux.msh` in CTE. `Load the first .ini file.` Export all textures as tm2 files. `We are going to edit each number and its two mipmaps in one file. This avoids bad edits that frequently happened following the old notes.`
+3) Open Rainbow to load each of the the tm2 files from step 3 and export each texture.
+My advice is to first work on the  jersey numbers from zero to nine (NMA0 to NMA9) as well as the CAPN and ASSN textures to then finish with the arm numbers. In my opinion, you save a bit of time if you follow my advice. See Step 4) on the attached image.
+4) In your favorite image editor edit each png file you got from Rainbow with the new number textures. Save your changes as png. Make sure it is in RGB mode. 
+5) Import the edited textures in Rainbow and save it. I prefer to save it with a new name.
+6) Go back to CTE an import the all the updated tm2 textures. We are still working with the first .ini file. Save the msh file, in this case `num000_1-Aux.msh`. Close the file.
 
-* In general, first replace the smaller size textures in CTE, moving to the bigger sizes one by one.
+`Second Part`
+7) Open `num000_1-Aux.msh` (already updated) in CTE. `Load the second .ini file.` Export all the textures as tm2. Close the file.
+8) Open `num000_1.msh` in CTE. Note that this file has not been touched just yet. `Load the second .ini file.` Import all tm2 textures you got from step 6) above and save.
+
+Still, this is a time consuming task but at least you will get good and reliable results.
+
+![jersey numbers editing]((https://github.com/Bunkai9448/NHL-07_public/blob/main/Textures-Editing/guide_images/Jersey_numbers_editing.png)
 
 ## Notes on Player headshots
 (by kinglalu)
