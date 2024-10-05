@@ -67,7 +67,7 @@ https://www.tapatalk.com/groups/nhl04rebuilt/realistic-torf-template-t4353.html
 Copy your texture and paste it on the png image from step 4 and go on with the guide. 
 For uniform numbers, there is no need to save the indexed image in step 5).
 
-* 7a) Open the png texture from step 5) **not indexed**, click on "Texture-Change Color Depth-Decrease to X colors". Enable "Keep current bitmap palette" to then move the slider until "Reduce to (max)" equals 16 and click "Ok". See the image below.![CTE - change color depth](https://github.com/Bunkai9448/NHL-07_public/blob/main/Textures-Editing/CTE-Change_color_depth.png)
+* 7a) Open the png texture from step 5) **not indexed**, click on "Texture-Change Color Depth-Decrease to X colors". Enable "Keep current bitmap palette" to then move the slider until "Reduce to (max)" equals 16 and click "Ok". See the image below.![CTE - change color depth](https://github.com/Bunkai9448/NHL-07_public/blob/main/Textures-Editing/guide_images/CTE-Change_color_depth.png)
 Proceed to step 7). If the texture looks distorted, select "PSP" on the "Interlace" option.`
 
 * For each number set we need to edit three textures per number plus two more textures for Capn and Assn each, totaling 34 textures per set of uniform numbers. In addidion, you need to edit the arm numbers (two textures per number). The good news is that we can reuse the 16 and 32 sizes textures from the jersey numbers.
@@ -82,7 +82,7 @@ For anyone else, what i did was cross reference and see what photo id is for eac
 
 Patrick Kane has a photo id that doesn't exist in the game, so all I simply did was export a existing big file, rename all its components inside it (they also have a .o file, a .apt file, etc), as well as the big file itself to the photo id of that player, (in this case 8610).
 
- I then went in and imported the image in CTE for that msh file (had to use Rainbow for handling the tm2 files since it has transparency in the image) and simply just added in that new big file, then did the usual rebuild for the rom and it worked, image below of it in action: ![Patrick Kane player image headshot replacement](https://github.com/Bunkai9448/NHL-07_public/blob/main/Textures-Editing/player_headshot_image.png)
+ I then went in and imported the image in CTE for that msh file (had to use Rainbow for handling the tm2 files since it has transparency in the image) and simply just added in that new big file, then did the usual rebuild for the rom and it worked, image below of it in action: ![Patrick Kane player image headshot replacement](https://github.com/Bunkai9448/NHL-07_public/blob/main/Textures-Editing/guide_images/player_headshot_image.png)
 
 
 ## PPSSPP Dumping textures and editing your config.ini
