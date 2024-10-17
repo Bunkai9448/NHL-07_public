@@ -93,6 +93,13 @@ Patrick Kane has a photo id that doesn't exist in the game, so all I simply did 
 
  I then went in and imported the image in CTE for that msh file (had to use Rainbow for handling the tm2 files since it has transparency in the image) and simply just added in that new big file, then did the usual rebuild for the rom and it worked, image below of it in action: ![Patrick Kane player image headshot replacement](https://github.com/Bunkai9448/NHL-07_public/blob/main/Textures-Editing/guide_images/player_headshot_image.png)
 
+## How to change the light texture
+
+There are two easy ways:
+
+1) Change the adbd texture in all its five sizes inside ArenaTextures.msh. Edit the rest of the texutres if needed. 
+2) Change the name of any of the rest of the arenas as arenaPHX.big (for this particular case) to replace it and edit its textures to match the team. In this way, you not only change the light color, actually you change everything.
+- Still not sure what rooflightbb.cwd is actually controlling for each arena.
 
 ## PPSSPP Dumping textures and editing your config.ini
 (Path for the config file: `PSP\TEXTURES\ULUS10131\config.ini`)\
