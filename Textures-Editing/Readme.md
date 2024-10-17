@@ -101,6 +101,29 @@ There are two easy ways:
 2) Change the name of any of the rest of the arenas as arenaPHX.big (for this particular case) to replace it and edit its textures to match the team. In this way, you not only change the light color, actually you change everything.
 - Still not sure what rooflightbb.cwd is actually controlling for each arena.
 
+## Edit the colors of seats and other trim in any arena using NHLview.
+
+- Information taken from CgyFlames post at NHL 2004 Rebuilt. It could work for NHL07 PSP too (not tested yet).
+
+1. Open your roster.    
+2. Go to the teams tab.
+3. Go to the arena sub-tab.
+4. In the upper right corner, you'll see 13 boxes with numbers in them.  
+5. Only edit the 6 boxes discussed here! Altering the other 7 may break your game.  
+
+To reduce the size of this docs, the hex values for each color aren't written, only the range of numbers:
+
+- Board Style: (The runner on top of the boards): 0 to 7  
+- Rails: (The guardrails around the arena): 0 to 15  
+- Aisle: (The design of the stairs): 0 to 22
+- Lower Seats: (lower 2/3 of lower bowl): 0 to 69
+- Middle Seats: (upper 1/3 of lower bowl): 0 to 69
+- Upper Seats: (upper bowl): 0 to 69
+
+```
+Actually you can add more textures, just extract common.viv from arena.viv and you can import there new textures and then set them in NHLview. Ocelar tip.
+```
+
 ## PPSSPP Dumping textures and editing your config.ini
 (Path for the config file: `PSP\TEXTURES\ULUS10131\config.ini`)\
 (Path for the new textures `PSP\TEXTURES\ULUS10131\` + the one in the ini file)
