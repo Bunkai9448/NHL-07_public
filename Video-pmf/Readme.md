@@ -12,10 +12,12 @@ ffmpeg -i nhl.mp4 -map 0:0 -vf scale=480:272:flags=lanczos -vb 4M nhl.avi
 3rd) Audio encoding is:
 ffmpeg -i nhl.mp4 -ar 44100 nhl.wav
 
-4th) Go to UMD Stream Composer and use files from 2&3. ![Run > Encode + Multiplex](https://github.com/Bunkai9448/NHL-07_public/blob/main/Video-pmf/UMDStreamComposer.png) It will result in an mps file (If you want to change the video size, repeat this process with a different video enc. Average bitrate ![UMD composer bitrate](https://github.com/Bunkai9448/NHL-07_public/blob/main/Video-pmf/UMDStreamComposer_Bitrate2.png) Bitrate and quality relation ![Bitrate_ImageQuality](https://github.com/Bunkai9448/NHL-07_public/blob/main/Video-pmf/Bitrate_ImageQuality.png).
+4th) Go to UMD Stream Composer and use files from 2&3. ![Run > Encode + Multiplex](https://github.com/Bunkai9448/NHL-07_public/blob/main/Video-pmf/UMDStreamComposer.png) It will result in an mps file.  
+* The MPS will be in a route like this: `UmdStreamComposer\MuxWork\projectName\00001`
+
+If you want to change the video size, repeat this process with a different video enc. Average bitrate ![UMD composer bitrate](https://github.com/Bunkai9448/NHL-07_public/blob/main/Video-pmf/UMDStreamComposer_Bitrate2.png) Bitrate and quality relation ![Bitrate_ImageQuality](https://github.com/Bunkai9448/NHL-07_public/blob/main/Video-pmf/Bitrate_ImageQuality.png).
 
 5th) Open pmfcreater and use the mps file. ![pmfcreater](https://github.com/Bunkai9448/NHL-07_public/blob/main/Video-pmf/PMF%20creater.png)
-* The MPS will be in a route like this: `UmdStreamComposer\MuxWork\projectName\00001`
 
 
 6th) With UMDgen, go to the movies/ folder in the iso and swap demo.pmf to see it.
