@@ -6,11 +6,11 @@ https://projectdiva.net/community/threads/2020-create-pmf-videos-for-psp-games.2
 1st) Get the video. (nhl.mp4 in the example)
 
 2nd) Video encoding is:\
-[ffmpeg -i nhl.mp4 -filter:v "setsar=1","fps=30" -qscale:v 1 -c:v libxvid nhl2.mp4]\
-ffmpeg -i nhl.mp4 -map 0:0 -vf scale=480:272:flags=lanczos -vb 4M nhl.avi
+ffmpeg -i nhl.mp4 -filter:v "setsar=1","fps=30" -qscale:v 1 -c:v libxvid input.mp4\
+ffmpeg -i input.mp4 -map 0:0 -vf scale=480:272:flags=lanczos -vb 4M output.avi
 
 3rd) Audio encoding is:
-ffmpeg -i nhl.mp4 -ar 44100 nhl.wav
+ffmpeg -i input.mp4 -ar 44100 output.wav
 
 4th) Go to UMD Stream Composer and use files from 2&3. ![Run > Encode + Multiplex](https://github.com/Bunkai9448/NHL-07_public/blob/main/Video-pmf/UMDStreamComposer.png) It will result in an mps file.  
 * The MPS will be in a route like this: `UmdStreamComposer\MuxWork\projectName\00001`
