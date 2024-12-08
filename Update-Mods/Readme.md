@@ -21,7 +21,7 @@ CRC-32: 4884c8ec
 
 - NHL 21 mod with improved NHL 06 GameCube AI and NHL09 AI (NHL21wit06ai) 
 
-- Russian iso with improved textures and new(ish) rosters
+- Russian mod with improved textures and new(ish) rosters
 *by @RetroIGRUN * (NHL21 (FULL-UPD))
 [it also has english versions]
 
