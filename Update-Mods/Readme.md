@@ -61,5 +61,5 @@ To apply a roster, copy the ulus folder inside your PSP's savedata folder. If yo
  
  - 2024 Trade Deadline
 
- - 2024 October
+ - October 2024
 
