@@ -33,6 +33,8 @@ CRC-32: 4884c8ec
 
 - NHL 24 Playoff Edition Mod https://drive.google.com/file/d/1gF5eSpFB7bBwMQbZ4IYd50JzAzM3nxIr/
 
+- NHL 25 Playoff Edition Mod https://drive.google.com/file/d/1GqNTZBdsqZFmdxCUayKViY-uxyDX08SU/
+
 ## Various Roster files
 
 To apply a roster, copy the ulus folder inside your PSP's savedata folder. If you have a previous save, rename it, so you don't lose it. Check [SaveData](https://github.com/Bunkai9448/NHL-07_public/tree/main/SaveData) if you need more info on those.
@@ -55,4 +57,6 @@ To apply a roster, copy the ulus folder inside your PSP's savedata folder. If yo
  - 2022 Trade Deadline
  
  - 2024 Trade Deadline
+
+ - 2024 October
 
