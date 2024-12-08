@@ -9,6 +9,8 @@ CRC-32: 4884c8ec
 
 ## Full mods
 
+**BOLD = Our Mods**
+
 - NHL 07 with improved ai from NHL 09 (funzone)
 
 - NHL 07 with improved ai from PS2 AI (propre)
@@ -31,9 +33,10 @@ CRC-32: 4884c8ec
 
 - KHL Version *found by @octobump *
 
-- NHL 24 Playoff Edition Mod https://drive.google.com/file/d/1gF5eSpFB7bBwMQbZ4IYd50JzAzM3nxIr/
+- **NHL 24 Playoff Edition Mod https://drive.google.com/file/d/1gF5eSpFB7bBwMQbZ4IYd50JzAzM3nxIr/**
 
-- NHL 25 Playoff Edition Mod https://drive.google.com/file/d/1GqNTZBdsqZFmdxCUayKViY-uxyDX08SU/
+- **NHL 25 Playoff Edition Mod https://drive.google.com/file/d/1GqNTZBdsqZFmdxCUayKViY-uxyDX08SU/**
+
 
 ## Various Roster files
 
