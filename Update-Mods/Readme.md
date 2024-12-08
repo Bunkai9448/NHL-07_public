@@ -9,25 +9,25 @@ CRC-32: 4884c8ec
 
 ## Full mods
 
-- NHL 07 with improved ai from NHL 09 (funzone.iso)
+- NHL 07 with improved ai from NHL 09 (funzone)
 
-- NHL 07 with improved ai from PS2 AI (propre.iso)
+- NHL 07 with improved ai from PS2 AI (propre)
 
-- 2020-21 roster updates, improved textures and  NHL 09 AI (output.iso)
+- 2020-21 roster updates, improved textures and  NHL 09 AI (output)
 
-- NHL07 with a combination of funzone and parts of output (funput.iso)
+- NHL07 with a combination of funzone and parts of output (funput)
 
-- NHL07 with a combination of funput,NHL21wit06ai, and NHL MOD 22.iso (gamefun.iso)
+- NHL07 with a combination of funput,NHL21wit06ai, and NHL MOD 22 (gamefun)
 
-- NHL 21 iso with improved NHL 06 GameCube AI and NHL09 AI (NHL21wit06ai.iso) 
+- NHL 21 mod with improved NHL 06 GameCube AI and NHL09 AI (NHL21wit06ai) 
 
 - Russian iso with improved textures and new(ish) rosters
-*by @RetroIGRUN * (NHL21 (FULL-UPD).iso)
+*by @RetroIGRUN * (NHL21 (FULL-UPD))
 [it also has english versions]
 
-- Russian NHL22 iso with improved textures and 2022 rosters (NHL MOD 22.iso)
+- Russian NHL22 mod with improved textures and 2022 rosters (NHL MOD 22)
 
-- Modified NHL22 iso from above with improved ai (NHL22withcutomAI.iso) 
+- Modified NHL22 from above with improved ai (NHL22withcutomAI) 
 
 - KHL Version *found by @octobump *
 
