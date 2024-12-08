@@ -14,6 +14,8 @@ https://forums.operationsports.com/forums/ea-sports-nhl/932763-ea-sports-nhl-07-
 ISO: NHL 07 (USA) PSP ISO 
 CRC-32: 4884C8EC
 ````
+## Download the patch
+![patches' history](https://github.com/Bunkai9448/NHL-07_public/tree/main/Update-Mods) 
 
 ## Files in the iso
 
