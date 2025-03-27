@@ -23,7 +23,7 @@ CRC-32: 4884C8EC
 [Patch History](https://github.com/Bunkai9448/NHL-07_public/tree/main/Update-Mods) 
 
 ## How to Start Making Your Own Mods
-1. **Explore the Files**: Check out `ISO-files.md` for a breakdown of the game's ISO structure.
+1. **Explore the Files**: Check out [ISO-files.md](https://github.com/Bunkai9448/NHL-07_public/blob/main/ISO-files.md) for a breakdown of the game's ISO structure.
 2. **Install Tools**: Download and set up the tools listed above based on your modding needs.
 3. **Join the Community**: Hop into our [Discord](https://discord.gg/aUdr5qXzrH) to connect with fellow modders, share your progress, and find plenty of players for multiplayer sessions.
 
