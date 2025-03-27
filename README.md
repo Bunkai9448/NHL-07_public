@@ -27,7 +27,7 @@ CRC-32: 4884C8EC
 2. **Install Tools**: Download and set up the tools listed above based on your modding needs.
 3. **Join the Community**: Hop into our [Discord](https://discord.gg/aUdr5qXzrH) to connect with fellow modders, share your progress, and find plenty of players for multiplayer sessions.
 
-## Contents in the game's ISO
+## Contents in this repository
 - **[ISO-files.md](https://github.com/Bunkai9448/NHL-07_public/blob/main/ISO-files.md)**: A detailed map of the game's ISO structure (moved to a dedicated file due to its size).
 - Tools and utilities for modding (see [Tools](#tools) section below).
 - Links to relevant resources and discussions.
@@ -56,5 +56,5 @@ Here are the key tools used for editing *NHL 07* files on PSP:
 Additional resources, including BH Import and more, are available in this [forum thread](https://forums.operationsports.com/forums/ea-sports-nhl/932763-ea-sports-nhl-07-psp-quest-update-8.html) and this [Google Drive link](https://drive.google.com/file/d/1Rm_O4k81lplfeUFLLHMEnYTToRujk5QA/).
 
 ## License
-This project is open-source and free to use under the terms outlined in the [LICENSE](LICENSE) file.
+This project is open-source and free to use.
 
