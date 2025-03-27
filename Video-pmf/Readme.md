@@ -37,8 +37,8 @@ Open UMD Stream Composer, import the `output.avi` and `output.wav` files from st
 Launch PMF Creator, load the `.mps` file, and export it as a `.pmf`.  
 ![PMF Creator](https://github.com/Bunkai9448/NHL-07_public/blob/main/Video-pmf/PMF%20creater.png)
 
-6. **Insert into ISO with UMDGen**  
-Open UMDGen, navigate to the `movies/` folder in the ISO, and replace `demo.pmf` with your new file to test it.
+6. **Insert into your game's ISO with UMDGen**  
+Open UMDGen, navigate to the `movies/` folder in your game's ISO, and replace `demo.pmf` with your new file to test it.
 
 ## Tested Method to Convert a .pmf 
 
