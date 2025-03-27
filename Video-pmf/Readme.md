@@ -5,7 +5,7 @@ This guide details methods for working with `.pmf` video files, such as the game
 ---
 ## Tested Method to create a pmf File
 
-Follow these steps to create a `.pmf` file, based on resources from [Project DIVA](https://projectdiva.net/community/threads/2020-create-pmf-videos-for-psp-games.2348/) and [FFmpeg](https://ffmpeg.org/).
+Follow these steps to create a `.pmf` file, based on resources from [Project DIVA community](https://projectdiva.net/community/threads/2020-create-pmf-videos-for-psp-games.2348/) and [FFmpeg](https://ffmpeg.org/).
 
 1. **Obtain the Source Video**  
    Start with a video file, such as `nhl.mp4` in the example.
