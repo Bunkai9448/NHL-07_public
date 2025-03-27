@@ -12,7 +12,7 @@ The goal of this repository is to:
 - Share tools and techniques for modifying game files.
 
 ## Contact & Community
-For questions, suggestions, or collaboration ideas, feel free to open an issue on this repository or reach out joining our Discord server: [https://discord.gg/aUdr5qXzrH](https://discord.gg/aUdr5qXzrH).
+For questions, suggestions, or collaboration ideas, feel free to open an issue on this repository or come to talk with us at our Discord server: [https://discord.gg/aUdr5qXzrH](https://discord.gg/aUdr5qXzrH).
 
 ## ROM (ISO) info & hashes
 ````
