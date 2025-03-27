@@ -1,6 +1,6 @@
-# How-Where are the files in the iso
+# NHL 07 PSP ISO Files 
 
-(Check the table for the info about the files)
+This document outlines the ISO File Map for the *NHL 07* PSP game. 
 
 ## ROM (ISO) Structure Tree
 ````
