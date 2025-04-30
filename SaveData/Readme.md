@@ -24,9 +24,22 @@ Don't forget to use the proper game key: (an alfanumeric string inside the file:
 DATA.bin is an encrypted. exh file, which is created in game by saving (akin to the PC version)
 ![Image Proof](https://github.com/Bunkai9448/NHL-07_public/blob/main/SaveData/Info_Display.png)
 
-## (eventually, but not yet) You can edit your savedata rosters
+## You can edit your savedata rosters
 
-To do that, use the method explained in [Roster](https://github.com/Bunkai9448/NHL-07_public/tree/main/Roster).
+To do that, use the method explained in [Roster](https://github.com/Bunkai9448/NHL-07_public/tree/main/Roster). But first, you need to do a few extra steps:
+
+**Editing roster game saves** By Lorak
+
+We start assuming that your game save is already decrypted and that you know how to decrypt and encrypt PSP game saves.
+
+**1.** Open your decrypted game save in an hex-editor. Delete four bytes, from offset 0x4 to 0x8, this block of data is just four bytes of zeros. Save it with any name, make sure `exh` is the extension. 
+
+**2.** Open NHLView and choose "Pick manually" and select the attached file,`db.viv`, as "Static database".  Select your .exh file from step 1 as "Exhibition roster database".
+ 
+**3.** Make your edits in NHLView and save the file.
+**4.** Open again your .exh file in an hex-editor, go to offset 0x4 and insert 4 bytes of zeroes.
+
+**5.** Encrypt your game save and check your changes in your device: PSP, PS Vita or any other running PPSSPP.
 
 ## Fixing loading error 80110306 for Roster use in PS Vita (and some PSPs by extension) 
 
