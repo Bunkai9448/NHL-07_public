@@ -1,6 +1,6 @@
 # NameChange-Guide
 
-This is for the names in the game's general roster database, for more info about this, read below in [To share your Roster](#To-share-your-Roster).
+This is for the names in the game's general roster database, for more info about this, read below in [To share your Roster](#To-share-your-Roster). If you want to edit the rosters from your Save File, go to: [SaveData Readme](https://github.com/Bunkai9448/NHL-07_public/blob/main/SaveData/Readme.md#you-can-edit-your-savedata-rosters).
 
 
 To know if any of these guys is still active in the league, head over to Elite Prospects https://www.eliteprospects.com/league/nhl 
