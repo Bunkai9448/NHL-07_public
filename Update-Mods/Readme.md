@@ -42,7 +42,7 @@ https://drive.google.com/file/d/1W9RiGH0oE-leRfw5jS1PuYwNHLAoolaI/
 
 ## Various Roster files
 
-To apply a roster, copy the ulus folder inside your PSP's savedata folder. If you have a previous save, rename it, so you don't lose it. Check [SaveData](https://github.com/Bunkai9448/NHL-07_public/tree/main/SaveData) if you need more info on those.
+To apply a roster, copy the ulus folder inside your PSP's savedata folder. If you have a previous save, rename it, so you don't lose it. Check [SaveData](https://github.com/Bunkai9448/NHL-07_public/tree/main/SaveData) if you need more info on those. (Rosters are shared in the discord due to space and management reasons).
 
 
  - July 2012 
@@ -68,5 +68,3 @@ To apply a roster, copy the ulus folder inside your PSP's savedata folder. If yo
  - October 2024
 
 - April 2025 with 37 national teams
-
-* Rosters are shared in the discord due to space and management reasons.
