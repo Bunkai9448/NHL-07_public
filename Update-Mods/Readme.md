@@ -35,8 +35,10 @@ CRC-32: 4884c8ec
 
 - **NHL 24 Playoff Edition Mod https://drive.google.com/file/d/1gF5eSpFB7bBwMQbZ4IYd50JzAzM3nxIr/**
 
-- **NHL 25 Playoff Edition Mod https://drive.google.com/file/d/1GqNTZBdsqZFmdxCUayKViY-uxyDX08SU/**
+- **NHL 25 Playoff Edition Mod https://drive.google.com/file/d/13kcrHRtfPzDwO8h6gZOEtIGjF9bawp6p/**
 
+## HD textures for those playing in PPSSPP (2025/06/13)
+https://drive.google.com/file/d/1W9RiGH0oE-leRfw5jS1PuYwNHLAoolaI/
 
 ## Various Roster files
 
@@ -57,9 +59,14 @@ To apply a roster, copy the ulus folder inside your PSP's savedata folder. If yo
  
  - February 2020
 
+ - March 2021
+
  - 2022 Trade Deadline
  
  - 2024 Trade Deadline
 
  - October 2024
 
+- April 2025 with 37 national teams
+
+* Rosters are shared in the discord due to space and management reasons.
