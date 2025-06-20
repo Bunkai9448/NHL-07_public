@@ -157,5 +157,5 @@ So you would write in the ini, 0000000000000000ff70fd4f=2024flyers.png
 
 If you want to add more entries after that, (0000000000000000ff70fd4f=2024flyers.png) , you should double enter, to add a new line entry
 
-And that's it, you can now use the texture replacement on PPSSPP ( [https://www.ppsspp.org/docs/reference/use-texture-replacement/](https://www.ppsspp.org/docs/reference/use-texture-replacement/) )
+And that's it, you can now use those new textures for PPSSPP's texture replacement feature ( [https://www.ppsspp.org/docs/reference/use-texture-replacement/](https://www.ppsspp.org/docs/reference/use-texture-replacement/) ).
 
