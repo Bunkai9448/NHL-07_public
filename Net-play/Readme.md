@@ -8,3 +8,6 @@ Net play (only works with PPSSPP currently)
 - Tool for online pvp: https://www.zerotier.com/download/
 
 - ZeroTier tutorial (Network ID: abfd31bd477420aa ) : https://docs.google.com/document/d/1Py9OZ2Mqf9zmdi9tyWJgAha3f_v3JpMoZJew0ZIDgrg/edit
+
+## Netplay with proper servers WIP
+https://github.com/a-blondel/ea-nation-server
