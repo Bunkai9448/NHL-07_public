@@ -56,7 +56,7 @@ fileOffset equ 0x04D93E80	; in little endian is (0x803ED904)
 .ASCIIZ "AllStarIntroNHL07_3.asf" ; asf file name + delimiter (0x0)
 
 .word 0x40C32405	; asf audio file offset, in little endian, (0x )
-.word 0x78FD3C	; asf audio file size, in little endian, (0x )
+.word 0x78FD3C00  ; asf audio file size, in little endian, (0x )
 .ASCIIZ "VAustria.asf" ; asf file name + delimiter (0x0)
 
 ;.word 0x	; asf audio file offset, in little endian, (0x )
