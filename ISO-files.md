@@ -219,7 +219,7 @@ D:.
 | # | # | # |
 | data folder  | fusion.bts + icons stuff | savegame image files |
 | # | # | # |
-| db folder  | db.viv + tuning.viv | - |
+| db folder  | db.viv + tuning.viv | rosters are here |
 | # | # | # |
 | fe folder | various files | more loading stuff (this one for the whole game, not only in boot) |
 | bgapt.viv (in fe folder) | background
