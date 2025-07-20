@@ -97,93 +97,12 @@ fileOffset equ 0x04D93E80	; in little endian is (0x803ED904)
 
 ;.word 0x	; asf audio file offset, in little endian, (0x )
 ;.word 0x	; asf audio file size, in little endian, (0x )
-;.ASCIIZ "SoundLose_NHL_07_PSP.asf" ; asf file name + delimiter (0x0)
+;.ASCIIZ "RoundLose_NHL_07_PSP.asf" ; asf file name + delimiter (0x0)
 
-.org 0X212 ; Since SoundLose_NHL_07_PSP.asf has some kind of problem this bypass that entry
+.org 0X212 ; Since RoundLose_NHL_07_PSP.asf has some kind of problem this bypass that entry
 .word 0x80397703	; asf audio file offset, in little endian, (0x )
 .word 0xC8C72600	; asf audio file size, in little endian, (0x )
 .ASCIIZ "RoundWin_NHL_07_PSP.asf" ; asf file name + delimiter (0x0)
-
-.org 0X2BE
-.word 0x803ED904	; asf audio file offset, in little endian, (0x80 3E D9 04)
-.word 0x142C1900	; asf audio file size, in little endian, (0x 00 19 2C 14)
-.ASCIIZ "AllStarIntroNHL07_1.asf" ; asf file name + delimiter (0x0)
-
-.word 0xC06AF204	; asf audio file offset, in little endian, (0x )
-.word 0x142C1900	; asf audio file size, in little endian, (0x 00 19 2C 14)
-.ASCIIZ "AllStarIntroNHL07_2.asf" ; asf file name + delimiter (0x0)
-
-.word 0x00970B05	; asf audio file offset, in little endian, (0x )
-.word 0x142C1900	; asf audio file size, in little endian, (0x 00 19 2C 14)
-.ASCIIZ "AllStarIntroNHL07_3.asf" ; asf file name + delimiter (0x0)
-
-.word 0x40C32405	; asf audio file offset, in little endian, (0x )
-.word 0x78FD3C00  ; asf audio file size, in little endian, (0x )
-.ASCIIZ "VAustria.asf" ; asf file name + delimiter (0x0)
-
-;.word 0x	; asf audio file offset, in little endian, (0x )
-;.word 0x	; asf audio file size, in little endian, (0x )
-;.ASCIIZ "ConferenceLose_NHL_07_PSP.asf" ; asf file name + delimiter (0x0)
-
-;.word 0x	; asf audio file offset, in little endian, (0x )
-;.word 0x	; asf audio file size, in little endian, (0x )
-;.ASCIIZ "ConferenceWin_NHL_07_PSP.asf" ; asf file name + delimiter (0x0)
-
-;.word 0x	; asf audio file offset, in little endian, (0x )
-;.word 0x	; asf audio file size, in little endian, (0x )
-;.ASCIIZ "FFA_SO_Intro_NHL07.asf" ; asf file name + delimiter (0x0)
-
-;.word 0x	; asf audio file offset, in little endian, (0x )
-;.word 0x	; asf audio file size, in little endian, (0x )
-;.ASCIIZ "Gatsby_Final.asf" ; asf file name + delimiter (0x0)
-
-;.word 0x	; asf audio file offset, in little endian, (0x )
-;.word 0x	; asf audio file size, in little endian, (0x )
-;.ASCIIZ "G_AntiFlag.asf" ; asf file name + delimiter (0x0)
-
-;.word 0x	; asf audio file offset, in little endian, (0x )
-;.word 0x	; asf audio file size, in little endian, (0x )
-;.ASCIIZ "G_CuteIsWhatWeAimFor.asf" ; asf file name + delimiter (0x0)
-
-;.word 0x	; asf audio file offset, in little endian, (0x )
-;.word 0x	; asf audio file size, in little endian, (0x )
-;.ASCIIZ "G_GoodnightNurse.asf" ; asf file name + delimiter (0x0)
-
-;.word 0x	; asf audio file offset, in little endian, (0x )
-;.word 0x	; asf audio file size, in little endian, (0x )
-;.ASCIIZ "G_GoodRiddance.asf" ; asf file name + delimiter (0x0)
-
-;.word 0x	; asf audio file offset, in little endian, (0x )
-;.word 0x	; asf audio file size, in little endian, (0x )
-;.ASCIIZ "G_Hellacopters.asf" ; asf file name + delimiter (0x0)
-
-;.word 0x	; asf audio file offset, in little endian, (0x )
-;.word 0x	; asf audio file size, in little endian, (0x )
-;.ASCIIZ "G_Mobile.asf" ; asf file name + delimiter (0x0)
-
-;.word 0x	; asf audio file offset, in little endian, (0x )
-;.word 0x	; asf audio file size, in little endian, (0x )
-;.ASCIIZ "G_Priestess.asf" ; asf file name + delimiter (0x0)
-
-;.word 0x	; asf audio file offset, in little endian, (0x )
-;.word 0x	; asf audio file size, in little endian, (0x )
-;.ASCIIZ "G_ProtestTheHero.asf" ; asf file name + delimiter (0x0)
-
-;.word 0x	; asf audio file offset, in little endian, (0x )
-;.word 0x	; asf audio file size, in little endian, (0x )
-;.ASCIIZ "IntroSetup_NHL_07_PSP.asf" ; asf file name + delimiter (0x0)
-
-;.word 0x	; asf audio file offset, in little endian, (0x )
-;.word 0x	; asf audio file size, in little endian, (0x )
-;.ASCIIZ "Photo_NHL_07.asf" ; asf file name + delimiter (0x0)
-
-;.word 0x	; asf audio file offset, in little endian, (0x )
-;.word 0x	; asf audio file size, in little endian, (0x )
-;.ASCIIZ "RoundLose_NHL_07_PSP.asf" ; asf file name + delimiter (0x0)
-
-;.word 0x	; asf audio file offset, in little endian, (0x )
-;.word 0x	; asf audio file size, in little endian, (0x )
-;.ASCIIZ "RoundWin_NHL_07_PSP.asf" ; asf file name + delimiter (0x0)
 
 ;.word 0x	; asf audio file offset, in little endian, (0x )
 ;.word 0x	; asf audio file size, in little endian, (0x )
@@ -201,6 +120,22 @@ fileOffset equ 0x04D93E80	; in little endian is (0x803ED904)
 ;.word 0x 		; asf audio file size, in little endian, (0x )
 ;.ASCIIZ "worldCupWin_NHL_07_PSP.asf" ; asf file name + delimiter (0x0)
 
+.org 0X2BE
+.word 0x803ED904	; asf audio file offset, in little endian, (0x80 3E D9 04)
+.word 0x142C1900	; asf audio file size, in little endian, (0x 00 19 2C 14)
+.ASCIIZ "AllStarIntroNHL07_1.asf" ; asf file name + delimiter (0x0)
+
+.word 0xC06AF204	; asf audio file offset, in little endian, (0x )
+.word 0x142C1900	; asf audio file size, in little endian, (0x 00 19 2C 14)
+.ASCIIZ "AllStarIntroNHL07_2.asf" ; asf file name + delimiter (0x0)
+
+.word 0x00970B05	; asf audio file offset, in little endian, (0x )
+.word 0x142C1900	; asf audio file size, in little endian, (0x 00 19 2C 14)
+.ASCIIZ "AllStarIntroNHL07_3.asf" ; asf file name + delimiter (0x0)
+
+.word 0x40C32405	; asf audio file offset, in little endian, (0x )
+.word 0x78FD3C00  ; asf audio file size, in little endian, (0x )
+.ASCIIZ "VAustria.asf" ; asf file name + delimiter (0x0)
 
 ; same format for all the remaining files
 
