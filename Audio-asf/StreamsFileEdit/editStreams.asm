@@ -99,6 +99,11 @@ fileOffset equ 0x04D93E80	; in little endian is (0x803ED904)
 ;.word 0x	; asf audio file size, in little endian, (0x )
 ;.ASCIIZ "SoundLose_NHL_07_PSP.asf" ; asf file name + delimiter (0x0)
 
+.org 0X212 ; Since SoundLose_NHL_07_PSP.asf has some kind of problem this bypass that entry
+.word 0x80397703	; asf audio file offset, in little endian, (0x )
+.word 0xC8C72600	; asf audio file size, in little endian, (0x )
+.ASCIIZ "RoundWin_NHL_07_PSP.asf" ; asf file name + delimiter (0x0)
+
 .org 0X2BE
 .word 0x803ED904	; asf audio file offset, in little endian, (0x80 3E D9 04)
 .word 0x142C1900	; asf audio file size, in little endian, (0x 00 19 2C 14)
