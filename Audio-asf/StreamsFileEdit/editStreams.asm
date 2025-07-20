@@ -79,6 +79,18 @@ fileOffset equ 0x04D93E80	; in little endian is (0x803ED904)
 ;.word 0x	; asf audio file size, in little endian, (0x )
 ;.ASCIIZ "G_ProtestTheHero.asf" ; asf file name + delimiter (0x0)
 
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "ConferenceLose_NHL_07_PSP.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "ConferenceWin_NHL_07_PSP.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "Gatsby_Final.asf" ; asf file name + delimiter (0x0)
+
 .org 0X2BE
 .word 0x803ED904	; asf audio file offset, in little endian, (0x80 3E D9 04)
 .word 0x142C1900	; asf audio file size, in little endian, (0x 00 19 2C 14)
