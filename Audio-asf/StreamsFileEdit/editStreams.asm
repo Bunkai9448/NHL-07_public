@@ -137,6 +137,30 @@ fileOffset equ 0x04D93E80	; in little endian is (0x803ED904)
 .word 0x78FD3C00  ; asf audio file size, in little endian, (0x )
 .ASCIIZ "VAustria.asf" ; asf file name + delimiter (0x0)
 
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "VDenmark.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "VFrance.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "VGermany.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "VCzech.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "VItaly.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "VLatvia.asf" ; asf file name + delimiter (0x0)
+
 ; same format for all the remaining files
 
 ; if you want to update a file long below without adding all the in-between, you can just 
