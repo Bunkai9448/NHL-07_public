@@ -161,7 +161,57 @@ fileOffset equ 0x04D93E80	; in little endian is (0x803ED904)
 ;.word 0x	; asf audio file size, in little endian, (0x )
 ;.ASCIIZ "VLatvia.asf" ; asf file name + delimiter (0x0)
 
-; same format for all the remaining files
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "VKazak.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "VFinland.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "VPoland.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "VCanada.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "VNorway.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "VSweden.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "VUkraine.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "VRussia.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "VBelarus.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "VSlovakia.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "VUK.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "VSwiss.asf" ; asf file name + delimiter (0x0)
+
+;.word 0x	; asf audio file offset, in little endian, (0x )
+;.word 0x	; asf audio file size, in little endian, (0x )
+;.ASCIIZ "VUSA.asf" ; asf file name + delimiter (0x0)
 
 ; if you want to update a file long below without adding all the in-between, you can just 
 .org 0x04AB			; go to the address where it is used, like in this example:
