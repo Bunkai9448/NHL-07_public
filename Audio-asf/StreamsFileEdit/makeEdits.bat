@@ -6,7 +6,8 @@ PAUSE
 :: Make a back up copy from streams.viv, in case something goes wrong
 IF NOT EXIST "streams.viv_BackUp" (
 	copy streams.viv streams.viv_BackUp
-) ELSE ( :: If there was a backup it means we have to use that instead
+) ELSE ( 
+REM If there was a backup it means we have to use that instead
     copy streams.viv_BackUp streams.viv
 )
 
