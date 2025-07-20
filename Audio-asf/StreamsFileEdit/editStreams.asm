@@ -47,6 +47,10 @@ fileOffset equ 0x04D93E80	; in little endian is (0x803ED904)
 .word 0xD8F95300	; asf audio file size, in little endian, (0x )
 .ASCIIZ "Photo_NHL_07.asf" ; asf file name + delimiter (0x0)
 
+.word 0x00319E01	; asf audio file offset, in little endian, (0x )
+.word 0x68E30900	; asf audio file size, in little endian, (0x )
+.ASCIIZ "FFA_SO_Intro_NHL07.asf" ; asf file name + delimiter (0x0)
+
 .org 0X2BE
 .word 0x803ED904	; asf audio file offset, in little endian, (0x80 3E D9 04)
 .word 0x142C1900	; asf audio file size, in little endian, (0x 00 19 2C 14)
