@@ -1,4 +1,5 @@
 ; Author: Bunkai
+; file path: PSP_GAME/USRDIR/PocketDJ/eatrax/trackinfo
 
 .psp
 .open "trackinfo" , 0x0
