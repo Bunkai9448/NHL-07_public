@@ -25,6 +25,8 @@ http://www.artemkh.com/files/nhlview/nhlview.zip
 
 Then, get the latest version of the .tdb file 
 
+*Reminder: original tdb is in the ISO at db folder/ db.viv)*
+
 Rename "nhl2007.tdb" to "nhl2007PC.tdb" using BigGUI https://dl.fifa-infinity.com/fifa-09/biggui-tool/
 and edit db.viv in NHLView
 
