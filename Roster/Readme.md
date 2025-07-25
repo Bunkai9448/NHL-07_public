@@ -146,7 +146,7 @@ Here is the Salary Cap Calculator modified to fit NHL 07's cap.
 There are 4 columns in the excel file:
 1. Player contract amount (AAV)
 2. Current NHL 24-25 Season Cap
-3. NHL07 Cap of $44,000,000.00
+3. NHL07 Cap: Min of $28,000,000.00 ; Max of $44,000,000.00
 4. What a player's current contract amount comes to if it were the NHL07 season today
 
 You can add any salary amount for the first column. Just remember to carry the formulas from the other columns and everything will calculate automatically. Using NHLView, I believe based on the salary, you'll need to round aav amounts up or down based on your roster needs. I'll gladly help if there are any questions. I do have a Twitter account that I'm starting to use now: https://x.com/rangers99111
