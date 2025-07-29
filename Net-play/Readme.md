@@ -31,7 +31,8 @@ Connecting on PSP and PS Vita only requires this step:
 
 ## Additional info
 
-Thanks to the server settings, we also have a leaderboard, hope into the Discord server: https://discord.gg/aUdr5qXzrH if you want to found partners to play with or if you want to joing future tournaments!!
+Thanks to the server settings, we also have a leaderboard! 
+Hope into the Discord server: https://discord.gg/aUdr5qXzrH if you want to find partners to play with, or if you want to joing future tournaments!!
 
 ![Leaderboard](https://github.com/Bunkai9448/NHL-07_public/blob/main/Net-play/screenshots/leaderboard%20stats.png)
 
