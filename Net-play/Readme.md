@@ -4,7 +4,7 @@
 https://github.com/a-blondel/ea-nation-server
 
 ## PPSSPP
-Connecting on PPSSPP only requires these steps:
+Connecting on [PPSSPP](https://www.ppsspp.org/download/) only requires these steps:
 
 - Networking is enabled in the Networking Settings tab
 - PPSSPP > Settings > Networking > Infrastructure > Username has a username set
