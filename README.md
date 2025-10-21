@@ -55,6 +55,16 @@ Here are the key tools used for editing *NHL 07* files on PSP:
 
 Additional resources, including BH Import and more, are available in this [forum thread](https://forums.operationsports.com/forums/ea-sports-nhl/932763-ea-sports-nhl-07-psp-quest-update-8.html) and this [Google Drive link](https://drive.google.com/file/d/1Rm_O4k81lplfeUFLLHMEnYTToRujk5QA/).
 
+## Our Socials
+https://x.com/Nhl07PSP
+https://www.youtube.com/@Nhl07PSP
+https://github.com/Bunkai9448/NHL-07_public (this repo)
+https://discord.com/invite/KC2aQMu9cU
+
+Besides, one of our members does periodically updates teaser and videos to promote the mod at:
+https://www.instagram.com/88modstudio/
+https://www.youtube.com/@88MODSTUDIO
+
 ## License
 This project is open-source and free to use.
 
