@@ -1,5 +1,8 @@
 # List of current created mods and rosters
 
+## Tool to apply the patch
+xdelta https://www.romhacking.net/utilities/704/  
+Video guide: https://www.youtube.com/playlist?list=PLio0KVVS9UcZSlNDdFgOw7Q0wHCtIatDx
 
 ## APPLY PATCH TO:
 ````
