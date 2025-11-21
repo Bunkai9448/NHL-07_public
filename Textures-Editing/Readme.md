@@ -159,3 +159,14 @@ If you want to add more entries after that, (0000000000000000ff70fd4f=2024flyers
 
 And that's it, you can now use those new textures for PPSSPP's texture replacement feature ( [https://www.ppsspp.org/docs/reference/use-texture-replacement/](https://www.ppsspp.org/docs/reference/use-texture-replacement/) ).
 
+
+## Goalie gear textures sizes in pixels:
+Helmet: `front`: 128x128 with four mipmaps,  
+`back`: 64x64 with three mipmaps.  
+`Pads`: 128x128 with three mipmaps.  
+`Stick`: 128x64, with two mipmaps.  
+
+ ![Goalie gear size sample](https://github.com/Bunkai9448/NHL-07_public/blob/main/Textures-Editing/guide_images/Goalie_textures_PSP.png))
+
+
+All the textures above are very similar to goalie textures from other games as NHL2004, NHL09 and maybe other ice-hockey EA Sports games around that time
