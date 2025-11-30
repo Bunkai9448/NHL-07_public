@@ -19,7 +19,7 @@ hgoel0974, libkirk team, ppsspp team, xian nox, codestation.
 
 Don't forget to use the proper game key: (an alfanumeric string inside the file:) ULUS10131.bin
 
-## Our current theory
+## Our current theory (Proved and used in the next section)
 
 DATA.bin is an encrypted. exh file, which is created in game by saving (akin to the PC version)
 ![Image Proof](https://github.com/Bunkai9448/NHL-07_public/blob/main/SaveData/Info_Display.png)
