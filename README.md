@@ -20,8 +20,8 @@ ISO: NHL 07 (USA) PSP ISO
 CRC-32: 4884C8EC
 ````
 ## Download one of our patches
-[Patch History](https://github.com/Bunkai9448/NHL-07_public/tree/main/Update-Mods) 
-You can patch them with xdelta: [Xdelta patching tool](https://www.romhacking.net/utilities/704/) 
+[Check our Patch History](https://github.com/Bunkai9448/NHL-07_public/tree/main/Update-Mods)   
+[Xdelta patching tool](https://www.romhacking.net/utilities/704/) 
 
 ## How to Start Making Your Own Mods
 1. **Explore the Files**: Check out [ISO-files.md](https://github.com/Bunkai9448/NHL-07_public/blob/main/ISO-files.md) for a breakdown of the game's ISO structure.
