@@ -170,3 +170,11 @@ Helmet: `front`: 128x128 with four mipmaps,
 
 
 All the textures above are very similar to goalie textures from other games as NHL2004, NHL09 and maybe other ice-hockey EA Sports games around that time
+
+## In NHL07 PSP, goalie gear textures are linked to player's Photo/Cyberface number. 
+We have two options:
+
+- Edit the photo/cyberface number of a goalie in NHLView. The idea is to match that number to a set of goalie gear files having the goalie gear you want, approximately.
+- Extract goalie_helm_XXXX.msh, goalie_pads_XXXX.msh and goalie_stick_XXXX.msh from goalies .viv and either edit the  textures inside it or edit the photo/cyberface number in the file name (those XXXX acting as placeholders)  from other set of texture files to match approximately what you want.
+
+Unless you are controlling one of the seven teams (Boston, Calgary, Colorado, Detroit, Montréal, NY Rangers and Toronto) with team specific masks, there is no other way. Team specific masks override player specific masks.
