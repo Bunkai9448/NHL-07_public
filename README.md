@@ -40,6 +40,8 @@ Here are the key tools used for editing *NHL 07* files on PSP:
 - **[UMDGen](https://www.romhacking.net/utilities/1218/)**: Opens and edits PSP ISO files.
 - **[Console Texture Explorer](https://reshax.com/topic/170-graphicstexture-finders-and-viewers/)**: Views and edits game textures.
 - **[BigGUI](https://dl.fifa-infinity.com/fifa-09/biggui-tool/)**: Manages BIG files.
+- **[EA Graphics Manager](https://github.com/bartlomiejduda/EA-Graphics-Manager)**:
+All inclusive .msh graphics importer, exporter, and overall editor.
 - **[BIG File Extractor (21-3-17)](https://app.box.com/s/6g2lpct0trk1ylg11j4udcjso4bg4q9h)**: Extracts contents from BIG files (see additional discussion [here](https://zenhax.com/viewtopic.php?t=11568)).
 - **[Game Graphic Studio](https://www.romhacking.net/utilities/660/)**: Edits game graphics.
 - **[Neboviewer](https://splinterice.com/topic/1417-neboviewer/)**: Handles cyberfaces.
