@@ -4,9 +4,26 @@ There are currently 2 ways to work with the textures.
 - Through PPSSPP's texture swap (editing your config.ini, explanations at the end of this readme)
 - ISO files' replacement (the video and most tools are for this one)
 
-- A nice tool to rule them all (WIP): [EA-Graphics-Manager](https://github.com/bartlomiejduda/EA-Graphics-Manager/releases/)
+## EA Graphics Manager (EAGM) simple guide. (Recommended Method)
+* By Lorak *
+Thanks to EAGM the procedure to edit textures is now really easy.
 
-## Video guide
+1. Open EAGM and load any file referred to in this link [EA-Graphics-Manager](https://github.com/bartlomiejduda/EA-Graphics-Manager/releases/). Choose your favorite resampling algorithm in `Options->Mipmaps resampling`. In general, I suggest you to choose Lanczos or bicubic.
+
+2. EAGM allows to open multiple files. Each file could have one or more textures. Click on the + sign to see the textures in each file. As an example, we see six textures in file `uni236_0.msh` and only one texture in file `ICE_383.msh.` Check image EAGM_guide_01.png (below):  
+![EAGM_guide_01.png](https://github.com/Bunkai9448/NHL-07_public/blob/main/Textures-Editing/guide_images/EAGM_guide_01.png)
+
+3. Right click on a texture to either export or import it. Usually, dds or png files are the best choice. Keep in mind that exported bmp files do not support alpha channel (transparency) but exported dds and png files do it. Check image EAGM_guide_01.png (below):  
+![EAGM_guide_01.png](https://github.com/Bunkai9448/NHL-07_public/blob/main/Textures-Editing/guide_images/EAGM_guide_01.png)
+
+4. Edit your texture in any image manipulation program as GIMP, Photoshop or any other similar software. Keep the size and transparency features of the original texture in your new texture. I mean, add the alpha channel only if the original texutre has it. As an example, the TORS texture in `uni236_0.msh` has a size of 256x256 that you need to keep in any file you would like to import. Import the new texture following step 3 above. The TORS texture has no alpha channel. Check image EAGM_guide_02.png (below):  
+![EAGM_guide_02.png](https://github.com/Bunkai9448/NHL-07_public/blob/main/Textures-Editing/guide_images/EAGM_guide_02.png)
+
+5. Now, with a new texture imported save your file by right click on the file name. As an example,  we want to save the file `uni236_0.msh` now with a new uniform (TORS) texture. Overwrite or save it with a new name. Check image EAGM_guide_03.png (below):  
+![EAGM_guide_03.png](https://github.com/Bunkai9448/NHL-07_public/blob/main/Textures-Editing/guide_images/EAGM_guide_03.png)
+
+
+## Video guide (For archival reasons, Deprecated Method)
 
 [https://youtu.be/l1-nQgmIKks](https://youtu.be/l1-nQgmIKks)
 
@@ -26,7 +43,7 @@ There are currently 2 ways to work with the textures.
 
 - [nhl-psp_CTE_ini_files.zip](https://github.com/Bunkai9448/NHL-07_public/blob/main/Textures-Editing/nhl-psp_CTE_ini_files.zip)
 
-## General steps to edit game textures and logos (Textures)
+## General steps to edit game textures and logos  (For archival reasons, Deprecated Method)
 
 * By Lorak *
 
