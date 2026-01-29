@@ -41,6 +41,16 @@ We start assuming that your game save is already decrypted and that you know how
 
 **5.** Encrypt your game save and check your changes in your device: PSP, PS Vita or any other running PPSSPP.
 
+## Editing dynasty and season game saves 
+
+As with roster game saves, we start assuming that your game save is already decrypted and that you know how to decrypt and encrypt PSP game saves.
+
+1. Open your decrypted game save in an hex-editor. Delete four bytes, from offset 0x4 to 0x8, this block of data is just four bytes of zeros. Save it with any name, make sure dyn is the extension. This file is our "dynasty.dyn". Similar for season files, just change the file extension from dyn to sea.
+2. Open NHLView and choose "Pick manually" and select nhl2007.tdb extracted fromdb.viv, as "Static database" and a roster game save as exhibition roster database.  Select your .dyn file from step 1 as "Secondary database". 
+3. Make your edits in NHLView and save the file.
+4. Open again your .dyn file in an hex-editor, go to offset 0x4 and insert 4 bytes of zeroes.
+5. Encrypt your game save and check your changes in your device: PSP, PS Vita or any other running PPSSPP.
+
 ## Fixing loading error 80110306 for Roster use in PS Vita (and some PSPs by extension) 
 
 - You need the PPSSPP emulator for this.
