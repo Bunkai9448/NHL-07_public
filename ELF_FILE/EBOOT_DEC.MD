@@ -3,7 +3,7 @@ Overview
 
 This is a 32-bit ELF executable designed for the PlayStation Portable (PSP) platform, extracted from a UMD disc. It follows the standard ELF format with PSP-specific modifications.
 Header Breakdown
-ELF Identification (Magic Bytes)
+ELF Identification (Magic Bytes) <First Bytes of the elf which consist in the base of the main executable> 
 
 ```
 7F 45 4C 46 01 01 01 00 00 00 00 00 00 00 00 00 
