@@ -8,7 +8,4 @@ By leveraging machine learning tools for disassembly and pattern recognition, we
 
 The ultimate goal is to expand the mod's capabilities and deliver a richer experience to players in future releases.
 
-Regarding legality and accessibility: As with all content in this repository and our patches, we are committed to keeping everything 
-legal and freely accessible. We do not distribute any copyrighted material?only the knowledge and tools needed to understand and 
-modify the game’s ISO structure. Our aim is to empower anyone to learn from and build upon this work while respecting intellectual 
-property rights.
+Regarding legality and accessibility: As with all content in this repository and our patches, we are committed to keeping everything legal and freely accessible. We do not distribute any copyrighted material only the knowledge and tools needed to understand and modify the game’s ISO structure. Our aim is to empower anyone to learn from and build upon this work while respecting intellectual property rights.
