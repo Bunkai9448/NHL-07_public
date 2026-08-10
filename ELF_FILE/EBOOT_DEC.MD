@@ -2,7 +2,7 @@ PSP UMD ELF Header Analysis
 Overview
 
 This is a 32-bit ELF executable designed for the PlayStation Portable (PSP) platform, extracted from a UMD disc. It follows the standard ELF format with PSP-specific modifications.
-Header Breakdown
+
 ELF Identification (Magic Bytes) `First Bytes of the elf which consist in the base of the main executable`
 
 ```
@@ -14,6 +14,7 @@ A0 FF 08 00 01 00 00 00 20 51 36 00 34 00 00 00
 00 01 00 00 01 00 00 00 40 C5 63 00 40 C4 63 00 
 00 00 00 00 0C BF 00 00 60 14 04 00 06 00 00 00
 ```
+Header Breakdown:
 
     7F 45 4C 46 → \x7fELF → Standard ELF magic number
     01 → ELF32 (32-bit format)
