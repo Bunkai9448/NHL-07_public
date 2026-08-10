@@ -25,31 +25,31 @@ Header Breakdown:
 
 Key Header Fields (Little-endian)
 Field 	Hex Value 	Decimal/Meaning
-e_type 	A0 FF 08 00 	0x08FFA0 → PSP-specific PRX module (not standard ELF type)
-e_machine 	01 00 00 00 	0x0001 → MIPS R3000 (PSP’s MIPS R4000-compatible CPU)
-e_entry 	20 51 36 00 	0x00365120 → Entry point address
-e_phoff 	34 00 00 00 	0x34 (52) → Program header table offset
-e_shoff 	1C 89 64 00 	0x0064891C → Section header table offset
-e_flags 	01 30 A2 10 	0x10A23001 → MIPS/PSP-specific flags
-e_ehsize 	34 00 	52 bytes → ELF header size
-e_phentsize 	20 00 	32 bytes → Program header entry size
-e_phnum 	02 00 	2 → Number of program segments
-e_shentsize 	28 00 	40 bytes → Section header entry size
-e_shnum 	41 00 	65 → Number of sections
-e_shstrndx 	40 00 	64 → Section name string table index
-Program Segments
+e_type 	A0 FF 08 00 	0x08FFA0 → PSP-specific PRX module (not standard ELF type)  
+e_machine 	01 00 00 00 	0x0001 → MIPS R3000 (PSP’s MIPS R4000-compatible CPU)  
+e_entry 	20 51 36 00 	0x00365120 → Entry point address  
+e_phoff 	34 00 00 00 	0x34 (52) → Program header table offset  
+e_shoff 	1C 89 64 00 	0x0064891C → Section header table offset  
+e_flags 	01 30 A2 10 	0x10A23001 → MIPS/PSP-specific flags  
+e_ehsize 	34 00 	52 bytes → ELF header size  
+e_phentsize 	20 00 	32 bytes → Program header entry size  
+e_phnum 	02 00 	2 → Number of program segments  
+e_shentsize 	28 00 	40 bytes → Section header entry size  
+e_shnum 	41 00 	65 → Number of sections  
+e_shstrndx 	40 00 	64 → Section name string table index  
+Program Segments  
 
 The header defines 2 loadable segments (PT_LOAD):
 
-    Segment 1: Starts at file offset 0x00010000
-    Additional segment definitions follow in the program header table
+    Segment 1: Starts at file offset 0x00010000  
+    Additional segment definitions follow in the program header table  
 
 Technical Significance
 PSP-Specific Format
 
-    Uses PSP ELF variant (often called “PSP PRX” format)
-    The unusual e_type value (0x08FFA0) indicates this is a relocatable module rather than a standard executable
-    Entry point at 0x00365120 suggests this is a kernel module or system library that will be loaded into memory at runtime
+    Uses PSP ELF variant (often called “PSP PRX” format)  
+    The unusual e_type value (0x08FFA0) indicates this is a relocatable module rather than a standard executable  
+    Entry point at 0x00365120 suggests this is a kernel module or system library that will be loaded into memory at runtime  
 
 Architecture
 
