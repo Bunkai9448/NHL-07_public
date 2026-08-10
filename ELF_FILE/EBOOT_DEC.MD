@@ -16,7 +16,7 @@ A0 FF 08 00 01 00 00 00 20 51 36 00 34 00 00 00
 ```
 Header Breakdown:
 
-    7F 45 4C 46 → \x7fELF → Standard ELF magic number
+    7F 45 4C 46 → \x7f ELF → Standard ELF magic number
     01 → ELF32 (32-bit format)
     01 → Little-endian byte order
     01 → ELF version 1
