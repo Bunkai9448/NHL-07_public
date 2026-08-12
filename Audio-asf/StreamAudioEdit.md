@@ -7,13 +7,13 @@ By Lorak
 
 ![Hex Editor Image](https://github.com/Bunkai9448/NHL-07_public/blob/main/Audio-asf/hex_streams.viv.png)
 
-3) In the hex editor go to output.asf and copy the whole file. Plave the cursor at the hex numbers section.
+3) In the hex editor go to output.asf and copy the whole file. Place the cursor at the hex numbers section.
 4) Now go to offset 00000500 in streams.viv (green rectangle) in the hex editor and paste (ctrl+B) the data from step 3). Save the file streams.viv.
 You are done!!
 
 ![Hex Editor Image 2](https://github.com/Bunkai9448/NHL-07_public/blob/main/Audio-asf/hex2_streams.viv.png)
 
-Footnote: The pedestrian way, expalined above, does not changes the offsets, just the audio data. This is why it works.
+Footnote: The pedestrian way, expalined above, does not change the offsets, just the audio data. This is why it works.
 
 
 ## Alternative
