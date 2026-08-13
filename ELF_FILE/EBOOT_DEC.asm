@@ -1,5 +1,5 @@
 ; PSP UMD ELF - Reverse-engineered information,
-; rewritten as code ready to be assembled with armips
+; rewritten as code ready to be assembled with armips (https://github.com/Kingcom/armips)
 
 ; This should create an exact copy of the Decrypted Eboot. Providing a clean base for further game modifications
 ; For modifications and other tests, please make a copy of this file and keep the original untouched as a clean backup.
