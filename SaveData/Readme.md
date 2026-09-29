@@ -4,6 +4,7 @@
 
 You will use the tool from:
 https://wololo.net/talk/viewtopic.php?p=332315&sid=ee68f593ed4ccb6b7b6c96d4e7b80c5a#p332315
+https://github.com/vita8328/psp-save
 
 Credits and How To are copied down to overview.
 ```
